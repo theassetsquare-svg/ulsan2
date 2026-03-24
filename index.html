@@ -140,5 +140,81 @@ footer p{margin:4px 0}
 <div class="cta">
 <a href="tel:01056530069">📞 춘자에게 전화하기</a>
 </div>
+
+<!-- 체류시간 극대화 시스템 -->
+<div class="prog-bar" id="progBar"></div>
+<div class="timer-float" id="timer">0:00</div>
+<div class="overlay" id="overlay"></div>
+<div class="achieve" id="achieve"><div class="emoji">🏆</div><h3>블로그 탐색 완료!</h3><p>모든 글을 확인했어요</p></div>
+
+<style>
+.prog-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#C9A96E,#e8c97a);z-index:200;transition:width .15s;width:0}
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}.fade-in.vis{opacity:1;transform:translateY(0)}
+.timer-float{position:fixed;top:12px;right:12px;background:rgba(30,58,95,.9);color:#C9A96E;padding:6px 14px;border-radius:20px;font-size:.75em;font-weight:600;z-index:150;opacity:0;transition:opacity .3s}
+.timer-float.show{opacity:1}
+.achieve{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0);background:#fff;border-radius:20px;padding:32px 40px;text-align:center;z-index:300;box-shadow:0 8px 40px rgba(0,0,0,.2);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.achieve.show{transform:translate(-50%,-50%) scale(1)}
+.achieve h3{color:#1E3A5F;font-size:1.1em;margin:8px 0}
+.achieve p{color:#666;font-size:.85em}
+.achieve .emoji{font-size:2.4em}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:299;display:none}
+.overlay.show{display:block}
+.card{opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}
+.card.vis{opacity:1;transform:translateY(0)}
+</style>
+
+<script>
+(function(){
+  // 1. 읽기 진행률 바
+  var prog=document.getElementById('progBar');
+  window.addEventListener('scroll',function(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    var p=h>0?(window.scrollY/h)*100:0;
+    prog.style.width=p+'%';
+  });
+
+  // 2. 스크롤 페이드인 (카드들)
+  var cards=document.querySelectorAll('.card');
+  function checkFade(){
+    cards.forEach(function(c,i){
+      var r=c.getBoundingClientRect();
+      if(r.top<window.innerHeight-60){
+        setTimeout(function(){c.classList.add('vis')},i*80);
+      }
+    });
+  }
+  window.addEventListener('scroll',checkFade);
+  setTimeout(checkFade,200);
+
+  // 3. 체류시간 타이머 (게이미피케이션)
+  var timer=document.getElementById('timer');
+  var sec=0;
+  setInterval(function(){
+    sec++;
+    var m=Math.floor(sec/60);
+    var s=sec%60;
+    timer.textContent=m+':'+(s<10?'0':'')+s;
+    if(sec>5)timer.classList.add('show');
+  },1000);
+
+  // 4. 완독 달성 팝업
+  var achieved=false;
+  window.addEventListener('scroll',function(){
+    if(achieved)return;
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    if(h>0&&window.scrollY/h>0.9){
+      achieved=true;
+      setTimeout(function(){
+        document.getElementById('overlay').classList.add('show');
+        document.getElementById('achieve').classList.add('show');
+        setTimeout(function(){
+          document.getElementById('overlay').classList.remove('show');
+          document.getElementById('achieve').classList.remove('show');
+        },3000);
+      },500);
+    }
+  });
+})();
+</script>
 </body>
 </html>

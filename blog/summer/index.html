@@ -26,6 +26,7 @@
 <div class="article-card">
 <h2>여름밤 울산챔피언나이트 — 바다 바람 맞고 댄스플로어로</h2>
 <p class="meta">2026년 3월 · 여름밤 체험기</p>
+<span class="reading-time">📖 약 4분 읽기</span><div class="series-bar"><div class="dots"><span class="dot done"></span><span class="dot done"></span><span class="dot done"></span><span class="dot done"></span><span class="dot done"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><span class="txt">6/10 시리즈 읽는 중</span></div>
 
 <div class="img-card" style="background:linear-gradient(135deg,#0a2a4a,#1E3A5F)">
 <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><circle cx="64" cy="14" r="8" fill="#C9A96E" opacity=".3"/><path d="M0 40Q10 32 20 38Q30 44 40 36Q50 28 60 34Q70 40 80 35V60H0Z" fill="#C9A96E" opacity=".1"/><path d="M0 44Q10 36 20 42Q30 48 40 40Q50 32 60 38Q70 44 80 39V60H0Z" fill="#C9A96E" opacity=".08"/><circle cx="20" cy="18" r="1" fill="#C9A96E" opacity=".4"/><circle cx="40" cy="12" r="1.5" fill="#C9A96E" opacity=".3"/><circle cx="50" cy="20" r="1" fill="#C9A96E" opacity=".2"/></svg>
@@ -72,6 +73,8 @@
 <p><strong>새벽 2시 이후:</strong> 편의점 아이스크림으로 마무리.</p>
 
 <p>여름은 짧다. 바다에서 시작해서 댄스플로어에서 끝나는 하루. 이건 울산이라서 가능한 코스다. 여름이 끝나기 전에 한 번은 경험해봐.</p>
+<div class="quiz-box"><h4>여름밤 코스 뭐가 좋아?</h4><button class="quiz-opt" data-result="해변에서 맥주 한 캔 → 횟집 → 챔피언나이트. 이게 정석이야!">바다 먼저!</button><button class="quiz-opt" data-result="삼겹살로 워밍업 → 바에서 하이볼 → 챔피언나이트. 고기부터 시작!">고기 먼저!</button><button class="quiz-opt" data-result="효율의 신이네. 11시에 도착해서 모히토 한 잔 시키면 여름밤 시작!">바로 나이트!</button><div class="quiz-result"></div></div>
+<div class="bonus-box"><div class="bonus-hd">💡 여름 한정 꿀팁</div><div class="bonus-body"><p>반팔 셔츠 + 면바지 + 깨끗한 스니커즈 = 여름 정석 드레스코드.</p><p>선크림 바르고 가면 땀에 녹아서 눈 아파. 저녁엔 안 발라도 돼.</p><p>모히토, 블루라군 같은 여름 칵테일이 분위기 200% 업!</p></div></div>
 </article>
 </div>
 
@@ -79,5 +82,149 @@
 <footer><p>광고문의 카카오톡 besta12</p><p>&copy; 2026 울산챔피언나이트 블로그</p></footer>
 </div>
 <div class="cta"><a href="tel:01056530069">📞 춘자에게 전화하기</a></div>
+<!-- 체류시간 극대화 시스템 -->
+<div class="prog-bar" id="progBar"></div>
+<div class="timer-float" id="timer">0:00</div>
+<a href="/blog/event/" target="_blank" rel="noopener noreferrer" class="float-next" id="floatNext">다음 글 →</a>
+<div class="next-bar" id="nextBar">다음 글: <a href="/blog/event/" target="_blank" rel="noopener noreferrer">이벤트 날 후기</a> <span class="countdown" id="cd">8</span>초 <span class="skip" id="skipNext">취소</span></div>
+<div class="overlay" id="overlay"></div>
+<div class="achieve" id="achieve"><div class="emoji">🌊</div><h3>여름밤 후기 완독!</h3><p>바다+나이트 = 완벽 코스</p></div>
+
+<style>
+.prog-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#C9A96E,#e8c97a);z-index:200;transition:width .15s;width:0}
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}.fade-in.vis{opacity:1;transform:translateY(0)}
+.next-bar{position:fixed;bottom:76px;left:0;right:0;background:#1E3A5F;color:#fff;text-align:center;padding:14px 16px;z-index:99;display:none;font-size:.9em;box-shadow:0 -2px 12px rgba(0,0,0,.15)}
+.next-bar a{color:#C9A96E;font-weight:700;text-decoration:none}
+.next-bar .countdown{display:inline-block;background:#C9A96E;color:#1E3A5F;width:28px;height:28px;line-height:28px;border-radius:50%;font-weight:800;margin:0 6px;font-size:.85em}
+.next-bar .skip{color:rgba(255,255,255,.5);font-size:.75em;margin-left:12px;cursor:pointer}
+.bonus-box{background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(201,169,110,.06));border:1px dashed #C9A96E;border-radius:12px;margin:20px 0;overflow:hidden}
+.bonus-hd{padding:14px 18px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-weight:700;color:#1E3A5F;font-size:.92em}
+.bonus-hd::after{content:'▼';font-size:.7em;color:#C9A96E;transition:transform .3s}
+.bonus-box.open .bonus-hd::after{transform:rotate(180deg)}
+.bonus-body{max-height:0;overflow:hidden;transition:max-height .4s ease;padding:0 18px}
+.bonus-box.open .bonus-body{max-height:500px;padding:0 18px 16px}
+.bonus-body p{font-size:.9em;color:#555;margin-bottom:8px}
+.quiz-box{background:#fff;border:2px solid rgba(30,58,95,.15);border-radius:14px;padding:20px;margin:24px 0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.quiz-box h4{color:#1E3A5F;font-size:1em;margin-bottom:14px}
+.quiz-opt{display:block;width:100%;text-align:left;padding:12px 16px;margin:6px 0;border:1px solid #ddd;border-radius:10px;background:#fff;cursor:pointer;font-size:.9em;color:#333;transition:all .2s;font-family:inherit}
+.quiz-opt:hover{border-color:#C9A96E;background:rgba(201,169,110,.05)}
+.quiz-opt.sel{border-color:#C9A96E;background:rgba(201,169,110,.1);color:#1E3A5F;font-weight:600}
+.quiz-result{display:none;margin-top:12px;padding:14px;background:linear-gradient(135deg,#1E3A5F,#2c5280);border-radius:10px;color:#fff;font-size:.9em;line-height:1.6}
+.timer-float{position:fixed;top:12px;right:12px;background:rgba(30,58,95,.9);color:#C9A96E;padding:6px 14px;border-radius:20px;font-size:.75em;font-weight:600;z-index:150;opacity:0;transition:opacity .3s}
+.timer-float.show{opacity:1}
+.series-bar{background:linear-gradient(135deg,rgba(30,58,95,.05),rgba(201,169,110,.05));border-radius:12px;padding:14px 18px;margin:16px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.series-bar .dots{display:flex;gap:4px}
+.series-bar .dot{width:10px;height:10px;border-radius:50%;background:#ddd;transition:background .3s}
+.series-bar .dot.active{background:#C9A96E;box-shadow:0 0 6px rgba(201,169,110,.4)}
+.series-bar .dot.done{background:#1E3A5F}
+.series-bar .txt{font-size:.78em;color:#999}
+.achieve{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0);background:#fff;border-radius:20px;padding:32px 40px;text-align:center;z-index:300;box-shadow:0 8px 40px rgba(0,0,0,.2);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.achieve.show{transform:translate(-50%,-50%) scale(1)}
+.achieve h3{color:#1E3A5F;font-size:1.1em;margin:8px 0}
+.achieve p{color:#666;font-size:.85em}
+.achieve .emoji{font-size:2.4em}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:299;display:none}
+.overlay.show{display:block}
+.float-next{position:fixed;right:16px;bottom:96px;background:#1E3A5F;color:#C9A96E;padding:10px 18px;border-radius:24px;font-size:.82em;font-weight:700;z-index:98;box-shadow:0 3px 12px rgba(0,0,0,.2);opacity:0;transform:translateX(80px);transition:all .4s;text-decoration:none;display:block}
+.float-next.show{opacity:1;transform:translateX(0)}
+.reading-time{display:inline-block;background:rgba(30,58,95,.06);color:#1E3A5F;padding:4px 12px;border-radius:20px;font-size:.75em;font-weight:600;margin-bottom:16px}
+</style>
+
+<script>
+(function(){
+  // 1. 읽기 진행률 바
+  var prog=document.getElementById('progBar');
+  window.addEventListener('scroll',function(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    prog.style.width=h>0?(window.scrollY/h)*100+'%':'0%';
+  });
+
+  // 2. 스크롤 페이드인
+  var fi=document.querySelectorAll('.fade-in');
+  function checkFade(){
+    fi.forEach(function(el){
+      if(el.getBoundingClientRect().top<window.innerHeight-40)el.classList.add('vis');
+    });
+  }
+  window.addEventListener('scroll',checkFade);
+  setTimeout(checkFade,300);
+
+  // 3. 체류시간 타이머
+  var timer=document.getElementById('timer'),sec=0;
+  setInterval(function(){
+    sec++;var m=Math.floor(sec/60),s=sec%60;
+    timer.textContent=m+':'+(s<10?'0':'')+s;
+    if(sec>5)timer.classList.add('show');
+  },1000);
+
+  // 4. 플로팅 다음글 버튼 (50% 스크롤 시 표시)
+  var fn=document.getElementById('floatNext');
+  window.addEventListener('scroll',function(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    if(h>0&&window.scrollY/h>0.5)fn.classList.add('show');
+    else fn.classList.remove('show');
+  });
+
+  // 5. 넷플릭스식 자동 다음글 카운트다운
+  var nb=document.getElementById('nextBar'),cd=document.getElementById('cd');
+  var skipBtn=document.getElementById('skipNext');
+  var autoStarted=false,cancelled=false,cdVal=8,cdInterval;
+  window.addEventListener('scroll',function(){
+    if(autoStarted||cancelled)return;
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    if(h>0&&window.scrollY/h>0.92){
+      autoStarted=true;nb.style.display='block';
+      cdInterval=setInterval(function(){
+        cdVal--;cd.textContent=cdVal;
+        if(cdVal<=0){
+          clearInterval(cdInterval);
+          window.open(nb.querySelector('a').href,'_blank');
+          nb.style.display='none';
+        }
+      },1000);
+    }
+  });
+  if(skipBtn)skipBtn.addEventListener('click',function(){
+    cancelled=true;clearInterval(cdInterval);nb.style.display='none';
+  });
+
+  // 6. 보너스 팁 토글
+  document.querySelectorAll('.bonus-hd').forEach(function(hd){
+    hd.addEventListener('click',function(){
+      hd.parentElement.classList.toggle('open');
+    });
+  });
+
+  // 7. 퀴즈 인터랙션
+  document.querySelectorAll('.quiz-opt').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var box=btn.closest('.quiz-box');
+      box.querySelectorAll('.quiz-opt').forEach(function(b){b.classList.remove('sel')});
+      btn.classList.add('sel');
+      var res=box.querySelector('.quiz-result');
+      if(res){res.style.display='block';res.textContent=btn.dataset.result||'좋은 선택이야!';}
+    });
+  });
+
+  // 8. 완독 달성 팝업
+  var achieved=false;
+  window.addEventListener('scroll',function(){
+    if(achieved)return;
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    if(h>0&&window.scrollY/h>0.88){
+      achieved=true;
+      setTimeout(function(){
+        document.getElementById('overlay').classList.add('show');
+        document.getElementById('achieve').classList.add('show');
+        setTimeout(function(){
+          document.getElementById('overlay').classList.remove('show');
+          document.getElementById('achieve').classList.remove('show');
+        },3000);
+      },800);
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
