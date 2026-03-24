@@ -18,6 +18,7 @@
   "homepage": "https://github.com/theassetsquare-svg/ulsan2#readme",
   "description": "",
   "dependencies": {
-    "canvas": "^3.2.2"
+    "canvas": "^3.2.2",
+    "pngjs": "^7.0.0"
   }
 }
