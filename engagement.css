@@ -1,0 +1,160 @@
+/* ========== 체류시간 극대화 시스템 v2 — 틱톡/넷플릭스/슬롯머신 심리학 ========== */
+
+/* 프로그레스 바 */
+.prog-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#C9A96E,#e8c97a);z-index:200;transition:width .15s;width:0}
+
+/* 체류 타이머 */
+.timer-float{position:fixed;top:12px;right:12px;background:rgba(30,58,95,.92);color:#C9A96E;padding:6px 14px;border-radius:20px;font-size:.75em;font-weight:600;z-index:150;opacity:0;transition:all .3s}
+.timer-float.show{opacity:1}
+.timer-float .total-badge{display:inline-block;background:rgba(201,169,110,.2);padding:2px 8px;border-radius:10px;margin-left:6px;font-size:.85em}
+
+/* XP 레벨 바 */
+.xp-bar-wrap{position:fixed;top:0;left:0;right:0;z-index:199;pointer-events:none}
+.xp-bar{height:3px;background:linear-gradient(90deg,#2DB400,#5ce65c);transition:width .6s cubic-bezier(.4,0,.2,1);width:0;margin-top:3px}
+.level-badge{position:fixed;top:40px;right:12px;background:linear-gradient(135deg,#1E3A5F,#2c5280);color:#C9A96E;padding:5px 12px;border-radius:16px;font-size:.7em;font-weight:700;z-index:150;opacity:0;transition:all .3s;display:flex;align-items:center;gap:6px}
+.level-badge.show{opacity:1}
+.level-badge .lv-icon{font-size:1.1em}
+
+/* 소셜 프루프 */
+.social-proof{position:fixed;bottom:80px;left:12px;background:rgba(30,58,95,.9);color:#fff;padding:8px 14px;border-radius:20px;font-size:.72em;z-index:97;opacity:0;transform:translateY(20px);transition:all .5s}
+.social-proof.show{opacity:1;transform:translateY(0)}
+.social-proof .live-dot{display:inline-block;width:6px;height:6px;background:#2DB400;border-radius:50%;margin-right:6px;animation:livePulse 1.5s infinite}
+@keyframes livePulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* 슬롯머신 모달 */
+.slot-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:none;align-items:center;justify-content:center}
+.slot-overlay.show{display:flex}
+.slot-machine{background:#fff;border-radius:20px;padding:28px 24px;text-align:center;max-width:320px;width:90%;box-shadow:0 12px 60px rgba(0,0,0,.3);animation:slotBounce .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes slotBounce{0%{transform:scale(0)}100%{transform:scale(1)}}
+.slot-machine h3{color:#1E3A5F;font-size:1.05em;margin-bottom:14px}
+.slot-reels{display:flex;justify-content:center;gap:8px;margin:16px 0}
+.slot-reel{width:60px;height:60px;background:linear-gradient(135deg,#1E3A5F,#2c5280);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.8em;overflow:hidden;border:2px solid #C9A96E}
+.slot-reel.spinning{animation:reelSpin .3s linear infinite}
+@keyframes reelSpin{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
+.slot-result{margin-top:14px;padding:12px;background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(201,169,110,.08));border-radius:10px;font-size:.88em;color:#1E3A5F;line-height:1.6;display:none}
+.slot-result.show{display:block}
+.slot-btn{background:linear-gradient(135deg,#C9A96E,#dbb978);color:#1E3A5F;border:none;padding:12px 28px;border-radius:24px;font-weight:800;font-size:.95em;cursor:pointer;margin-top:10px;font-family:inherit;transition:transform .15s}
+.slot-btn:active{transform:scale(.95)}
+.slot-close{background:none;border:none;color:#999;font-size:.82em;cursor:pointer;margin-top:10px;display:block;margin-left:auto;margin-right:auto;font-family:inherit}
+
+/* 시간 잠금 콘텐츠 */
+.time-lock{position:relative;overflow:hidden;border-radius:12px;margin:20px 0}
+.time-lock .lock-cover{position:absolute;inset:0;background:linear-gradient(135deg,#1E3A5F,#2c5280);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2;transition:opacity .6s,transform .6s}
+.time-lock .lock-cover .lock-icon{font-size:2em;margin-bottom:8px}
+.time-lock .lock-cover .lock-text{color:#C9A96E;font-size:.85em;font-weight:600}
+.time-lock .lock-cover .lock-timer{color:rgba(255,255,255,.6);font-size:.75em;margin-top:4px}
+.time-lock.unlocked .lock-cover{opacity:0;transform:scale(1.1);pointer-events:none}
+.time-lock .lock-content{padding:16px;background:linear-gradient(135deg,rgba(201,169,110,.06),rgba(30,58,95,.04));border:1px solid rgba(201,169,110,.2)}
+
+/* 랜덤 보상 팝업 */
+.reward-popup{position:fixed;bottom:140px;right:12px;background:#fff;border-radius:14px;padding:16px 18px;max-width:260px;box-shadow:0 6px 30px rgba(0,0,0,.15);z-index:160;transform:translateX(300px);transition:transform .5s cubic-bezier(.34,1.56,.64,1);border-left:4px solid #C9A96E}
+.reward-popup.show{transform:translateX(0)}
+.reward-popup .rp-emoji{font-size:1.4em;margin-bottom:6px}
+.reward-popup .rp-title{color:#1E3A5F;font-weight:700;font-size:.88em}
+.reward-popup .rp-desc{color:#666;font-size:.8em;margin-top:4px;line-height:1.5}
+
+/* 컬렉션 트래커 */
+.collection-bar{position:fixed;top:68px;right:12px;background:rgba(30,58,95,.9);padding:8px 14px;border-radius:14px;z-index:148;opacity:0;transition:all .4s;display:flex;align-items:center;gap:8px}
+.collection-bar.show{opacity:1}
+.collection-bar .cb-dots{display:flex;gap:3px}
+.collection-bar .cb-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);transition:all .3s}
+.collection-bar .cb-dot.read{background:#C9A96E;box-shadow:0 0 4px rgba(201,169,110,.5)}
+.collection-bar .cb-dot.current{background:#2DB400;animation:currentPulse 1.5s infinite}
+@keyframes currentPulse{0%,100%{box-shadow:0 0 4px rgba(45,180,0,.5)}50%{box-shadow:0 0 10px rgba(45,180,0,.8)}}
+.collection-bar .cb-text{color:rgba(255,255,255,.7);font-size:.65em;font-weight:600}
+
+/* 스트릭 표시 */
+.streak-toast{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0);background:linear-gradient(135deg,#ff6b35,#ff9f1c);color:#fff;padding:20px 32px;border-radius:16px;text-align:center;z-index:350;box-shadow:0 8px 40px rgba(255,107,53,.3);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.streak-toast.show{transform:translate(-50%,-50%) scale(1)}
+.streak-toast .streak-num{font-size:2.2em;font-weight:800;display:block}
+.streak-toast .streak-label{font-size:.85em;opacity:.9}
+
+/* 넷플릭스 프리뷰 카드 */
+.next-bar{position:fixed;bottom:76px;left:0;right:0;background:linear-gradient(135deg,#1E3A5F,#0d1f33);color:#fff;text-align:center;padding:16px;z-index:99;transform:translateY(100%);transition:transform .5s cubic-bezier(.4,0,.2,1);font-size:.9em;box-shadow:0 -4px 20px rgba(0,0,0,.2)}
+.next-bar.show{transform:translateY(0)}
+.next-bar .nb-label{font-size:.7em;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+.next-bar a{color:#C9A96E;font-weight:700;text-decoration:none;font-size:1.05em}
+.next-bar .countdown{display:inline-block;background:#C9A96E;color:#1E3A5F;width:30px;height:30px;line-height:30px;border-radius:50%;font-weight:800;margin:0 8px;font-size:.85em;animation:cdPulse 1s infinite}
+@keyframes cdPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.next-bar .skip{color:rgba(255,255,255,.4);font-size:.75em;margin-left:12px;cursor:pointer;text-decoration:underline}
+
+/* 플로팅 다음글 버튼 */
+.float-next{position:fixed;right:16px;bottom:96px;background:linear-gradient(135deg,#1E3A5F,#2c5280);color:#C9A96E;padding:10px 18px;border-radius:24px;font-size:.82em;font-weight:700;z-index:98;box-shadow:0 3px 12px rgba(0,0,0,.2);opacity:0;transform:translateX(80px);transition:all .4s;text-decoration:none;display:block}
+.float-next.show{opacity:1;transform:translateX(0)}
+
+/* 달성 팝업 */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:299;opacity:0;pointer-events:none;transition:opacity .3s}
+.overlay.show{opacity:1;pointer-events:auto}
+.achieve{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0);background:#fff;border-radius:20px;padding:32px 40px;text-align:center;z-index:300;box-shadow:0 8px 40px rgba(0,0,0,.2);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.achieve.show{transform:translate(-50%,-50%) scale(1)}
+.achieve h3{color:#1E3A5F;font-size:1.1em;margin:8px 0}
+.achieve p{color:#666;font-size:.85em}
+.achieve .emoji{font-size:2.4em}
+
+/* 레벨업 이펙트 */
+.levelup-effect{position:fixed;inset:0;z-index:500;pointer-events:none;display:none}
+.levelup-effect.show{display:block}
+.levelup-effect .lu-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#C9A96E;font-size:2em;font-weight:800;text-shadow:0 2px 20px rgba(201,169,110,.5);animation:luFloat 2s ease-out forwards}
+@keyframes luFloat{0%{opacity:0;transform:translate(-50%,-50%) scale(.5)}30%{opacity:1;transform:translate(-50%,-50%) scale(1.2)}60%{transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-70%) scale(1)}}
+
+/* 컨페티 */
+.confetti-piece{position:fixed;z-index:600;pointer-events:none;animation:confettiFall 3s ease-out forwards}
+@keyframes confettiFall{0%{opacity:1;transform:translateY(0) rotate(0deg)}100%{opacity:0;transform:translateY(100vh) rotate(720deg)}}
+
+/* 숨겨진 이스터에그 */
+.easter-egg{opacity:0;max-height:0;overflow:hidden;transition:all .8s ease}
+.easter-egg.revealed{opacity:1;max-height:200px;padding:14px;margin:12px 0;background:linear-gradient(135deg,rgba(201,169,110,.08),rgba(30,58,95,.05));border:1px dashed #C9A96E;border-radius:10px}
+.easter-egg .ee-badge{color:#C9A96E;font-weight:700;font-size:.8em;margin-bottom:4px}
+
+/* 퀴즈 */
+.quiz-box{background:#fff;border:2px solid rgba(30,58,95,.15);border-radius:14px;padding:20px;margin:24px 0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.quiz-box h4{color:#1E3A5F;font-size:1em;margin-bottom:14px}
+.quiz-opt{display:block;width:100%;text-align:left;padding:12px 16px;margin:6px 0;border:1px solid #ddd;border-radius:10px;background:#fff;cursor:pointer;font-size:.9em;color:#333;transition:all .2s;font-family:inherit}
+.quiz-opt:hover{border-color:#C9A96E;background:rgba(201,169,110,.05)}
+.quiz-opt.sel{border-color:#C9A96E;background:rgba(201,169,110,.1);color:#1E3A5F;font-weight:600}
+.quiz-result{display:none;margin-top:12px;padding:14px;background:linear-gradient(135deg,#1E3A5F,#2c5280);border-radius:10px;color:#fff;font-size:.9em;line-height:1.6}
+
+/* 보너스 팁 */
+.bonus-box{background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(201,169,110,.06));border:1px dashed #C9A96E;border-radius:12px;margin:20px 0;overflow:hidden}
+.bonus-hd{padding:14px 18px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-weight:700;color:#1E3A5F;font-size:.92em}
+.bonus-hd::after{content:'▼';font-size:.7em;color:#C9A96E;transition:transform .3s}
+.bonus-box.open .bonus-hd::after{transform:rotate(180deg)}
+.bonus-body{max-height:0;overflow:hidden;transition:max-height .4s ease;padding:0 18px}
+.bonus-box.open .bonus-body{max-height:500px;padding:0 18px 16px}
+.bonus-body p{font-size:.9em;color:#555;margin-bottom:8px}
+
+/* 시리즈 바 */
+.series-bar{background:linear-gradient(135deg,rgba(30,58,95,.05),rgba(201,169,110,.05));border-radius:12px;padding:14px 18px;margin:16px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.series-bar .dots{display:flex;gap:4px}
+.series-bar .dot{width:10px;height:10px;border-radius:50%;background:#ddd;transition:background .3s}
+.series-bar .dot.active{background:#C9A96E;box-shadow:0 0 6px rgba(201,169,110,.4)}
+.series-bar .dot.done{background:#1E3A5F}
+.series-bar .txt{font-size:.78em;color:#999}
+
+/* 읽기 시간 */
+.reading-time{display:inline-block;background:rgba(30,58,95,.06);color:#1E3A5F;padding:4px 12px;border-radius:20px;font-size:.75em;font-weight:600;margin-bottom:16px}
+
+/* 스크롤 페이드인 */
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.vis{opacity:1;transform:translateY(0)}
+
+/* "이어서 읽기" 배너 */
+.resume-banner{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0);background:linear-gradient(135deg,#1E3A5F,#2c5280);color:#fff;padding:24px 28px;border-radius:16px;text-align:center;z-index:350;box-shadow:0 8px 40px rgba(0,0,0,.3);transition:transform .4s cubic-bezier(.34,1.56,.64,1);max-width:300px;width:90%}
+.resume-banner.show{transform:translate(-50%,-50%) scale(1)}
+.resume-banner .rb-emoji{font-size:1.8em;margin-bottom:8px}
+.resume-banner .rb-title{font-size:1em;font-weight:700;color:#C9A96E}
+.resume-banner .rb-stats{font-size:.8em;color:rgba(255,255,255,.7);margin-top:8px;line-height:1.6}
+.resume-banner .rb-close{background:#C9A96E;color:#1E3A5F;border:none;padding:10px 24px;border-radius:20px;font-weight:700;margin-top:14px;cursor:pointer;font-family:inherit;font-size:.9em}
+
+/* 인터랙션 펄스 */
+@keyframes tapPulse{0%{box-shadow:0 0 0 0 rgba(201,169,110,.4)}70%{box-shadow:0 0 0 12px rgba(201,169,110,0)}100%{box-shadow:0 0 0 0 rgba(201,169,110,0)}}
+.pulse-anim{animation:tapPulse .6s ease-out}
+
+/* 홈페이지 카드 애니메이션 */
+.card{opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}
+.card.vis{opacity:1;transform:translateY(0)}
+
+/* 읽은 카드 표시 (홈) */
+.card.read-card{border-left-color:#2DB400!important}
+.card.read-card::after{content:'✓ 읽음';position:absolute;top:8px;right:12px;background:#2DB400;color:#fff;font-size:.65em;padding:2px 8px;border-radius:10px;font-weight:600}
+.card{position:relative}
