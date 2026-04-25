@@ -153,6 +153,8 @@
 /* 홈페이지 카드 애니메이션 */
 .card{opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}
 .card.vis{opacity:1;transform:translateY(0)}
+/* JS 실패 시 카드 표시 보장 */
+.no-js .card,.no-js .fade-in{opacity:1!important;transform:none!important}
 
 /* 읽은 카드 표시 (홈) */
 .card.read-card{border-left-color:#2DB400!important}
