@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "audit": "node scripts/audit.js",
+    "apply-seo": "node scripts/apply-seo.js",
+    "update-sitemap": "node scripts/update-sitemap.js",
+    "build": "node scripts/apply-seo.js && node scripts/update-sitemap.js && node scripts/audit.js",
+    "test": "node scripts/audit.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,7 @@
   "description": "",
   "dependencies": {
     "canvas": "^3.2.2",
-    "pngjs": "^7.0.0"
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.5"
   }
 }

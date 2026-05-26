@@ -176,3 +176,35 @@
 .related-posts h3{color:#1E3A5F;font-size:1.05em;margin-bottom:12px;padding-left:14px;border-left:3px solid #C9A96E}
 .related-link{display:block;padding:12px 16px;margin:6px 0;background:rgba(30,58,95,.04);border:1px solid rgba(30,58,95,.1);border-radius:10px;color:#1E3A5F;font-size:.9em;font-weight:600;text-decoration:none;transition:all .2s}
 .related-link:hover{background:rgba(201,169,110,.1);border-color:#C9A96E}
+
+/* ========== UI/UX hardening (a11y, motion, touch) ========== */
+:focus-visible{outline:2px solid #C9A96E;outline-offset:2px;border-radius:4px}
+:focus:not(:focus-visible){outline:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .timer-float,.level-badge,.social-proof,.float-next,.reward-popup{transition:opacity .15s!important;transform:none!important}
+}
+button,a,details summary,.card,.related-link,.quiz-opt,.bk{min-height:44px}
+.card,.related-link,a.bk,.quiz-opt{-webkit-tap-highlight-color:rgba(201,169,110,.15)}
+.cta a{min-height:48px;display:flex;align-items:center;justify-content:center}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+img,svg{max-width:100%;height:auto}
+.skip-link{position:absolute;top:-40px;left:0;background:#1E3A5F;color:#C9A96E;padding:10px 16px;z-index:1000;border-radius:0 0 8px 0;font-weight:700;font-size:.9em;text-decoration:none}
+.skip-link:focus{top:0}
+/* 헤더 브랜드 (article pages) */
+.hd .site-brand{display:inline-block;color:#C9A96E;font-size:1.05em;font-weight:800;text-decoration:none;letter-spacing:-.3px;padding:6px 12px;border-radius:8px;min-height:44px;line-height:32px}
+.hd .site-brand:hover{background:rgba(201,169,110,.1)}
+/* 페이지 H1 (article 본문 메인 제목) */
+.post-title{color:#1E3A5F;font-size:1.4em;line-height:1.4;margin-bottom:8px;font-weight:800;letter-spacing:-.3px;word-break:keep-all}
+@media (min-width:480px){.post-title{font-size:1.55em}}
+/* 다크모드 친화 (시스템 다크에서 가독성 보장) */
+@media (prefers-color-scheme:dark){
+  body{background:#f4f4f4;color:#333}
+}
+/* 인쇄 최적화 */
+@media print{
+  .cta,.prog-bar,.timer-float,.level-badge,.social-proof,.float-next,.next-bar,.reward-popup,.achieve{display:none!important}
+  body{padding-bottom:0;background:#fff}
+}
