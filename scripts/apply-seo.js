@@ -6,6 +6,20 @@ const { SITE, PAGES } = require('./seo-config.js');
 
 const ROOT = path.join(__dirname, '..');
 
+const NAVER_CODE_NEW = '008f62b10b97d3f60b8493009bb7d50e10aea521';
+const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://ulsanc.pages.dev'}/rss.xml" />`;
+
+function ensureNaverAndRss(html) {
+  if (!html.includes(NAVER_CODE_NEW)) {
+    html = html.replace(/(<meta\s+name="naver-site-verification"[^>]*>)/,
+      `$1\n<meta name="naver-site-verification" content="${NAVER_CODE_NEW}" />`);
+  }
+  if (!html.includes('type="application/rss+xml"')) {
+    html = html.replace(/(<link rel="icon"[^>]*>)/, `$1\n${RSS_LINK_TAG}`);
+  }
+  return html;
+}
+
 function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
@@ -164,6 +178,13 @@ function applyArticle(html, slug, cfg) {
 
 function applyHome(html, cfg) {
   const url = SITE.baseUrl + '/';
+  const ogImg = cfg.ogImage || SITE.ogDefault;
+
+  html = html.replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${url}">`);
+  html = html.replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${url}">`);
+  html = html.replace(/<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="${ogImg}">`);
+  html = html.replace(/<meta name="twitter:image" content="[^"]*">/, `<meta name="twitter:image" content="${ogImg}">`);
+  html = html.replace(/<link rel="image_src" href="[^"]*">/, `<link rel="image_src" href="${ogImg}">`);
 
   html = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(cfg.title)}</title>`);
   html = html.replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${htmlAttrEsc(cfg.description)}">`);
@@ -252,6 +273,7 @@ for (const [slug, cfg] of Object.entries(PAGES)) {
   let html = fs.readFileSync(filePath, 'utf8');
   const before = html;
   html = cfg.type === 'home' ? applyHome(html, cfg) : applyArticle(html, slug, cfg);
+  html = ensureNaverAndRss(html);
   if (html !== before) {
     fs.writeFileSync(filePath, html);
     touched++;

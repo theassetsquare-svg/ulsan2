@@ -49,4 +49,4 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-Sitemap: https://ulsan2.pages.dev/sitemap.xml
+Sitemap: https://ulsanc.pages.dev/sitemap.xml

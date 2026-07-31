@@ -2,11 +2,11 @@
 // title 25-70, description 60-165 chars. 키워드는 자연어 흐름 유지.
 
 const SITE = {
-  baseUrl: 'https://ulsan2.pages.dev',
+  baseUrl: 'https://ulsanc.pages.dev',
   siteName: '울산챔피언나이트 춘자',
   phone: '010-5653-0069',
   kakao: 'besta12',
-  ogDefault: 'https://ulsan2.pages.dev/og-images/main.png',
+  ogDefault: 'https://ulsanc.pages.dev/og-images/main.png',
   modifiedDate: '2026-05-26',
 };
 
@@ -22,7 +22,7 @@ const PAGES = {
     h1: '울산챔피언나이트', // 홈은 브랜드가 H1
     headerBrand: '울산챔피언나이트',
     headerSub: '리얼 후기 · 체험기 · 꿀팁 블로그',
-    ogImage: 'https://ulsan2.pages.dev/og-images/main.png',
+    ogImage: 'https://ulsanc.pages.dev/og-images/main.png',
     ogImageAlt: '울산챔피언나이트 춘자 — 울산 대표 나이트클럽',
     hookH2: '솔직히 말해서.<br>직접 가보고 쓴 글만 모았다.<br><em>읽고 판단은 니가 해.</em>',
     section: '메인',

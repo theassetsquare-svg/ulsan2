@@ -6,7 +6,8 @@
     "audit": "node scripts/audit.js",
     "apply-seo": "node scripts/apply-seo.js",
     "update-sitemap": "node scripts/update-sitemap.js",
-    "build": "node scripts/apply-seo.js && node scripts/update-sitemap.js && node scripts/audit.js",
+    "generate-rss": "node scripts/generate-rss.js",
+    "build": "node scripts/apply-seo.js && node scripts/update-sitemap.js && node scripts/generate-rss.js && node scripts/audit.js",
     "test": "node scripts/audit.js"
   },
   "repository": {
