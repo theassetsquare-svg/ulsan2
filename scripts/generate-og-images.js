@@ -136,6 +136,7 @@ const pages = [
   { slug: 'vs', title: '나이트 비교', subtitle: '솔직 비교 후기' },
   { slug: 'food', title: '맛집 코스', subtitle: '먹고 놀고 해장' },
   { slug: 'safety', title: '안전 가이드', subtitle: '꼭 알아둬' },
+  { slug: 'bulgwang', title: '불광동호박나이트', subtitle: '은평구 불광동 예약 안내' },
 ];
 
 for (const page of pages) {

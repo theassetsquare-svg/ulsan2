@@ -23,7 +23,7 @@ function pubDate(dateStr) {
 
 function urlFor(slug, cfg) {
   if (cfg.type === 'home') return SITE.baseUrl + '/';
-  return `${SITE.baseUrl}/blog/${slug}/`;
+  return cfg.url || `${SITE.baseUrl}/blog/${slug}/`;
 }
 
 const lastBuild = pubDate(SITE.modifiedDate);

@@ -31,8 +31,9 @@ function htmlAttrEsc(s) {
 }
 
 function applyArticle(html, slug, cfg) {
-  const url = `${SITE.baseUrl}/blog/${slug}/`;
-  const ogImage = `${SITE.baseUrl}/og-images/${slug}.png`;
+  // cfg.url / cfg.ogImage 를 주면 /blog/<slug>/ 규칙을 벗어난 랜딩 페이지도 처리 가능
+  const url = cfg.url || `${SITE.baseUrl}/blog/${slug}/`;
+  const ogImage = cfg.ogImage || `${SITE.baseUrl}/og-images/${slug}.png`;
 
   // --- HEAD ---
   // <title>
@@ -75,7 +76,8 @@ function applyArticle(html, slug, cfg) {
     "name": q,
     "acceptedAnswer": { "@type": "Answer", "text": a }
   }));
-  const ld = [
+  // cfg.ld 가 함수면 페이지 전용 스키마로 대체 (예: NightClub 랜딩)
+  const ld = typeof cfg.ld === 'function' ? cfg.ld({ SITE, cfg, url, ogImage, faqLd }) : [
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -153,8 +155,11 @@ function applyArticle(html, slug, cfg) {
   }
 
   // achieve box
+  // 주의: .achieve 안에 .emoji div가 중첩되어 있어 non-greedy `</div>`로 끊으면
+  // 꼬리(<h3>..</h3><p>..</p></div>)가 본문에 그대로 남는다. 과거 실행에서 쌓인
+  // 중복 꼬리까지 함께 흡수하도록 매칭.
   if (cfg.achieveTitle) {
-    html = html.replace(/<div class="achieve" id="achieve">[\s\S]*?<\/div>/,
+    html = html.replace(/<div class="achieve" id="achieve">[\s\S]*?<\/div>(?:\s*<h3>[\s\S]*?<\/p>\s*<\/div>)*/,
       `<div class="achieve" id="achieve"><div class="emoji">${cfg.achieveEmoji}</div><h3>${esc(cfg.achieveTitle)}</h3><p>${esc(cfg.achieveBody)}</p></div>`);
   }
 
