@@ -1,2 +1,5 @@
 node_modules/
 audit-report.json
+night2-audit.json
+night2-og-report.json
+night2-verify-*.json
