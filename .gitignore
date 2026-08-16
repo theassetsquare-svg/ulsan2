@@ -3,3 +3,6 @@ audit-report.json
 night2-audit.json
 night2-og-report.json
 night2-verify-*.json
+qa-audit.json
+qa-og-report.json
+.claude/scheduled_tasks.lock
