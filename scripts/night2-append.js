@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { PAGES } = require('./night2-data.js');
 const ROOT = path.join(__dirname, '..');
-const SITE = 'https://ulsanc.pages.dev';
+const SITE = 'https://ulsang.pages.dev';
 const TODAY = '2026-08-15';
 
 // ── 1) night/index.html : 지역 키워드 섹션 append (기존 줄 삭제 0)

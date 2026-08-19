@@ -7,7 +7,7 @@ const { SITE, PAGES } = require('./seo-config.js');
 const ROOT = path.join(__dirname, '..');
 
 const NAVER_CODE_NEW = '008f62b10b97d3f60b8493009bb7d50e10aea521';
-const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://ulsanc.pages.dev'}/rss.xml" />`;
+const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://ulsang.pages.dev'}/rss.xml" />`;
 
 function ensureNaverAndRss(html) {
   if (!html.includes(NAVER_CODE_NEW)) {
@@ -270,6 +270,8 @@ function applyHome(html, cfg) {
 
 let touched = 0;
 for (const [slug, cfg] of Object.entries(PAGES)) {
+  // 홈(/)은 독립 성공스토리 단독 페이지 — SEO 일괄 적용 대상에서 제외.
+  if (cfg.type === 'home') { console.log('SKIP (독립 홈): ' + cfg.path); continue; }
   const filePath = path.join(ROOT, cfg.path);
   if (!fs.existsSync(filePath)) {
     console.error(`SKIP (missing): ${cfg.path}`);

@@ -247,5 +247,11 @@ ${pick.map(v => `<a href="/qa/${v.slug}/"><b>${esc(v.name)}</b> <span>— ${esc(
 </html>
 `;
 
+// 홈(/)은 독립 성공스토리 단독 페이지로 교체됨 — 이 빌더가 덮어쓰지 않도록 가드.
+// 되살리려면 ALLOW_HOME_OVERWRITE=1 로 실행.
+if (!process.env.ALLOW_HOME_OVERWRITE) {
+  console.error('SKIP: index.html 은 독립 스토리 페이지입니다. 덮어쓰려면 ALLOW_HOME_OVERWRITE=1');
+  process.exit(0);
+}
 fs.writeFileSync(path.join(ROOT, 'index.html'), html);
 console.log(`home written ${html.length}B · 문답 ${QA.length}개`);
