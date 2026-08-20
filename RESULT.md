@@ -65,7 +65,7 @@
 | /qa/incheon-arabian/ | qa-incheon-arabian.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /qa/indeogwon-gukbingwan/ | qa-indeogwon-gukbingwan.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /qa/ | qa.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.6KB | 0건 | 0건 |
-| /qa/jeju-do/ | qa-jeju-do.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.8KB | 0건 | 0건 |
+| /qa/jeju-do-guide/ | qa-jeju-do-guide.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.8KB | 0건 | 0건 |
 | /qa/nowon-hobak/ | qa-nowon-hobak.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /qa/osan-hobak/ | qa-osan-hobak.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.7KB | 0건 | 0건 |
 | /qa/paju-yadang-skydome/ | qa-paju-yadang-skydome.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
