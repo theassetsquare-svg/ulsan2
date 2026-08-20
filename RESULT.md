@@ -20,13 +20,13 @@
 | /night/busan-asiad-night/ | night-busan-asiad-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /night/busan-night/ | night-busan-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /night/changwon-lululala-night/ | night-changwon-lululala-night.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 31KB | 0건 | 0건 |
-| /night/changwon-night/ | night-changwon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.7KB | 0건 | 0건 |
+| /night/changwon-night/ | night-changwon-night.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.7KB | 0건 | 0건 |
 | /night/cheongdam-night/ | night-cheongdam-night.png | 010-5655-4866 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
 | /night/daejeon-night/ | night-daejeon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /night/daejeon-one-night/ | night-daejeon-one-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.4KB | 0건 | 0건 |
 | /night/daejeon-seven-night/ | night-daejeon-seven-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.4KB | 0건 | 0건 |
-| /night/eunpyeong-night/ | night-eunpyeong-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
-| /night/gangnam-night/ | night-gangnam-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
+| /night/eunpyeong-night/ | night-eunpyeong-night.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
+| /night/gangnam-night/ | night-gangnam-night.png | 010-5655-4866 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
 | /night/ilsan-night/ | night-ilsan-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /night/ilsan-shampoo-night/ | night-ilsan-shampoo-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.7KB | 0건 | 0건 |
 | /night/ | night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.9KB | 0건 | 0건 |
@@ -39,7 +39,7 @@
 | /night/suyu-night/ | night-suyu-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /night/suyu-shampoo-night/ | night-suyu-shampoo-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /night/ulsan-champion-night/ | night-ulsan-champion-night.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
-| /night/ulsan-night/ | night-ulsan-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
+| /night/ulsan-night/ | night-ulsan-night.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /night/yucheon-night/ | night-yucheon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /qa/ansan-hit/ | qa-ansan-hit.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /qa/bucheon-gorae/ | qa-bucheon-gorae.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.7KB | 0건 | 0건 |

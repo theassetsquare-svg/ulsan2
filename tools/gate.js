@@ -2,7 +2,7 @@
 'use strict';
 const fs = require('fs'), path = require('path');
 const sharp = require('sharp');
-const { build, ADS, BASE, ROOT } = require('./pages.js');
+const { build, ADS, AD_PAGES, BASE, ROOT } = require('./pages.js');
 
 const TEL_OWNER = {
   '010-5653-0069': '울산챔피언나이트',
@@ -47,7 +47,8 @@ const fail = [], rows = [];
     const found = [];
     for (const [tel, owner] of Object.entries(TEL_OWNER)) {
       const d = tel.replace(/-/g, '');
-      if (h.includes(tel) || h.includes(d)) { found.push(tel); if (p.store !== owner) F(`G10 ${tel}(${owner}) 가 남의 페이지에 있음`); }
+      const allowed = p.store === owner || AD_PAGES[p.url] === owner;
+      if (h.includes(tel) || h.includes(d)) { found.push(tel); if (!allowed) F(`G10 ${tel}(${owner}) 가 허용되지 않은 페이지에 있음`); }
     }
     const other010 = [...new Set((h.match(/01[016-9][-\s]?\d{3,4}[-\s]?\d{4}/g) || []))].filter(t => !Object.keys(TEL_OWNER).includes(t.replace(/(\d{3})(\d{4})(\d{4})/, '$1-$2-$3')) && !Object.keys(TEL_OWNER).includes(t));
     if (other010.length) F(`G10 미등록 010 패턴: ${other010.join(', ')}`);
@@ -57,7 +58,7 @@ const fail = [], rows = [];
 
     /* ── 닉네임 위치 ── */
     for (const [nick, owner] of Object.entries(NICKS)) {
-      if (h.includes(nick) && p.store !== owner) F(`닉네임 ${nick}(${owner}) 오염`);
+      if (h.includes(nick) && p.store !== owner && AD_PAGES[p.url] !== owner) F(`닉네임 ${nick}(${owner}) 오염`);
     }
 
     /* ── G13 가게이름 오염 (alt/캡션/파일명/메타는 예외 없음, 본문은 앵커 예외) ── */

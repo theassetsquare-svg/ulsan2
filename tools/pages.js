@@ -11,6 +11,14 @@ const ADS = {
   '불광동호박나이트': { nick: '손흥민', tel: '010-2221-1937' },
   '청담나이트':      { nick: '펩시맨', tel: '010-5655-4866' },
 };
+// ★지역 키워드 페이지 → 연결된 광고주 (전화번호는 넣고, 타 가게이름은 넣지 않는다)
+const AD_PAGES = {
+  '/night/ulsan-night/':     '울산챔피언나이트',
+  '/night/changwon-night/':  '창원룰루랄라나이트',
+  '/night/eunpyeong-night/': '불광동호박나이트',
+  '/night/gangnam-night/':   '청담나이트',
+};
+
 const CTA_NICK = '광고문의';
 const CTA_KAKAO = '카카오톡 besta12';
 
@@ -42,13 +50,13 @@ function build() {
     const h = fs.readFileSync(f, 'utf8');
     const slug = url === '/' ? 'home' : url.replace(/^\/|\/$/g, '').replace(/\//g, '-');
     const store = ownName(url, h);
-    const ad = store && ADS[store] ? ADS[store] : null;
+    const ad = (store && ADS[store]) || (AD_PAGES[url] && ADS[AD_PAGES[url]]) || null;
     const title = ((h.match(/<title>([^<]*)/) || [])[1] || '').trim();
     return { file: f, rel, url, absUrl: BASE + url, slug, store, ad,
              kind: url === '/' ? 'home' : (url === '/qa/' || url === '/night/') ? 'hub' : (ad ? 'A' : 'B'),
              title };
   });
   const names = [...new Set(pages.map(p => p.store).filter(Boolean))].sort((a, b) => b.length - a.length);
-  return { pages, names, ADS, CTA_NICK, CTA_KAKAO, BASE, ROOT };
+  return { pages, names, ADS, AD_PAGES, CTA_NICK, CTA_KAKAO, BASE, ROOT };
 }
-module.exports = { build, ADS, CTA_NICK, CTA_KAKAO, BASE, ROOT, walk };
+module.exports = { build, ADS, AD_PAGES, CTA_NICK, CTA_KAKAO, BASE, ROOT, walk };

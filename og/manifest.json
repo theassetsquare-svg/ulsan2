@@ -704,8 +704,8 @@
   "file": "/og/night-changwon-night.png",
   "page": "https://ulsang.pages.dev/night/changwon-night/",
   "store": "창원나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-7528-4936",
   "texts": [
    {
     "text": "둘이서 가도 될까 전국 최대",
@@ -720,21 +720,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "로또",
+    "widthPx": 486,
+    "heightPx": 178,
+    "widthPct": 45
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-7528-4936",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25248
+  "bytes": 32816
  },
  {
   "file": "/og/night-cheongdam-night.png",
@@ -890,8 +896,8 @@
   "file": "/og/night-eunpyeong-night.png",
   "page": "https://ulsang.pages.dev/night/eunpyeong-night/",
   "store": "은평나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-2221-1937",
   "texts": [
    {
     "text": "핵심만 정리 불광역 앞 지하",
@@ -906,28 +912,34 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "손흥민",
+    "widthPx": 491.2,
+    "heightPx": 178,
+    "widthPct": 45.5
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-2221-1937",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25052
+  "bytes": 31969
  },
  {
   "file": "/og/night-gangnam-night.png",
   "page": "https://ulsang.pages.dev/night/gangnam-night/",
   "store": "강남나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-5655-4866",
   "texts": [
    {
     "text": "익숙해지면 보이는 것 청담",
@@ -942,21 +954,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "펩시맨",
+    "widthPx": 499.1,
+    "heightPx": 178,
+    "widthPct": 46.2
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-5655-4866",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25048
+  "bytes": 34792
  },
  {
   "file": "/og/night-ilsan-night.png",
@@ -1400,8 +1418,8 @@
   "file": "/og/night-ulsan-night.png",
   "page": "https://ulsang.pages.dev/night/ulsan-night/",
   "store": "울산나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-5653-0069",
   "texts": [
    {
     "text": "놓치기 쉬운 것 삼산동 밤",
@@ -1416,21 +1434,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "춘자",
+    "widthPx": 486,
+    "heightPx": 178,
+    "widthPct": 45
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-5653-0069",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24805
+  "bytes": 35629
  },
  {
   "file": "/og/night-yucheon-night.png",
