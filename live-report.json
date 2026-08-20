@@ -149,7 +149,7 @@
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
-   "kb": 24.7,
+   "kb": 32,
    "ok": true
   },
   {
@@ -189,7 +189,7 @@
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
-   "kb": 24.5,
+   "kb": 31.2,
    "ok": true
   },
   {
@@ -197,7 +197,7 @@
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
-   "kb": 24.5,
+   "kb": 34,
    "ok": true
   },
   {
@@ -301,7 +301,7 @@
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
-   "kb": 24.2,
+   "kb": 34.8,
    "ok": true
   },
   {
