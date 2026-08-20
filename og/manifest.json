@@ -1,5 +1,16 @@
 [
  {
+  "file": "/og/home.png",
+  "page": "https://ulsang.pages.dev/",
+  "store": "(홈·중립)",
+  "kind": "home",
+  "hero": "(기존 홈 썸네일 유지 — 화면 노출 없음, 검색용)",
+  "texts": [],
+  "width": 1200,
+  "height": 1200,
+  "bytes": 60819
+ },
+ {
   "file": "/og/blog-alone.png",
   "page": "https://ulsang.pages.dev/blog/alone/",
   "store": "울산챔피언나이트",

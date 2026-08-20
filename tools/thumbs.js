@@ -127,6 +127,16 @@ function kickerOf(p, names) {
       width: meta.width, height: meta.height, bytes: buf.length,
     });
   }
+  // 홈 썸네일(기존 파일 유지)도 목록에 기록
+  {
+    const f = path.join(OUT, 'home.png');
+    if (fs.existsSync(f)) {
+      const md = await sharp(f).metadata();
+      manifest.unshift({ file: '/og/home.png', page: 'https://ulsang.pages.dev/', store: '(홈·중립)',
+        kind: 'home', hero: '(기존 홈 썸네일 유지 — 화면 노출 없음, 검색용)', texts: [],
+        width: md.width, height: md.height, bytes: fs.statSync(f).size });
+    }
+  }
   fs.writeFileSync(path.join(OUT, 'manifest.json'), JSON.stringify(manifest, null, 1));
   const over = manifest.filter(m => m.bytes > 300 * 1024);
   console.log(`생성 ${manifest.length}장 · 최대 ${(Math.max(...manifest.map(m => m.bytes)) / 1024).toFixed(1)}KB · 300KB 초과 ${over.length}건`);
