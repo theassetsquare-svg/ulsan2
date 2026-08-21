@@ -786,7 +786,7 @@ const PAGES = [
   slug: 'yucheon-night', angle: 8, angleName: '시간 흐름형',
   region: '대전 중구 유천동', regionShort: '중구 유천동',
   shop: '대전세븐나이트', shopUrl: '/night/daejeon-seven-night/',
-  group: 'B', bg: '#5c1f6b',
+  group: 'A', staff: '영탁', tel: '010-7770-0869', telRaw: '01077700869', bg: '#5c1f6b',
   title: '유천동나이트 단계별 안내 당디로 골목 안쪽 홀',
   desc: '유천동나이트를 저녁 아홉 시부터 새벽까지 시각 순서로 끊어 적었다. 밀도가 오르는 구간과 밴드·디제이 교대 지점까지 담았다.',
   ogAlt: '유천동나이트 대전 중구 유천동 밤 안내 카드 — 시간 흐름 정리',
