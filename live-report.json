@@ -89,7 +89,7 @@
    "ok": true
   },
   {
-   "file": "/og/bulgwang-hobak.png",
+   "file": "/og/bulgwang-hobak-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -113,7 +113,7 @@
    "ok": true
   },
   {
-   "file": "/og/night-bulgwang-hobak-night.png",
+   "file": "/og/night-bulgwang-hobak-guide-night-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -137,7 +137,7 @@
    "ok": true
   },
   {
-   "file": "/og/night-changwon-lululala-night.png",
+   "file": "/og/night-changwon-lululala-night-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -169,7 +169,7 @@
    "ok": true
   },
   {
-   "file": "/og/night-daejeon-one-night.png",
+   "file": "/og/night-daejeon-one-night-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -289,7 +289,7 @@
    "ok": true
   },
   {
-   "file": "/og/night-ulsan-champion-night.png",
+   "file": "/og/night-ulsan-champion-night-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -329,7 +329,7 @@
    "ok": true
   },
   {
-   "file": "/og/qa-bulgwang-hobak.png",
+   "file": "/og/qa-bulgwang-hobak-guide.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -505,7 +505,7 @@
    "ok": true
   },
   {
-   "file": "/og/qa-jeju-do-guide.png",
+   "file": "/og/qa-jeju-do-hall.png",
    "status": 200,
    "type": "image/png",
    "dim": "1200x1200",
@@ -723,7 +723,7 @@
    "ok": true
   },
   {
-   "url": "/bulgwang-hobak/",
+   "url": "/bulgwang-hobak-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -755,7 +755,7 @@
    "ok": true
   },
   {
-   "url": "/night/bulgwang-hobak-night/",
+   "url": "/night/bulgwang-hobak-night-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -779,7 +779,7 @@
    "ok": true
   },
   {
-   "url": "/night/changwon-lululala-night/",
+   "url": "/night/changwon-lululala-night-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -811,7 +811,7 @@
    "ok": true
   },
   {
-   "url": "/night/daejeon-one-night/",
+   "url": "/night/daejeon-one-night-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -931,7 +931,7 @@
    "ok": true
   },
   {
-   "url": "/night/ulsan-champion-night/",
+   "url": "/night/ulsan-champion-night-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -971,7 +971,7 @@
    "ok": true
   },
   {
-   "url": "/qa/bulgwang-hobak/",
+   "url": "/qa/bulgwang-hobak-guide/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1147,7 +1147,7 @@
    "ok": true
   },
   {
-   "url": "/qa/jeju-do-guide/",
+   "url": "/qa/jeju-do-hall/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,

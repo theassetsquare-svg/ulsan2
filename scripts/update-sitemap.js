@@ -19,7 +19,7 @@ const URL_TO_FILE = {
   'https://ulsang.pages.dev/blog/vs/': 'blog/vs/index.html',
   'https://ulsang.pages.dev/blog/food/': 'blog/food/index.html',
   'https://ulsang.pages.dev/blog/safety/': 'blog/safety/index.html',
-  'https://ulsang.pages.dev/bulgwang-hobak/': 'bulgwang-hobak/index.html',
+  'https://ulsang.pages.dev/bulgwang-hobak-guide/': 'bulgwang-hobak/index.html',
 };
 
 function isoDate(d) {

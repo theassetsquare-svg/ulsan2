@@ -79,7 +79,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/qa/bulgwang-hobak/</loc>
+    <loc>https://ulsang.pages.dev/qa/bulgwang-hobak-guide/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -247,7 +247,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/qa/jeju-do-guide/</loc>
+    <loc>https://ulsang.pages.dev/qa/jeju-do-hall/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -271,8 +271,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/night/bulgwang-hobak-night/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://ulsang.pages.dev/night/bulgwang-hobak-night-guide/</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -289,8 +289,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/night/changwon-lululala-night/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://ulsang.pages.dev/night/changwon-lululala-night-guide/</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -313,8 +313,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/night/daejeon-one-night/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://ulsang.pages.dev/night/daejeon-one-night-guide/</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -397,8 +397,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/night/ulsan-champion-night/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://ulsang.pages.dev/night/ulsan-champion-night-guide/</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -475,8 +475,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ulsang.pages.dev/bulgwang-hobak/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://ulsang.pages.dev/bulgwang-hobak-guide/</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

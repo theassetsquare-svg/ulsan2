@@ -12,18 +12,18 @@
 | /blog/summer/ | blog-summer.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.8KB | 0건 | 0건 |
 | /blog/vs/ | blog-vs.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34.1KB | 0건 | 0건 |
 | /blog/weekend/ | blog-weekend.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.5KB | 0건 | 0건 |
-| /bulgwang-hobak/ | bulgwang-hobak.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.3KB | 0건 | 0건 |
+| /bulgwang-hobak-guide/ | bulgwang-hobak-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.3KB | 0건 | 0건 |
 | / | home.png | — | — | 없음(정상) | PASS | 200 png/200 | 59.4KB | 0건 | 0건 |
 | /night/ansan-hit-night/ | night-ansan-hit-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /night/ansan-night/ | night-ansan-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
-| /night/bulgwang-hobak-night/ | night-bulgwang-hobak-night.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
+| /night/bulgwang-hobak-night-guide/ | night-bulgwang-hobak-guide-night-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
 | /night/busan-asiad-night/ | night-busan-asiad-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /night/busan-night/ | night-busan-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
-| /night/changwon-lululala-night/ | night-changwon-lululala-night.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 31KB | 0건 | 0건 |
+| /night/changwon-lululala-night-guide/ | night-changwon-lululala-night-guide.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 31KB | 0건 | 0건 |
 | /night/changwon-night/ | night-changwon-night.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.7KB | 0건 | 0건 |
 | /night/cheongdam-night/ | night-cheongdam-night.png | 010-5655-4866 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
 | /night/daejeon-night/ | night-daejeon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
-| /night/daejeon-one-night/ | night-daejeon-one-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.4KB | 0건 | 0건 |
+| /night/daejeon-one-night-guide/ | night-daejeon-one-night-guide.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.4KB | 0건 | 0건 |
 | /night/daejeon-seven-night/ | night-daejeon-seven-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.4KB | 0건 | 0건 |
 | /night/eunpyeong-night/ | night-eunpyeong-night.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
 | /night/gangnam-night/ | night-gangnam-night.png | 010-5655-4866 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |
@@ -38,12 +38,12 @@
 | /night/suwon-night/ | night-suwon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.6KB | 0건 | 0건 |
 | /night/suyu-night/ | night-suyu-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /night/suyu-shampoo-night/ | night-suyu-shampoo-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
-| /night/ulsan-champion-night/ | night-ulsan-champion-night.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
+| /night/ulsan-champion-night-guide/ | night-ulsan-champion-night-guide.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
 | /night/ulsan-night/ | night-ulsan-night.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /night/yucheon-night/ | night-yucheon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /qa/ansan-hit/ | qa-ansan-hit.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /qa/bucheon-gorae/ | qa-bucheon-gorae.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.7KB | 0건 | 0건 |
-| /qa/bulgwang-hobak/ | qa-bulgwang-hobak.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
+| /qa/bulgwang-hobak-guide/ | qa-bulgwang-hobak-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
 | /qa/busan-asiad/ | qa-busan-asiad.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /qa/changwon-lululala/ | qa-changwon-lululala.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 31.7KB | 0건 | 0건 |
 | /qa/cheonan-korea/ | qa-cheonan-korea.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.9KB | 0건 | 0건 |
@@ -65,7 +65,7 @@
 | /qa/incheon-arabian/ | qa-incheon-arabian.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /qa/indeogwon-gukbingwan/ | qa-indeogwon-gukbingwan.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /qa/ | qa.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.6KB | 0건 | 0건 |
-| /qa/jeju-do-guide/ | qa-jeju-do-guide.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.8KB | 0건 | 0건 |
+| /qa/jeju-do-hall/ | qa-jeju-do-hall.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.8KB | 0건 | 0건 |
 | /qa/nowon-hobak/ | qa-nowon-hobak.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /qa/osan-hobak/ | qa-osan-hobak.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.7KB | 0건 | 0건 |
 | /qa/paju-yadang-skydome/ | qa-paju-yadang-skydome.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.5KB | 0건 | 0건 |

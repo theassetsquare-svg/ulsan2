@@ -323,7 +323,7 @@ const PAGES = {
   bulgwang: {
     path: 'bulgwang-hobak/index.html',
     type: 'article',
-    url: 'https://ulsang.pages.dev/bulgwang-hobak/',
+    url: 'https://ulsang.pages.dev/bulgwang-hobak-guide/',
     ogImage: 'https://ulsang.pages.dev/og-images/bulgwang.png',
     phone: '010-2221-1937',
     manager: '손흥민',

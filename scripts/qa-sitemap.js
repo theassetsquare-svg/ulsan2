@@ -21,7 +21,7 @@ for (const v of VENUES) add(`${SITE}/qa/${v.slug}/`, '0.9', 'weekly');
 add(`${SITE}/night/`, '0.8', 'weekly');
 for (const d of dirs('night')) add(`${SITE}/night/${d}/`, '0.7', 'weekly');
 for (const d of dirs('blog')) add(`${SITE}/blog/${d}/`, '0.6', 'monthly');
-if (exists('bulgwang-hobak/index.html')) add(`${SITE}/bulgwang-hobak/`, '0.6', 'monthly');
+if (exists('bulgwang-hobak/index.html')) add(`${SITE}/bulgwang-hobak-guide/`, '0.6', 'monthly');
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

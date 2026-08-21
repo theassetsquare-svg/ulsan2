@@ -8,7 +8,7 @@ const PAGES = [
   n: 1, kw: '은평나이트', kwB: '은평 나이트', kwC: '은평 나이트클럽',
   slug: 'eunpyeong-night', angle: 10, angleName: '짧은 요약형',
   region: '서울 은평구 불광동', regionShort: '은평구',
-  shop: '불광동호박나이트', shopUrl: '/night/bulgwang-hobak-night/',
+  shop: '불광동호박나이트', shopUrl: '/night/bulgwang-hobak-night-guide/',
   group: 'A', staff: '손흥민', tel: '010-2221-1937', telRaw: '01022211937',
   bg: '#14453c',
   title: '은평나이트 핵심만 정리 불광역 앞 지하 홀 안내',
@@ -55,7 +55,7 @@ const PAGES = [
 <p>인원이 유동적이면 최소 인원으로 먼저 잡아두고 늘리는 편이 낫다. 줄이는 것보다 늘리는 쪽이 언제나 쉽다.</p>`,
       bridge: '이제 어디로 갈지만 남았다.' },
     { h2: '은평나이트 추천 — 불광동호박나이트', body:
-      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/night/bulgwang-hobak-night/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
+      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/night/bulgwang-hobak-night-guide/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
 <p>등록 영업면적은 141.8평, 제곱미터로는 468㎡다. 개업은 1973년 5월로 기록돼 있다. 계단을 내려가면 입구가 한 번 더 나오는 구조다.</p>
 <p>불광동호박나이트는 은평구 생활권 손님이 많은 편이라 주중과 주말의 밀도 차가 뚜렷하다. 은평 나이트클럽을 처음 찾는다면 기준점으로 삼기 좋은 홀이다.</p>`,
       bridge: '남은 건 전화 한 통이다.' },
@@ -85,7 +85,7 @@ const PAGES = [
   n: 2, kw: '창원나이트', kwB: '창원 나이트', kwC: '창원 나이트클럽',
   slug: 'changwon-night', angle: 11, angleName: '인원별 공략형',
   region: '경남 창원시 성산구 상남동', regionShort: '창원시 성산구',
-  shop: '창원룰루랄라나이트', shopUrl: '/night/changwon-lululala-night/',
+  shop: '창원룰루랄라나이트', shopUrl: '/night/changwon-lululala-night-guide/',
   group: 'A', staff: '로또', tel: '010-7528-4936', telRaw: '01075284936',
   bg: '#6b1f3a', age: '만 27세 이상',
   title: '창원나이트 둘이서 가도 될까 전국 최대 상남동',
@@ -123,7 +123,7 @@ const PAGES = [
 <p>말하지 않으면 남는 자리로 배정된다. 원하는 위치가 있으면 전화할 때 한 줄로 말해두는 게 낫다. 창원 나이트 자리 배정은 이 세 가지 안에서 끝난다.</p>`,
       bridge: '이제 창원에서 어디로 가느냐가 남았다.' },
     { h2: '창원나이트 추천 — 창원룰루랄라나이트', body:
-      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/night/changwon-lululala-night/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
+      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/night/changwon-lululala-night-guide/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
 <p>이곳은 <strong>만 27세 이상</strong>만 출입 가능하다. 월요일부터 토요일까지 영업하고, 공휴일과 공휴일 전날도 정상 운영으로 안내된다.</p>
 <p>상남동은 술집·홀·노래방이 한 블록에 겹쳐 있어 앞뒤 일정을 붙이기 좋다. 창원룰루랄라나이트를 기준으로 동선을 짜면 이동이 거의 없다.</p>`,
       bridge: '자리를 잡아두는 일만 남았다.' },
@@ -153,7 +153,7 @@ const PAGES = [
   n: 3, kw: '울산나이트', kwB: '울산 나이트', kwC: '울산 나이트클럽',
   slug: 'ulsan-night', angle: 12, angleName: '실수 방지형',
   region: '울산 남구 삼산동', regionShort: '남구',
-  shop: '울산챔피언나이트', shopUrl: '/night/ulsan-champion-night/',
+  shop: '울산챔피언나이트', shopUrl: '/night/ulsan-champion-night-guide/',
   group: 'A', staff: '춘자', tel: '010-5653-0069', telRaw: '01056530069',
   bg: '#2b2f6b',
   title: '울산나이트 놓치기 쉬운 것 삼산동 밤 실수 정리',
@@ -191,7 +191,7 @@ const PAGES = [
 <p>차를 가져갈지도 이때 정한다. 술을 마실 계획이면 두고 오는 편이 낫다. 삼산동은 늦게까지 여는 식당이 많아 앞뒤로 붙이기도 쉽다. 울산 나이트 준비는 이 순서면 충분하다.</p>`,
       bridge: '그럼 울산 안에서 어디로 갈까.' },
     { h2: '울산나이트 추천 — 울산챔피언나이트', body:
-      `<p>삼산동 한복판에 있는 곳이 <strong><a href="/night/ulsan-champion-night/">울산챔피언나이트</a></strong>다. 주소는 남구 삼산동 1559-17, 도로명으로는 정동로 75다.</p>
+      `<p>삼산동 한복판에 있는 곳이 <strong><a href="/night/ulsan-champion-night-guide/">울산챔피언나이트</a></strong>다. 주소는 남구 삼산동 1559-17, 도로명으로는 정동로 75다.</p>
 <p>등록 영업면적은 784.5평, 2,588.97㎡다. 개업은 2003년 12월로 기록돼 있다. 홀이 넓으면 밀도가 천천히 오르고 천천히 내린다.</p>
 <p>울산챔피언나이트는 단체 문의가 많은 편이라 자리를 붙이는 조율에 익숙한 곳이다. 울산 나이트클럽을 고를 때 규모를 먼저 보는 사람에게 맞는다.</p>`,
       bridge: '마지막은 연락처다.' },
@@ -289,7 +289,7 @@ const PAGES = [
   n: 5, kw: '대전나이트', kwB: '대전 나이트', kwC: '대전 나이트클럽',
   slug: 'daejeon-night', angle: 1, angleName: '정면 소개형',
   region: '대전 중구', regionShort: '중구',
-  shop: '대전원나이트', shopUrl: '/night/daejeon-one-night/',
+  shop: '대전원나이트', shopUrl: '/night/daejeon-one-night-guide/',
   group: 'B', bg: '#7a4a10', age: '만 38세 이상',
   title: '대전나이트 규모가 말해주는 것 중앙로와 유천동',
   desc: '대전나이트가 왜 신도심이 아니라 원도심에 남았는지, 좌석과 시간대·부킹 구조까지 정리했다. 중앙로 골목 홀을 기준으로 본다.',
@@ -326,7 +326,7 @@ const PAGES = [
 <p>원하는 방향이 있으면 처음에 말해두는 편이 낫다. 조용히 있고 싶다는 말도 요청에 들어간다. 대전 나이트 부킹은 이 한마디에서 시작된다.</p>`,
       bridge: '그럼 대전에서 어느 홀을 기준으로 볼까.' },
     { h2: '대전나이트 추천 — 대전원나이트', body:
-      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/night/daejeon-one-night/">대전원나이트</a></strong>다.</p>
+      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/night/daejeon-one-night-guide/">대전원나이트</a></strong>다.</p>
 <p>이곳은 <strong>만 38세 이상</strong>만 출입 가능하다. 영업시간은 일요일부터 목요일까지 저녁 여덟 시에서 새벽 두 시 반, 금요일과 토요일은 새벽 세 시 반까지로 안내된다.</p>
 <p>홀 규모가 크지 않아 사람 사이 거리가 가깝다. 대전 나이트클럽 중에서 또래끼리 모이는 성격이 뚜렷한 편이다.</p>`,
       bridge: '문의 창구는 아래에 정리했다.' },
