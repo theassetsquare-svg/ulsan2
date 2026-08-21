@@ -50,4 +50,4 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-Sitemap: https://ulsang.pages.dev/sitemap.xml
+Sitemap: https://baeyong.pages.dev/sitemap.xml

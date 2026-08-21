@@ -124,7 +124,7 @@ async function fit(text, start, maxW, color, minH) {
       telH = tel.h; telSize = tel.size;
       bandContrast = contrast([0, 0, 0], [255, 255, 255]);
     } else {
-      const brand = await fit('ulsang.pages.dev', 44, 900, '#e8d9a8');
+      const brand = await fit('baeyong.pages.dev', 44, 900, '#e8d9a8');
       layers.push({ input: brand.buf, left: Math.round((S - brand.w) / 2), top: 1060 });
       // 구분선
       layers.push({

@@ -38,7 +38,7 @@ const home = read('index.html');
   const bad = VENUES.filter(v => {
     const h = docs[v.slug];
     return !h.startsWith('<!DOCTYPE html>') || !h.includes('<html lang="ko">')
-      || !h.includes('name="viewport"') || !h.includes(`<link rel="canonical" href="https://ulsang.pages.dev/qa/${v.slug}/">`)
+      || !h.includes('name="viewport"') || !h.includes(`<link rel="canonical" href="https://baeyong.pages.dev/qa/${v.slug}/">`)
       || !/name="robots" content="index,follow/.test(h)
       || !h.includes('property="og:image"') || !h.includes('property="og:image:width" content="1200"');
   });
@@ -146,7 +146,7 @@ let sim;
   const ext = [];
   for (const [nm, h] of [...VENUES.map(v => [v.slug, docs[v.slug]]), ['hub', hub]]) {
     const hrefs = tag(h, /href="([^"]*)"/g)
-      .filter(x => /^https?:\/\//.test(x) && !x.startsWith('https://ulsang.pages.dev'));
+      .filter(x => /^https?:\/\//.test(x) && !x.startsWith('https://baeyong.pages.dev'));
     if (hrefs.length) ext.push(`${nm}:${hrefs.join('|')}`);
   }
   const noKakao = [...VENUES.map(v => [v.slug, docs[v.slug]]), ['hub', hub], ['home', home]]

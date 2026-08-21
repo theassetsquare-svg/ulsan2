@@ -1,7 +1,7 @@
 [
  {
   "file": "/og/home.png",
-  "page": "https://ulsang.pages.dev/",
+  "page": "https://baeyong.pages.dev/",
   "store": "(홈·중립)",
   "kind": "home",
   "hero": "(기존 홈 썸네일 유지 — 화면 노출 없음, 검색용)",
@@ -12,7 +12,7 @@
  },
  {
   "file": "/og/blog-alone.png",
-  "page": "https://ulsang.pages.dev/blog/alone/",
+  "page": "https://baeyong.pages.dev/blog/alone/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -54,7 +54,7 @@
  },
  {
   "file": "/og/blog-couple.png",
-  "page": "https://ulsang.pages.dev/blog/couple/",
+  "page": "https://baeyong.pages.dev/blog/couple/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -96,7 +96,7 @@
  },
  {
   "file": "/og/blog-event.png",
-  "page": "https://ulsang.pages.dev/blog/event/",
+  "page": "https://baeyong.pages.dev/blog/event/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -138,7 +138,7 @@
  },
  {
   "file": "/og/blog-first-time.png",
-  "page": "https://ulsang.pages.dev/blog/first-time/",
+  "page": "https://baeyong.pages.dev/blog/first-time/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -180,7 +180,7 @@
  },
  {
   "file": "/og/blog-food.png",
-  "page": "https://ulsang.pages.dev/blog/food/",
+  "page": "https://baeyong.pages.dev/blog/food/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -222,7 +222,7 @@
  },
  {
   "file": "/og/blog-over40.png",
-  "page": "https://ulsang.pages.dev/blog/over40/",
+  "page": "https://baeyong.pages.dev/blog/over40/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -264,7 +264,7 @@
  },
  {
   "file": "/og/blog-safety.png",
-  "page": "https://ulsang.pages.dev/blog/safety/",
+  "page": "https://baeyong.pages.dev/blog/safety/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -306,7 +306,7 @@
  },
  {
   "file": "/og/blog-summer.png",
-  "page": "https://ulsang.pages.dev/blog/summer/",
+  "page": "https://baeyong.pages.dev/blog/summer/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -348,7 +348,7 @@
  },
  {
   "file": "/og/blog-vs.png",
-  "page": "https://ulsang.pages.dev/blog/vs/",
+  "page": "https://baeyong.pages.dev/blog/vs/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -390,7 +390,7 @@
  },
  {
   "file": "/og/blog-weekend.png",
-  "page": "https://ulsang.pages.dev/blog/weekend/",
+  "page": "https://baeyong.pages.dev/blog/weekend/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -432,7 +432,7 @@
  },
  {
   "file": "/og/bulgwang-hobak-guide.png",
-  "page": "https://ulsang.pages.dev/bulgwang-hobak-guide/",
+  "page": "https://baeyong.pages.dev/bulgwang-hobak-guide/",
   "store": "불광동호박나이트",
   "kind": "A",
   "hero": "010-2221-1937",
@@ -474,7 +474,7 @@
  },
  {
   "file": "/og/night-ansan-hit-night.png",
-  "page": "https://ulsang.pages.dev/night/ansan-hit-night/",
+  "page": "https://baeyong.pages.dev/night/ansan-hit-night/",
   "store": "안산히트나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -510,7 +510,7 @@
  },
  {
   "file": "/og/night-ansan-night.png",
-  "page": "https://ulsang.pages.dev/night/ansan-night/",
+  "page": "https://baeyong.pages.dev/night/ansan-night/",
   "store": "안산나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -546,7 +546,7 @@
  },
  {
   "file": "/og/night-bulgwang-hobak-guide-night-guide.png",
-  "page": "https://ulsang.pages.dev/night/bulgwang-hobak-night-guide/",
+  "page": "https://baeyong.pages.dev/night/bulgwang-hobak-night-guide/",
   "store": "불광동호박나이트",
   "kind": "A",
   "hero": "010-2221-1937",
@@ -588,7 +588,7 @@
  },
  {
   "file": "/og/night-busan-asiad-night.png",
-  "page": "https://ulsang.pages.dev/night/busan-asiad-night/",
+  "page": "https://baeyong.pages.dev/night/busan-asiad-night/",
   "store": "부산아시아드나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -624,7 +624,7 @@
  },
  {
   "file": "/og/night-busan-night.png",
-  "page": "https://ulsang.pages.dev/night/busan-night/",
+  "page": "https://baeyong.pages.dev/night/busan-night/",
   "store": "부산나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -660,7 +660,7 @@
  },
  {
   "file": "/og/night-changwon-lululala-night-guide.png",
-  "page": "https://ulsang.pages.dev/night/changwon-lululala-night-guide/",
+  "page": "https://baeyong.pages.dev/night/changwon-lululala-night-guide/",
   "store": "창원룰루랄라나이트",
   "kind": "A",
   "hero": "010-7528-4936",
@@ -702,7 +702,7 @@
  },
  {
   "file": "/og/night-changwon-night.png",
-  "page": "https://ulsang.pages.dev/night/changwon-night/",
+  "page": "https://baeyong.pages.dev/night/changwon-night/",
   "store": "창원나이트",
   "kind": "A",
   "hero": "010-7528-4936",
@@ -744,7 +744,7 @@
  },
  {
   "file": "/og/night-cheongdam-night.png",
-  "page": "https://ulsang.pages.dev/night/cheongdam-night/",
+  "page": "https://baeyong.pages.dev/night/cheongdam-night/",
   "store": "청담나이트",
   "kind": "A",
   "hero": "010-5655-4866",
@@ -786,7 +786,7 @@
  },
  {
   "file": "/og/night-daejeon-night.png",
-  "page": "https://ulsang.pages.dev/night/daejeon-night/",
+  "page": "https://baeyong.pages.dev/night/daejeon-night/",
   "store": "대전나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -822,7 +822,7 @@
  },
  {
   "file": "/og/night-daejeon-one-night-guide.png",
-  "page": "https://ulsang.pages.dev/night/daejeon-one-night-guide/",
+  "page": "https://baeyong.pages.dev/night/daejeon-one-night-guide/",
   "store": "대전원나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -858,7 +858,7 @@
  },
  {
   "file": "/og/night-daejeon-seven-night.png",
-  "page": "https://ulsang.pages.dev/night/daejeon-seven-night/",
+  "page": "https://baeyong.pages.dev/night/daejeon-seven-night/",
   "store": "대전세븐나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -894,7 +894,7 @@
  },
  {
   "file": "/og/night-eunpyeong-night.png",
-  "page": "https://ulsang.pages.dev/night/eunpyeong-night/",
+  "page": "https://baeyong.pages.dev/night/eunpyeong-night/",
   "store": "은평나이트",
   "kind": "A",
   "hero": "010-2221-1937",
@@ -936,7 +936,7 @@
  },
  {
   "file": "/og/night-gangnam-night.png",
-  "page": "https://ulsang.pages.dev/night/gangnam-night/",
+  "page": "https://baeyong.pages.dev/night/gangnam-night/",
   "store": "강남나이트",
   "kind": "A",
   "hero": "010-5655-4866",
@@ -978,7 +978,7 @@
  },
  {
   "file": "/og/night-ilsan-night.png",
-  "page": "https://ulsang.pages.dev/night/ilsan-night/",
+  "page": "https://baeyong.pages.dev/night/ilsan-night/",
   "store": "일산나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1014,7 +1014,7 @@
  },
  {
   "file": "/og/night-ilsan-shampoo-night.png",
-  "page": "https://ulsang.pages.dev/night/ilsan-shampoo-night/",
+  "page": "https://baeyong.pages.dev/night/ilsan-shampoo-night/",
   "store": "일산샴푸나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1050,7 +1050,7 @@
  },
  {
   "file": "/og/night.png",
-  "page": "https://ulsang.pages.dev/night/",
+  "page": "https://baeyong.pages.dev/night/",
   "store": "(허브/중립)",
   "kind": "hub",
   "hero": "광고문의",
@@ -1086,7 +1086,7 @@
  },
  {
   "file": "/og/night-sangbong-hangukgwan-night.png",
-  "page": "https://ulsang.pages.dev/night/sangbong-hangukgwan-night/",
+  "page": "https://baeyong.pages.dev/night/sangbong-hangukgwan-night/",
   "store": "상봉동한국관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1122,7 +1122,7 @@
  },
  {
   "file": "/og/night-sangbong-night.png",
-  "page": "https://ulsang.pages.dev/night/sangbong-night/",
+  "page": "https://baeyong.pages.dev/night/sangbong-night/",
   "store": "상봉동나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1158,7 +1158,7 @@
  },
  {
   "file": "/og/night-sillim-grandprix-night.png",
-  "page": "https://ulsang.pages.dev/night/sillim-grandprix-night/",
+  "page": "https://baeyong.pages.dev/night/sillim-grandprix-night/",
   "store": "신림그랑프리나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1194,7 +1194,7 @@
  },
  {
   "file": "/og/night-sillim-night.png",
-  "page": "https://ulsang.pages.dev/night/sillim-night/",
+  "page": "https://baeyong.pages.dev/night/sillim-night/",
   "store": "신림나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1230,7 +1230,7 @@
  },
  {
   "file": "/og/night-suwon-chance-dome-night.png",
-  "page": "https://ulsang.pages.dev/night/suwon-chance-dome-night/",
+  "page": "https://baeyong.pages.dev/night/suwon-chance-dome-night/",
   "store": "수원찬스돔나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1266,7 +1266,7 @@
  },
  {
   "file": "/og/night-suwon-night.png",
-  "page": "https://ulsang.pages.dev/night/suwon-night/",
+  "page": "https://baeyong.pages.dev/night/suwon-night/",
   "store": "수원나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1302,7 +1302,7 @@
  },
  {
   "file": "/og/night-suyu-night.png",
-  "page": "https://ulsang.pages.dev/night/suyu-night/",
+  "page": "https://baeyong.pages.dev/night/suyu-night/",
   "store": "수유나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1338,7 +1338,7 @@
  },
  {
   "file": "/og/night-suyu-shampoo-night.png",
-  "page": "https://ulsang.pages.dev/night/suyu-shampoo-night/",
+  "page": "https://baeyong.pages.dev/night/suyu-shampoo-night/",
   "store": "수유샴푸나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1374,7 +1374,7 @@
  },
  {
   "file": "/og/night-ulsan-champion-night-guide.png",
-  "page": "https://ulsang.pages.dev/night/ulsan-champion-night-guide/",
+  "page": "https://baeyong.pages.dev/night/ulsan-champion-night-guide/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -1416,7 +1416,7 @@
  },
  {
   "file": "/og/night-ulsan-night.png",
-  "page": "https://ulsang.pages.dev/night/ulsan-night/",
+  "page": "https://baeyong.pages.dev/night/ulsan-night/",
   "store": "울산나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -1458,7 +1458,7 @@
  },
  {
   "file": "/og/night-yucheon-night.png",
-  "page": "https://ulsang.pages.dev/night/yucheon-night/",
+  "page": "https://baeyong.pages.dev/night/yucheon-night/",
   "store": "유천동나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1494,7 +1494,7 @@
  },
  {
   "file": "/og/qa-ansan-hit.png",
-  "page": "https://ulsang.pages.dev/qa/ansan-hit/",
+  "page": "https://baeyong.pages.dev/qa/ansan-hit/",
   "store": "안산히트나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1530,7 +1530,7 @@
  },
  {
   "file": "/og/qa-bucheon-gorae.png",
-  "page": "https://ulsang.pages.dev/qa/bucheon-gorae/",
+  "page": "https://baeyong.pages.dev/qa/bucheon-gorae/",
   "store": "부천고래나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1566,7 +1566,7 @@
  },
  {
   "file": "/og/qa-bulgwang-hobak-guide.png",
-  "page": "https://ulsang.pages.dev/qa/bulgwang-hobak-guide/",
+  "page": "https://baeyong.pages.dev/qa/bulgwang-hobak-guide/",
   "store": "불광동호박나이트",
   "kind": "A",
   "hero": "010-2221-1937",
@@ -1608,7 +1608,7 @@
  },
  {
   "file": "/og/qa-busan-asiad.png",
-  "page": "https://ulsang.pages.dev/qa/busan-asiad/",
+  "page": "https://baeyong.pages.dev/qa/busan-asiad/",
   "store": "부산아시아드나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1644,7 +1644,7 @@
  },
  {
   "file": "/og/qa-changwon-lululala.png",
-  "page": "https://ulsang.pages.dev/qa/changwon-lululala/",
+  "page": "https://baeyong.pages.dev/qa/changwon-lululala/",
   "store": "창원룰루랄라나이트",
   "kind": "A",
   "hero": "010-7528-4936",
@@ -1686,7 +1686,7 @@
  },
  {
   "file": "/og/qa-cheonan-korea.png",
-  "page": "https://ulsang.pages.dev/qa/cheonan-korea/",
+  "page": "https://baeyong.pages.dev/qa/cheonan-korea/",
   "store": "천안코리아나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1722,7 +1722,7 @@
  },
  {
   "file": "/og/qa-cheonan-stardome.png",
-  "page": "https://ulsang.pages.dev/qa/cheonan-stardome/",
+  "page": "https://baeyong.pages.dev/qa/cheonan-stardome/",
   "store": "천안스타돔나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1758,7 +1758,7 @@
  },
  {
   "file": "/og/qa-cheongdam.png",
-  "page": "https://ulsang.pages.dev/qa/cheongdam/",
+  "page": "https://baeyong.pages.dev/qa/cheongdam/",
   "store": "청담나이트",
   "kind": "A",
   "hero": "010-5655-4866",
@@ -1800,7 +1800,7 @@
  },
  {
   "file": "/og/qa-cheongju-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/cheongju-hobak/",
+  "page": "https://baeyong.pages.dev/qa/cheongju-hobak/",
   "store": "청주호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1836,7 +1836,7 @@
  },
  {
   "file": "/og/qa-daegu-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/daegu-hobak/",
+  "page": "https://baeyong.pages.dev/qa/daegu-hobak/",
   "store": "대구호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1872,7 +1872,7 @@
  },
  {
   "file": "/og/qa-daejeon-one.png",
-  "page": "https://ulsang.pages.dev/qa/daejeon-one/",
+  "page": "https://baeyong.pages.dev/qa/daejeon-one/",
   "store": "대전원나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1908,7 +1908,7 @@
  },
  {
   "file": "/og/qa-daejeon-seven.png",
-  "page": "https://ulsang.pages.dev/qa/daejeon-seven/",
+  "page": "https://baeyong.pages.dev/qa/daejeon-seven/",
   "store": "대전세븐나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1944,7 +1944,7 @@
  },
  {
   "file": "/og/qa-dapsimni-miracle.png",
-  "page": "https://ulsang.pages.dev/qa/dapsimni-miracle/",
+  "page": "https://baeyong.pages.dev/qa/dapsimni-miracle/",
   "store": "답십리미라클나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -1980,7 +1980,7 @@
  },
  {
   "file": "/og/qa-doksan-gukbingwan.png",
-  "page": "https://ulsang.pages.dev/qa/doksan-gukbingwan/",
+  "page": "https://baeyong.pages.dev/qa/doksan-gukbingwan/",
   "store": "독산동국빈관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2016,7 +2016,7 @@
  },
  {
   "file": "/og/qa-gangseo-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/gangseo-hobak/",
+  "page": "https://baeyong.pages.dev/qa/gangseo-hobak/",
   "store": "강서호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2052,7 +2052,7 @@
  },
  {
   "file": "/og/qa-gildong-chance.png",
-  "page": "https://ulsang.pages.dev/qa/gildong-chance/",
+  "page": "https://baeyong.pages.dev/qa/gildong-chance/",
   "store": "길동찬스나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2088,7 +2088,7 @@
  },
  {
   "file": "/og/qa-gumi-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/gumi-hobak/",
+  "page": "https://baeyong.pages.dev/qa/gumi-hobak/",
   "store": "구미호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2124,7 +2124,7 @@
  },
  {
   "file": "/og/qa-guri-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/guri-hobak/",
+  "page": "https://baeyong.pages.dev/qa/guri-hobak/",
   "store": "구리호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2160,7 +2160,7 @@
  },
  {
   "file": "/og/qa-gwangju-cheomdan.png",
-  "page": "https://ulsang.pages.dev/qa/gwangju-cheomdan/",
+  "page": "https://baeyong.pages.dev/qa/gwangju-cheomdan/",
   "store": "광주첨단나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2196,7 +2196,7 @@
  },
  {
   "file": "/og/qa-gwangju-sangmu.png",
-  "page": "https://ulsang.pages.dev/qa/gwangju-sangmu/",
+  "page": "https://baeyong.pages.dev/qa/gwangju-sangmu/",
   "store": "광주상무나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2232,7 +2232,7 @@
  },
  {
   "file": "/og/qa-ilsan-shampoo.png",
-  "page": "https://ulsang.pages.dev/qa/ilsan-shampoo/",
+  "page": "https://baeyong.pages.dev/qa/ilsan-shampoo/",
   "store": "일산샴푸나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2268,7 +2268,7 @@
  },
  {
   "file": "/og/qa-incheon-arabian.png",
-  "page": "https://ulsang.pages.dev/qa/incheon-arabian/",
+  "page": "https://baeyong.pages.dev/qa/incheon-arabian/",
   "store": "인천아라비안나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2304,7 +2304,7 @@
  },
  {
   "file": "/og/qa-indeogwon-gukbingwan.png",
-  "page": "https://ulsang.pages.dev/qa/indeogwon-gukbingwan/",
+  "page": "https://baeyong.pages.dev/qa/indeogwon-gukbingwan/",
   "store": "인덕원국빈관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2340,7 +2340,7 @@
  },
  {
   "file": "/og/qa.png",
-  "page": "https://ulsang.pages.dev/qa/",
+  "page": "https://baeyong.pages.dev/qa/",
   "store": "(허브/중립)",
   "kind": "hub",
   "hero": "광고문의",
@@ -2376,7 +2376,7 @@
  },
  {
   "file": "/og/qa-jeju-do-hall.png",
-  "page": "https://ulsang.pages.dev/qa/jeju-do-hall/",
+  "page": "https://baeyong.pages.dev/qa/jeju-do-hall/",
   "store": "제주도나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2412,7 +2412,7 @@
  },
  {
   "file": "/og/qa-nowon-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/nowon-hobak/",
+  "page": "https://baeyong.pages.dev/qa/nowon-hobak/",
   "store": "노원호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2448,7 +2448,7 @@
  },
  {
   "file": "/og/qa-osan-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/osan-hobak/",
+  "page": "https://baeyong.pages.dev/qa/osan-hobak/",
   "store": "오산호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2484,7 +2484,7 @@
  },
  {
   "file": "/og/qa-paju-yadang-skydome.png",
-  "page": "https://ulsang.pages.dev/qa/paju-yadang-skydome/",
+  "page": "https://baeyong.pages.dev/qa/paju-yadang-skydome/",
   "store": "파주야당스카이돔나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2520,7 +2520,7 @@
  },
  {
   "file": "/og/qa-pyeongtaek-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/pyeongtaek-hobak/",
+  "page": "https://baeyong.pages.dev/qa/pyeongtaek-hobak/",
   "store": "평택호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2556,7 +2556,7 @@
  },
  {
   "file": "/og/qa-sangbong-hangukgwan.png",
-  "page": "https://ulsang.pages.dev/qa/sangbong-hangukgwan/",
+  "page": "https://baeyong.pages.dev/qa/sangbong-hangukgwan/",
   "store": "상봉동한국관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2592,7 +2592,7 @@
  },
  {
   "file": "/og/qa-seongnam-shampoo.png",
-  "page": "https://ulsang.pages.dev/qa/seongnam-shampoo/",
+  "page": "https://baeyong.pages.dev/qa/seongnam-shampoo/",
   "store": "성남샴푸나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2628,7 +2628,7 @@
  },
  {
   "file": "/og/qa-seosan-hobak.png",
-  "page": "https://ulsang.pages.dev/qa/seosan-hobak/",
+  "page": "https://baeyong.pages.dev/qa/seosan-hobak/",
   "store": "서산호박나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2664,7 +2664,7 @@
  },
  {
   "file": "/og/qa-sillim-grandprix.png",
-  "page": "https://ulsang.pages.dev/qa/sillim-grandprix/",
+  "page": "https://baeyong.pages.dev/qa/sillim-grandprix/",
   "store": "신림그랑프리나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2700,7 +2700,7 @@
  },
  {
   "file": "/og/qa-suwon-chance-dome.png",
-  "page": "https://ulsang.pages.dev/qa/suwon-chance-dome/",
+  "page": "https://baeyong.pages.dev/qa/suwon-chance-dome/",
   "store": "수원찬스돔나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2736,7 +2736,7 @@
  },
  {
   "file": "/og/qa-suwon-korea.png",
-  "page": "https://ulsang.pages.dev/qa/suwon-korea/",
+  "page": "https://baeyong.pages.dev/qa/suwon-korea/",
   "store": "수원코리아나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2772,7 +2772,7 @@
  },
  {
   "file": "/og/qa-suyu-shampoo.png",
-  "page": "https://ulsang.pages.dev/qa/suyu-shampoo/",
+  "page": "https://baeyong.pages.dev/qa/suyu-shampoo/",
   "store": "수유샴푸나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2808,7 +2808,7 @@
  },
  {
   "file": "/og/qa-uijeongbu-baekakgwan.png",
-  "page": "https://ulsang.pages.dev/qa/uijeongbu-baekakgwan/",
+  "page": "https://baeyong.pages.dev/qa/uijeongbu-baekakgwan/",
   "store": "의정부백악관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2844,7 +2844,7 @@
  },
  {
   "file": "/og/qa-uijeongbu-hangukgwan.png",
-  "page": "https://ulsang.pages.dev/qa/uijeongbu-hangukgwan/",
+  "page": "https://baeyong.pages.dev/qa/uijeongbu-hangukgwan/",
   "store": "의정부한국관나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2880,7 +2880,7 @@
  },
  {
   "file": "/og/qa-ulsan-champion.png",
-  "page": "https://ulsang.pages.dev/qa/ulsan-champion/",
+  "page": "https://baeyong.pages.dev/qa/ulsan-champion/",
   "store": "울산챔피언나이트",
   "kind": "A",
   "hero": "010-5653-0069",
@@ -2922,7 +2922,7 @@
  },
  {
   "file": "/og/qa-ulsan-newworld.png",
-  "page": "https://ulsang.pages.dev/qa/ulsan-newworld/",
+  "page": "https://baeyong.pages.dev/qa/ulsan-newworld/",
   "store": "울산뉴월드나이트",
   "kind": "B",
   "hero": "광고문의",
@@ -2958,7 +2958,7 @@
  },
  {
   "file": "/og/qa-yeongdeungpo-terminal.png",
-  "page": "https://ulsang.pages.dev/qa/yeongdeungpo-terminal/",
+  "page": "https://baeyong.pages.dev/qa/yeongdeungpo-terminal/",
   "store": "영등포터미널나이트",
   "kind": "B",
   "hero": "광고문의",
