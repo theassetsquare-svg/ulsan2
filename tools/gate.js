@@ -9,8 +9,9 @@ const TEL_OWNER = {
   '010-7528-4936': '창원룰루랄라나이트',
   '010-2221-1937': '불광동호박나이트',
   '010-5655-4866': '청담나이트',
+  '010-8156-6558': '답십리미라클나이트',
 };
-const NICKS = { '춘자': '울산챔피언나이트', '로또': '창원룰루랄라나이트', '손흥민': '불광동호박나이트', '펩시맨': '청담나이트' };
+const NICKS = { '춘자': '울산챔피언나이트', '로또': '창원룰루랄라나이트', '손흥민': '불광동호박나이트', '펩시맨': '청담나이트', '유재석': '답십리미라클나이트' };
 const META9 = [
   ['property', 'og:image'], ['property', 'og:image:secure_url'], ['property', 'og:image:width'],
   ['property', 'og:image:height'], ['property', 'og:image:type'], ['property', 'og:image:alt'],

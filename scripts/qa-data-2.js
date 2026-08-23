@@ -376,6 +376,7 @@ module.exports = [
 {
   name: '답십리미라클나이트', slug: 'dapsimni-miracle',
   area: '서울', region: '서울 동대문구 답십리동', ogBg: 'yellow',
+  adv: { staff: '유재석', tel: '010-8156-6558' },
   hook: '검색해도 왜 안 나오는가',
   title: '답십리미라클나이트, 검색해도 왜 안 나올까',
   desc: '답십리미라클나이트는 주소와 층, 역까지 모두 확인되지 않는 사례다. 무엇이 안 나오는지와 그 의미를 문답 일곱 개로 정리했다.',
