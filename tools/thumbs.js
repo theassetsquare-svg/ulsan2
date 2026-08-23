@@ -105,7 +105,11 @@ function kickerOf(p, names) {
       gaps = [1, 1.1, 1.2, 1.1];
       hero = p.ad.tel;
     } else {
-      const head = p.kind === 'hub' ? p.title.replace(/\s*—.*$/, '').trim() : p.store;
+      // ★ 가게이름을 못 찾은 페이지(예: /blog/)는 제목에서 뽑아 쓴다.
+      //   비어 있으면 글자 그리기에서 죽어 전체 생성이 멈춘다(2026-08-23 실측).
+      const head = p.kind === 'hub'
+        ? p.title.replace(/\s*—.*$/, '').trim()
+        : (p.store || p.title.replace(/\s*[—|].*$/, '').trim() || '나이트 안내');
       lines = [
         kickLine(kicker),
         line(head, { w: USABLE * (p.kind === 'hub' ? 0.62 : 0.60), color: GOLD }),

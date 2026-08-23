@@ -46,7 +46,8 @@ function ownName(url, h) {
 function build() {
   const files = walk(ROOT).sort();
   const pages = files.map(f => {
-    const rel = path.relative(ROOT, f);
+    // ★ 윈도우는 경로 구분자가 역슬래시라 그대로 쓰면 주소가 "/blog\alone\" 처럼 깨진다.
+    const rel = path.relative(ROOT, f).split(path.sep).join('/');
     const url = '/' + rel.replace(/index\.html$/, '');
     const h = fs.readFileSync(f, 'utf8');
     const slug = url === '/' ? 'home' : url.replace(/^\/|\/$/g, '').replace(/\//g, '-');
