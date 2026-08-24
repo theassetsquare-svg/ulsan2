@@ -92,7 +92,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 34246
+  "bytes": 34249
  },
  {
   "file": "/og/blog-event.png",
@@ -545,7 +545,7 @@
   "bytes": 24513
  },
  {
-  "file": "/og/night-bulgwang-hobak-guide-night-guide.png",
+  "file": "/og/night-bulgwang-hobak-night-guide.png",
   "page": "https://b.nolcool.com/night/bulgwang-hobak-night-guide/",
   "store": "불광동호박나이트",
   "kind": "A",
@@ -590,8 +590,8 @@
   "file": "/og/night-busan-asiad-night.png",
   "page": "https://b.nolcool.com/night/busan-asiad-night/",
   "store": "부산아시아드나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-3614-1056",
   "texts": [
    {
     "text": "팀 단위 안내 온천장 지하",
@@ -606,21 +606,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "새우깡",
+    "widthPx": 508.3,
+    "heightPx": 178,
+    "widthPct": 47.1
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-3614-1056",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24757
+  "bytes": 35059
  },
  {
   "file": "/og/night-busan-night.png",
@@ -656,7 +662,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24217
+  "bytes": 24213
  },
  {
   "file": "/og/night-changwon-lululala-night-guide.png",
@@ -854,14 +860,14 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24951
+  "bytes": 24952
  },
  {
   "file": "/og/night-daejeon-seven-night.png",
   "page": "https://b.nolcool.com/night/daejeon-seven-night/",
   "store": "대전세븐나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-7770-0869",
   "texts": [
    {
     "text": "홀부터 다른 이유 유천동",
@@ -876,21 +882,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "영탁",
+    "widthPx": 486,
+    "heightPx": 178,
+    "widthPct": 45
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-7770-0869",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 23917
+  "bytes": 33076
  },
  {
   "file": "/og/night-eunpyeong-night.png",
@@ -932,7 +944,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 31969
+  "bytes": 31966
  },
  {
   "file": "/og/night-gangnam-night.png",
@@ -974,7 +986,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 34792
+  "bytes": 34795
  },
  {
   "file": "/og/night-ilsan-night.png",
@@ -1118,7 +1130,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25011
+  "bytes": 25010
  },
  {
   "file": "/og/night-sangbong-night.png",
@@ -1190,7 +1202,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 23754
+  "bytes": 23755
  },
  {
   "file": "/og/night-sillim-night.png",
@@ -1610,8 +1622,8 @@
   "file": "/og/qa-busan-asiad.png",
   "page": "https://b.nolcool.com/qa/busan-asiad/",
   "store": "부산아시아드나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-3614-1056",
   "texts": [
    {
     "text": "지하 두 층을 다 쓸까",
@@ -1626,21 +1638,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "새우깡",
+    "widthPx": 508.3,
+    "heightPx": 178,
+    "widthPct": 47.1
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-3614-1056",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24742
+  "bytes": 34701
  },
  {
   "file": "/og/qa-changwon-lululala.png",
@@ -1718,7 +1736,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25497
+  "bytes": 25496
  },
  {
   "file": "/og/qa-cheonan-stardome.png",
@@ -1868,7 +1886,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24063
+  "bytes": 24066
  },
  {
   "file": "/og/qa-daejeon-one.png",
@@ -1904,14 +1922,14 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25101
+  "bytes": 25102
  },
  {
   "file": "/og/qa-daejeon-seven.png",
   "page": "https://b.nolcool.com/qa/daejeon-seven/",
   "store": "대전세븐나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-7770-0869",
   "texts": [
    {
     "text": "유천동 어디쯤에 있는 걸까",
@@ -1926,28 +1944,34 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "영탁",
+    "widthPx": 486,
+    "heightPx": 178,
+    "widthPct": 45
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-7770-0869",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24432
+  "bytes": 33639
  },
  {
   "file": "/og/qa-dapsimni-miracle.png",
   "page": "https://b.nolcool.com/qa/dapsimni-miracle/",
   "store": "답십리미라클나이트",
-  "kind": "B",
-  "hero": "광고문의",
+  "kind": "A",
+  "hero": "010-8156-6558",
   "texts": [
    {
     "text": "검색해도 왜 안 나올까",
@@ -1962,21 +1986,27 @@
     "widthPct": 60
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 252,
-    "widthPct": 80
+    "text": "유재석",
+    "widthPx": 492,
+    "heightPx": 178,
+    "widthPct": 45.6
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 132,
-    "widthPct": 75
+    "text": "010-8156-6558",
+    "widthPx": 1004.4,
+    "heightPx": 212,
+    "widthPct": 93
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55
    }
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 23810
+  "bytes": 35132
  },
  {
   "file": "/og/qa-doksan-gukbingwan.png",
@@ -2048,7 +2078,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25017
+  "bytes": 25020
  },
  {
   "file": "/og/qa-gildong-chance.png",
@@ -2084,7 +2114,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25188
+  "bytes": 25189
  },
  {
   "file": "/og/qa-gumi-hobak.png",
@@ -2156,7 +2186,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 23898
+  "bytes": 23897
  },
  {
   "file": "/og/qa-gwangju-cheomdan.png",
@@ -2408,7 +2438,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24389
+  "bytes": 24386
  },
  {
   "file": "/og/qa-nowon-hobak.png",
@@ -2552,7 +2582,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24886
+  "bytes": 24885
  },
  {
   "file": "/og/qa-sangbong-hangukgwan.png",
@@ -2588,7 +2618,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25864
+  "bytes": 25866
  },
  {
   "file": "/og/qa-seongnam-shampoo.png",
@@ -2696,7 +2726,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24315
+  "bytes": 24314
  },
  {
   "file": "/og/qa-suwon-chance-dome.png",
@@ -2768,7 +2798,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24839
+  "bytes": 24840
  },
  {
   "file": "/og/qa-suyu-shampoo.png",
@@ -2804,7 +2834,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 24022
+  "bytes": 24021
  },
  {
   "file": "/og/qa-uijeongbu-baekakgwan.png",
@@ -2876,7 +2906,7 @@
   ],
   "width": 1200,
   "height": 1200,
-  "bytes": 25155
+  "bytes": 25156
  },
  {
   "file": "/og/qa-ulsan-champion.png",

@@ -5,8 +5,11 @@ const { build, ADS, BASE, ROOT } = require('./pages.js');
 const REWRITES = require('./rewrites.js');
 
 const KAKAO = '광고·제휴 입점 문의 카카오톡 besta12';
-const ALL_TELS = ['010-5653-0069', '010-7528-4936', '010-2221-1937', '010-5655-4866', '010-8156-6558'];
-const ALL_NICKS = ['춘자', '로또', '손흥민', '펩시맨', '유재석'];
+/* ★ 2026-08-24 — 예전에는 이 두 줄을 손으로 적어 뒀다. 광고주를 새로 넣을 때
+   여기를 빠뜨리면 새 번호·닉네임이 "오염"으로 지워질 수 있다.
+   이미 위에서 ADS 를 읽고 있으므로 거기서 뽑는다. 표는 한 곳(pages.js ADS)뿐이다. */
+const ALL_TELS = Object.values(ADS).map(a => a.tel);
+const ALL_NICKS = Object.values(ADS).map(a => a.nick);
 
 const log = { contam: [], homelinks: [], meta: 0, img: 0, promo: [], notApplied: [] };
 const rxq = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

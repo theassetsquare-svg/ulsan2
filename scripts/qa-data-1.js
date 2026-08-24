@@ -189,6 +189,7 @@ module.exports = [
 {
   name: '부산아시아드나이트', slug: 'busan-asiad',
   area: '경상', region: '부산 동래구 온천동', ogBg: 'black',
+  adv: { staff: '새우깡', tel: '010-3614-1056' },
   nightUrl: '/night/busan-asiad-night/',
   hook: '지하 두 층을 다 쓰는가',
   title: '부산아시아드나이트는 지하 두 층을 다 쓸까',
@@ -369,6 +370,7 @@ module.exports = [
 {
   name: '대전세븐나이트', slug: 'daejeon-seven',
   area: '충청', region: '대전 중구 유천동', ogBg: 'yellow',
+  adv: { staff: '영탁', tel: '010-7770-0869' },
   nightUrl: '/night/daejeon-seven-night/',
   hook: '유천동 어디쯤에 있는가',
   title: '대전세븐나이트, 유천동 어디쯤에 있는 걸까',

@@ -4,14 +4,15 @@ const fs = require('fs'), path = require('path');
 const sharp = require('sharp');
 const { build, ADS, AD_PAGES, BASE, ROOT } = require('./pages.js');
 
-const TEL_OWNER = {
-  '010-5653-0069': '울산챔피언나이트',
-  '010-7528-4936': '창원룰루랄라나이트',
-  '010-2221-1937': '불광동호박나이트',
-  '010-5655-4866': '청담나이트',
-  '010-8156-6558': '답십리미라클나이트',
-};
-const NICKS = { '춘자': '울산챔피언나이트', '로또': '창원룰루랄라나이트', '손흥민': '불광동호박나이트', '펩시맨': '청담나이트', '유재석': '답십리미라클나이트' };
+/* ★ 2026-08-24 — 예전에는 이 두 표를 손으로 적어 뒀다. 광고주를 새로 넣으면
+   여기에 없어 "미등록 번호"로 막혔다(창원b·울산 저장소에서 실제로 막혀 있었다).
+   이미 위에서 ADS 를 읽고 있으므로 거기서 만든다. 표는 pages.js ADS 한 곳뿐이다. */
+const TEL_OWNER = Object.fromEntries(
+  Object.entries(ADS).map(([name, a]) => [a.tel, name])
+);
+const NICKS = Object.fromEntries(
+  Object.entries(ADS).map(([name, a]) => [a.nick, name])
+);
 const META9 = [
   ['property', 'og:image'], ['property', 'og:image:secure_url'], ['property', 'og:image:width'],
   ['property', 'og:image:height'], ['property', 'og:image:type'], ['property', 'og:image:alt'],
