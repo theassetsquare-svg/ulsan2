@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { PAGES } = require('./night2-data.js');
 
-const SITE = 'https://baeyong.pages.dev';
+const SITE = 'https://b.nolcool.com';
 const TODAY = '2026-08-15';
 const TODAY_KO = '2026년 8월 15일';
 const NAVER1 = '9cfec1c56761bf02cd39fa5e2de5cb58af4b5cfc';

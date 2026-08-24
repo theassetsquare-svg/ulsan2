@@ -7,7 +7,7 @@ const { SITE, PAGES } = require('./seo-config.js');
 const ROOT = path.join(__dirname, '..');
 
 const NAVER_CODE_NEW = '008f62b10b97d3f60b8493009bb7d50e10aea521';
-const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://baeyong.pages.dev'}/rss.xml" />`;
+const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://b.nolcool.com'}/rss.xml" />`;
 
 function ensureNaverAndRss(html) {
   if (!html.includes(NAVER_CODE_NEW)) {

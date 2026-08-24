@@ -121,7 +121,7 @@ let simReport;
 {
   const bad = [];
   for (const s of NEW) {
-    const hrefs = tag(docs[s], /href="([^"]*)"/g).filter(h => /^https?:\/\//.test(h) && !h.startsWith('https://baeyong.pages.dev'));
+    const hrefs = tag(docs[s], /href="([^"]*)"/g).filter(h => /^https?:\/\//.test(h) && !h.startsWith('https://b.nolcool.com'));
     if (hrefs.length) bad.push(`${s}:${hrefs.join('|')}`);
   }
   push('G10', bad.length === 0, `외부 링크 ${bad.length}건 ${bad.join(' ')}`);

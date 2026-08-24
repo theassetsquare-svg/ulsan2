@@ -2,7 +2,7 @@
 // 라이브 사이트 직접 검증 (audit.js와 같은 로직).
 const https = require('https');
 
-const BASE = 'https://baeyong.pages.dev';
+const BASE = 'https://b.nolcool.com';
 const PATHS = [
   '/', '/blog/first-time/', '/blog/weekend/', '/blog/over40/', '/blog/couple/',
   '/blog/alone/', '/blog/summer/', '/blog/event/', '/blog/vs/', '/blog/food/', '/blog/safety/',

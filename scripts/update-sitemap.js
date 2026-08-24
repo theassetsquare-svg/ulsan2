@@ -8,18 +8,18 @@ const SITEMAP = path.join(ROOT, 'sitemap.xml');
 
 // loc URL → 실제 파일 매핑
 const URL_TO_FILE = {
-  'https://baeyong.pages.dev/': 'index.html',
-  'https://baeyong.pages.dev/blog/first-time/': 'blog/first-time/index.html',
-  'https://baeyong.pages.dev/blog/weekend/': 'blog/weekend/index.html',
-  'https://baeyong.pages.dev/blog/over40/': 'blog/over40/index.html',
-  'https://baeyong.pages.dev/blog/couple/': 'blog/couple/index.html',
-  'https://baeyong.pages.dev/blog/alone/': 'blog/alone/index.html',
-  'https://baeyong.pages.dev/blog/summer/': 'blog/summer/index.html',
-  'https://baeyong.pages.dev/blog/event/': 'blog/event/index.html',
-  'https://baeyong.pages.dev/blog/vs/': 'blog/vs/index.html',
-  'https://baeyong.pages.dev/blog/food/': 'blog/food/index.html',
-  'https://baeyong.pages.dev/blog/safety/': 'blog/safety/index.html',
-  'https://baeyong.pages.dev/bulgwang-hobak-guide/': 'bulgwang-hobak/index.html',
+  'https://b.nolcool.com/': 'index.html',
+  'https://b.nolcool.com/blog/first-time/': 'blog/first-time/index.html',
+  'https://b.nolcool.com/blog/weekend/': 'blog/weekend/index.html',
+  'https://b.nolcool.com/blog/over40/': 'blog/over40/index.html',
+  'https://b.nolcool.com/blog/couple/': 'blog/couple/index.html',
+  'https://b.nolcool.com/blog/alone/': 'blog/alone/index.html',
+  'https://b.nolcool.com/blog/summer/': 'blog/summer/index.html',
+  'https://b.nolcool.com/blog/event/': 'blog/event/index.html',
+  'https://b.nolcool.com/blog/vs/': 'blog/vs/index.html',
+  'https://b.nolcool.com/blog/food/': 'blog/food/index.html',
+  'https://b.nolcool.com/blog/safety/': 'blog/safety/index.html',
+  'https://b.nolcool.com/bulgwang-hobak-guide/': 'bulgwang-hobak/index.html',
 };
 
 function isoDate(d) {

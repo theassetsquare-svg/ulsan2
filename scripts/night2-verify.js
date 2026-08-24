@@ -1,12 +1,12 @@
 // 고정바·색인·접근성 실측 (Playwright + 시스템 Chromium)
-// 사용: node scripts/night2-verify.js <base>   base = file:///home/user/ulsan2 또는 https://baeyong.pages.dev
+// 사용: node scripts/night2-verify.js <base>   base = file:///home/user/ulsan2 또는 https://b.nolcool.com
 'use strict';
 const { chromium } = require('playwright-core');
 const fs = require('fs');
 const path = require('path');
 const { PAGES } = require('./night2-data.js');
 const EXE = '/nix/store/lpdrfl6n16q5zdf8acp4bni7yczzcx3h-idx-builtins/bin/chromium';
-const BASE = process.argv[2] || 'https://baeyong.pages.dev';
+const BASE = process.argv[2] || 'https://b.nolcool.com';
 const LIVE = BASE.startsWith('http');
 const VIEWPORTS = [
   { name: '모바일 390x844', width: 390, height: 844 },
@@ -77,7 +77,7 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
         parentIsBody: d.parentIsBody, ancestors: d.ancestors.join('|') || '없음',
         besta12: /besta12/i.test(d.barText), tel: /01[0-9]-/.test(d.barText),
         adCovered: after.adCovered, imgsNoAlt: d.imgsNoAlt, noindex: d.noindex,
-        canonicalSelf: d.canonical.replace(/\?.*/, '') === `https://baeyong.pages.dev/night/${p.slug}/`,
+        canonicalSelf: d.canonical.replace(/\?.*/, '') === `https://b.nolcool.com/night/${p.slug}/`,
         redirects, loadMs, h1: d.h1,
       });
       if (!d.scrollable) issues.push(`${p.slug}/${v.name}: 스크롤 없음`);

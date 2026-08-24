@@ -5,7 +5,7 @@ const path = require('path');
 const { VENUES } = require('./qa-data.js');
 
 const ROOT = path.join(__dirname, '..');
-const SITE = 'https://baeyong.pages.dev';
+const SITE = 'https://b.nolcool.com';
 const TODAY = '2026-08-16';
 
 const exists = p => fs.existsSync(path.join(ROOT, p));

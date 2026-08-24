@@ -1,7 +1,7 @@
 // 게이트 G9+ : 썸네일 노출 조건 6항목. 하나라도 FAIL 이면 exit 1 (배포 금지)
 'use strict';
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
-const ROOT = path.join(__dirname, '..'); const BASE = 'https://baeyong.pages.dev';
+const ROOT = path.join(__dirname, '..'); const BASE = 'https://b.nolcool.com';
 function walk(d, o = []) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { if (['node_modules','.git'].includes(e.name)||e.name.startsWith('.')) continue; const p=path.join(d,e.name); if(e.isDirectory())walk(p,o); else if(e.name==='index.html')o.push(p);} return o; }
 const g = (h,n)=>{const m=h.match(new RegExp(`<meta\\s+[^>]*(?:name|property)=["']${n}["'][^>]*content=["']([^"']*)["']`,'i'));return m?m[1]:null;};
 const cnt = (h,n)=>(h.match(new RegExp(`(?:name|property)=["']${n}["']`,'gi'))||[]).length;

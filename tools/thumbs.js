@@ -136,7 +136,7 @@ function kickerOf(p, names) {
     const f = path.join(OUT, 'home.png');
     if (fs.existsSync(f)) {
       const md = await sharp(f).metadata();
-      manifest.unshift({ file: '/og/home.png', page: 'https://baeyong.pages.dev/', store: '(홈·중립)',
+      manifest.unshift({ file: '/og/home.png', page: 'https://b.nolcool.com/', store: '(홈·중립)',
         kind: 'home', hero: '(기존 홈 썸네일 유지 — 화면 노출 없음, 검색용)', texts: [],
         width: md.width, height: md.height, bytes: fs.statSync(f).size });
     }

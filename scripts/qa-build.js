@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { VENUES } = require('./qa-data.js');
 
-const SITE = 'https://baeyong.pages.dev';
+const SITE = 'https://b.nolcool.com';
 const TODAY = '2026-08-16';
 const TODAY_KO = '2026년 8월 16일';
 const NAVER1 = '9cfec1c56761bf02cd39fa5e2de5cb58af4b5cfc';

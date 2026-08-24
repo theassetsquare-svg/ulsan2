@@ -50,4 +50,4 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-Sitemap: https://baeyong.pages.dev/sitemap.xml
+Sitemap: https://b.nolcool.com/sitemap.xml

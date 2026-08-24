@@ -2,11 +2,11 @@
 // title 25-70, description 60-165 chars. 키워드는 자연어 흐름 유지.
 
 const SITE = {
-  baseUrl: 'https://baeyong.pages.dev',
+  baseUrl: 'https://b.nolcool.com',
   siteName: '울산챔피언나이트 춘자',
   phone: '010-5653-0069',
   kakao: 'besta12',
-  ogDefault: 'https://baeyong.pages.dev/og-images/main.png',
+  ogDefault: 'https://b.nolcool.com/og-images/main.png',
   modifiedDate: '2026-05-26',
 };
 
@@ -22,7 +22,7 @@ const PAGES = {
     h1: '울산챔피언나이트', // 홈은 브랜드가 H1
     headerBrand: '울산챔피언나이트',
     headerSub: '리얼 후기 · 체험기 · 꿀팁 블로그',
-    ogImage: 'https://baeyong.pages.dev/og-images/main.png',
+    ogImage: 'https://b.nolcool.com/og-images/main.png',
     ogImageAlt: '울산챔피언나이트 춘자 — 울산 대표 나이트클럽',
     hookH2: '솔직히 말해서.<br>직접 가보고 쓴 글만 모았다.<br><em>읽고 판단은 니가 해.</em>',
     section: '메인',
@@ -323,8 +323,8 @@ const PAGES = {
   bulgwang: {
     path: 'bulgwang-hobak/index.html',
     type: 'article',
-    url: 'https://baeyong.pages.dev/bulgwang-hobak-guide/',
-    ogImage: 'https://baeyong.pages.dev/og-images/bulgwang.png',
+    url: 'https://b.nolcool.com/bulgwang-hobak-guide/',
+    ogImage: 'https://b.nolcool.com/og-images/bulgwang.png',
     phone: '010-2221-1937',
     manager: '손흥민',
     h1: '불광동호박나이트 — 은평구 불광동, 예약 전에 알아둘 것',

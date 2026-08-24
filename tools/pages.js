@@ -2,7 +2,7 @@
 'use strict';
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
-const BASE = 'https://baeyong.pages.dev';
+const BASE = 'https://b.nolcool.com';
 
 // ★ 광고주 정답표 (2026-08-20 확정) — 유일한 기준
 const ADS = {
