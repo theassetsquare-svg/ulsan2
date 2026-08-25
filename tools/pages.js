@@ -39,7 +39,7 @@ function ownName(url, h) {
   if (url === '/') return null;
   if (url === '/qa/' || url === '/night/') return null;
   if (url.startsWith('/blog/')) return '울산챔피언나이트';
-  if (url === '/bulgwang-hobak-night-1/') return '불광동호박나이트';
+  if (url === '/bulgwang-hobak-night/') return '불광동호박나이트';
   let h1 = ((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || '').replace(/<[^>]*>/g, '').trim();
   const m = h1.match(/[가-힣A-Za-z0-9]*나이트(?:클럽)?/);
   return m ? m[0] : null;

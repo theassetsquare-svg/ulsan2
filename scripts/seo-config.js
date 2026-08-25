@@ -323,7 +323,7 @@ const PAGES = {
   bulgwang: {
     path: 'bulgwang-hobak/index.html',
     type: 'article',
-    url: 'https://b.nolcool.com/bulgwang-hobak-night-1/',
+    url: 'https://b.nolcool.com/bulgwang-hobak-night/',
     ogImage: 'https://b.nolcool.com/og-images/bulgwang.png',
     phone: '010-2221-1937',
     manager: '손흥민',
