@@ -43,7 +43,7 @@
 | /yucheon-night/ | night-yucheon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /ansan-hit/ | qa-ansan-hit.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /bucheon-gorae/ | qa-bucheon-gorae.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.7KB | 0건 | 0건 |
-| /qa/bulgwang-hobak-guide/ | qa-bulgwang-hobak-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
+| /bulgwang-hobak-guide/ | qa-bulgwang-hobak-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.7KB | 0건 | 0건 |
 | /busan-asiad/ | qa-busan-asiad.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /changwon-lululala/ | qa-changwon-lululala.png | 010-7528-4936 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 31.7KB | 0건 | 0건 |
 | /cheonan-korea/ | qa-cheonan-korea.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.9KB | 0건 | 0건 |
