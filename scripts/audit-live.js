@@ -4,8 +4,8 @@ const https = require('https');
 
 const BASE = 'https://b.nolcool.com';
 const PATHS = [
-  '/', '/blog/first-time/', '/blog/weekend/', '/blog/over40/', '/blog/couple/',
-  '/blog/alone/', '/blog/summer/', '/blog/event/', '/blog/vs/', '/blog/food/', '/blog/safety/',
+  '/', '/first-time/', '/weekend/', '/over40/', '/couple/',
+  '/alone/', '/summer/', '/event/', '/vs/', '/food/', '/safety/',
 ];
 const KEYWORDS = ['울산챔피언나이트', '울산나이트', '울산 나이트', '챔피언나이트', '춘자'];
 

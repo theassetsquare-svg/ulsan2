@@ -9,16 +9,16 @@ const SITEMAP = path.join(ROOT, 'sitemap.xml');
 // loc URL → 실제 파일 매핑
 const URL_TO_FILE = {
   'https://b.nolcool.com/': 'index.html',
-  'https://b.nolcool.com/blog/first-time/': 'blog/first-time/index.html',
-  'https://b.nolcool.com/blog/weekend/': 'blog/weekend/index.html',
-  'https://b.nolcool.com/blog/over40/': 'blog/over40/index.html',
-  'https://b.nolcool.com/blog/couple/': 'blog/couple/index.html',
-  'https://b.nolcool.com/blog/alone/': 'blog/alone/index.html',
-  'https://b.nolcool.com/blog/summer/': 'blog/summer/index.html',
-  'https://b.nolcool.com/blog/event/': 'blog/event/index.html',
-  'https://b.nolcool.com/blog/vs/': 'blog/vs/index.html',
-  'https://b.nolcool.com/blog/food/': 'blog/food/index.html',
-  'https://b.nolcool.com/blog/safety/': 'blog/safety/index.html',
+  'https://b.nolcool.com/first-time/': 'blog/first-time/index.html',
+  'https://b.nolcool.com/weekend/': 'blog/weekend/index.html',
+  'https://b.nolcool.com/over40/': 'blog/over40/index.html',
+  'https://b.nolcool.com/couple/': 'blog/couple/index.html',
+  'https://b.nolcool.com/alone/': 'blog/alone/index.html',
+  'https://b.nolcool.com/summer/': 'blog/summer/index.html',
+  'https://b.nolcool.com/event/': 'blog/event/index.html',
+  'https://b.nolcool.com/vs/': 'blog/vs/index.html',
+  'https://b.nolcool.com/food/': 'blog/food/index.html',
+  'https://b.nolcool.com/safety/': 'blog/safety/index.html',
   'https://b.nolcool.com/bulgwang-hobak-guide/': 'bulgwang-hobak/index.html',
 };
 

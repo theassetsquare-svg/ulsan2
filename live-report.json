@@ -643,7 +643,7 @@
  ],
  "htmls": [
   {
-   "url": "/blog/alone/",
+   "url": "/alone/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -651,7 +651,7 @@
    "ok": true
   },
   {
-   "url": "/blog/couple/",
+   "url": "/couple/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -659,7 +659,7 @@
    "ok": true
   },
   {
-   "url": "/blog/event/",
+   "url": "/event/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -667,7 +667,7 @@
    "ok": true
   },
   {
-   "url": "/blog/first-time/",
+   "url": "/first-time/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -675,7 +675,7 @@
    "ok": true
   },
   {
-   "url": "/blog/food/",
+   "url": "/food/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -683,7 +683,7 @@
    "ok": true
   },
   {
-   "url": "/blog/over40/",
+   "url": "/over40/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -691,7 +691,7 @@
    "ok": true
   },
   {
-   "url": "/blog/safety/",
+   "url": "/safety/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -699,7 +699,7 @@
    "ok": true
   },
   {
-   "url": "/blog/summer/",
+   "url": "/summer/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -707,7 +707,7 @@
    "ok": true
   },
   {
-   "url": "/blog/vs/",
+   "url": "/vs/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -715,7 +715,7 @@
    "ok": true
   },
   {
-   "url": "/blog/weekend/",
+   "url": "/weekend/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -955,7 +955,7 @@
    "ok": true
   },
   {
-   "url": "/qa/ansan-hit/",
+   "url": "/ansan-hit/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -963,7 +963,7 @@
    "ok": true
   },
   {
-   "url": "/qa/bucheon-gorae/",
+   "url": "/bucheon-gorae/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -979,7 +979,7 @@
    "ok": true
   },
   {
-   "url": "/qa/busan-asiad/",
+   "url": "/busan-asiad/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -987,7 +987,7 @@
    "ok": true
   },
   {
-   "url": "/qa/changwon-lululala/",
+   "url": "/changwon-lululala/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -995,7 +995,7 @@
    "ok": true
   },
   {
-   "url": "/qa/cheonan-korea/",
+   "url": "/cheonan-korea/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1003,7 +1003,7 @@
    "ok": true
   },
   {
-   "url": "/qa/cheonan-stardome/",
+   "url": "/cheonan-stardome/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1011,7 +1011,7 @@
    "ok": true
   },
   {
-   "url": "/qa/cheongdam/",
+   "url": "/cheongdam/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1019,7 +1019,7 @@
    "ok": true
   },
   {
-   "url": "/qa/cheongju-hobak/",
+   "url": "/cheongju-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1027,7 +1027,7 @@
    "ok": true
   },
   {
-   "url": "/qa/daegu-hobak/",
+   "url": "/daegu-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1035,7 +1035,7 @@
    "ok": true
   },
   {
-   "url": "/qa/daejeon-one/",
+   "url": "/daejeon-one/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1043,7 +1043,7 @@
    "ok": true
   },
   {
-   "url": "/qa/daejeon-seven/",
+   "url": "/daejeon-seven/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1051,7 +1051,7 @@
    "ok": true
   },
   {
-   "url": "/qa/dapsimni-miracle/",
+   "url": "/dapsimni-miracle/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1059,7 +1059,7 @@
    "ok": true
   },
   {
-   "url": "/qa/doksan-gukbingwan/",
+   "url": "/doksan-gukbingwan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1067,7 +1067,7 @@
    "ok": true
   },
   {
-   "url": "/qa/gangseo-hobak/",
+   "url": "/gangseo-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1075,7 +1075,7 @@
    "ok": true
   },
   {
-   "url": "/qa/gildong-chance/",
+   "url": "/gildong-chance/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1083,7 +1083,7 @@
    "ok": true
   },
   {
-   "url": "/qa/gumi-hobak/",
+   "url": "/gumi-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1091,7 +1091,7 @@
    "ok": true
   },
   {
-   "url": "/qa/guri-hobak/",
+   "url": "/guri-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1099,7 +1099,7 @@
    "ok": true
   },
   {
-   "url": "/qa/gwangju-cheomdan/",
+   "url": "/gwangju-cheomdan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1107,7 +1107,7 @@
    "ok": true
   },
   {
-   "url": "/qa/gwangju-sangmu/",
+   "url": "/gwangju-sangmu/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1115,7 +1115,7 @@
    "ok": true
   },
   {
-   "url": "/qa/ilsan-shampoo/",
+   "url": "/ilsan-shampoo/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1123,7 +1123,7 @@
    "ok": true
   },
   {
-   "url": "/qa/incheon-arabian/",
+   "url": "/incheon-arabian/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1131,7 +1131,7 @@
    "ok": true
   },
   {
-   "url": "/qa/indeogwon-gukbingwan/",
+   "url": "/indeogwon-gukbingwan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1147,7 +1147,7 @@
    "ok": true
   },
   {
-   "url": "/qa/jeju-do-hall/",
+   "url": "/jeju-do-hall/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1155,7 +1155,7 @@
    "ok": true
   },
   {
-   "url": "/qa/nowon-hobak/",
+   "url": "/nowon-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1163,7 +1163,7 @@
    "ok": true
   },
   {
-   "url": "/qa/osan-hobak/",
+   "url": "/osan-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1171,7 +1171,7 @@
    "ok": true
   },
   {
-   "url": "/qa/paju-yadang-skydome/",
+   "url": "/paju-yadang-skydome/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1179,7 +1179,7 @@
    "ok": true
   },
   {
-   "url": "/qa/pyeongtaek-hobak/",
+   "url": "/pyeongtaek-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1187,7 +1187,7 @@
    "ok": true
   },
   {
-   "url": "/qa/sangbong-hangukgwan/",
+   "url": "/sangbong-hangukgwan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1195,7 +1195,7 @@
    "ok": true
   },
   {
-   "url": "/qa/seongnam-shampoo/",
+   "url": "/seongnam-shampoo/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1203,7 +1203,7 @@
    "ok": true
   },
   {
-   "url": "/qa/seosan-hobak/",
+   "url": "/seosan-hobak/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1211,7 +1211,7 @@
    "ok": true
   },
   {
-   "url": "/qa/sillim-grandprix/",
+   "url": "/sillim-grandprix/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1219,7 +1219,7 @@
    "ok": true
   },
   {
-   "url": "/qa/suwon-chance-dome/",
+   "url": "/suwon-chance-dome/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1227,7 +1227,7 @@
    "ok": true
   },
   {
-   "url": "/qa/suwon-korea/",
+   "url": "/suwon-korea/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1235,7 +1235,7 @@
    "ok": true
   },
   {
-   "url": "/qa/suyu-shampoo/",
+   "url": "/suyu-shampoo/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1243,7 +1243,7 @@
    "ok": true
   },
   {
-   "url": "/qa/uijeongbu-baekakgwan/",
+   "url": "/uijeongbu-baekakgwan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1251,7 +1251,7 @@
    "ok": true
   },
   {
-   "url": "/qa/uijeongbu-hangukgwan/",
+   "url": "/uijeongbu-hangukgwan/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1259,7 +1259,7 @@
    "ok": true
   },
   {
-   "url": "/qa/ulsan-champion/",
+   "url": "/ulsan-champion/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1267,7 +1267,7 @@
    "ok": true
   },
   {
-   "url": "/qa/ulsan-newworld/",
+   "url": "/ulsan-newworld/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1275,7 +1275,7 @@
    "ok": true
   },
   {
-   "url": "/qa/yeongdeungpo-terminal/",
+   "url": "/yeongdeungpo-terminal/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,

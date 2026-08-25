@@ -60,7 +60,7 @@ const QA = [
     `<p>주차 조건을 명시한 자료는 확인되지 않는다. 그래서 <strong>확인 불가</strong>다.</p>
 <p>삼산동 일대는 상업 시설이 밀집한 구역이라 주변 주차 여건이 시간대에 따라 크게 달라진다.</p>`],
   ['울산에 다른 나이트도 있나요?',
-    `<p>같은 삼산동에 <a href="/qa/ulsan-newworld/">울산뉴월드나이트</a>가 있다. 주소는 삼산로 375, 지번은 삼산동 220-6이다.</p>
+    `<p>같은 삼산동에 <a href="/ulsan-newworld/">울산뉴월드나이트</a>가 있다. 주소는 삼산로 375, 지번은 삼산동 220-6이다.</p>
 <p>같은 동이지만 지번과 도로명이 달라 붙어 있는 위치는 아니다. 두 업소의 관계는 확인되지 않는다.</p>`],
   ['춘자는 누구인가요?',
     `<p>예약과 문의를 받는 담당자다. 전화할 때 <strong>${STAFF}</strong>를 찾으면 안내가 이어진다.</p>
@@ -226,7 +226,7 @@ ${qaHtml}
 <div class="navrow">
   <a href="/qa/">전국 나이트 문답집 40<span>업소별 문답 7개씩, 40곳 전체</span></a>
   <a href="/night/">지역 키워드 안내<span>지역별 나이트 정리 페이지</span></a>
-  <a href="/blog/first-time/">방문 전 읽을거리<span>상황별 안내 글 모음</span></a>
+  <a href="/first-time/">방문 전 읽을거리<span>상황별 안내 글 모음</span></a>
 </div>
 <h2>업소별 문답 바로 가기</h2>
 ${pick.map(v => `<a href="/qa/${v.slug}/"><b>${esc(v.name)}</b> <span>— ${esc(v.hook)}</span></a>`).join('\n')}

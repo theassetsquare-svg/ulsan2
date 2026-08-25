@@ -26,7 +26,7 @@ function stripHomeLinks(h, rel) {
   h = h.replace(/\s*·\s*<a href="\/">[^<]*<\/a>/g, m => { hit('footer ' + m); return ''; });
   h = h.replace(/<a href="\/">([^<]*)<\/a>/g, (m, t) => { hit('inline ' + m); return t; });
   // 5) 블로그 체류 시스템의 홈 이동
-  h = h.replace(/ data-next-url="\/"/g, m => { hit('data-next-url="/"'); return ' data-next-url="/blog/first-time/"'; });
+  h = h.replace(/ data-next-url="\/"/g, m => { hit('data-next-url="/"'); return ' data-next-url="/first-time/"'; });
   return h;
 }
 
