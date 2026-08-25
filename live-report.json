@@ -963,7 +963,7 @@
    "ok": true
   },
   {
-   "url": "/bucheon-gorae/",
+   "url": "/bucheon-gorae-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -987,7 +987,7 @@
    "ok": true
   },
   {
-   "url": "/changwon-lululala/",
+   "url": "/changwon-lululala-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -995,7 +995,7 @@
    "ok": true
   },
   {
-   "url": "/cheonan-korea/",
+   "url": "/cheonan-korea-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1003,7 +1003,7 @@
    "ok": true
   },
   {
-   "url": "/cheonan-stardome/",
+   "url": "/cheonan-stardome-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1019,7 +1019,7 @@
    "ok": true
   },
   {
-   "url": "/cheongju-hobak/",
+   "url": "/cheongju-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1027,7 +1027,7 @@
    "ok": true
   },
   {
-   "url": "/daegu-hobak/",
+   "url": "/daegu-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1035,7 +1035,7 @@
    "ok": true
   },
   {
-   "url": "/daejeon-one/",
+   "url": "/daejeon-one-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1051,7 +1051,7 @@
    "ok": true
   },
   {
-   "url": "/dapsimni-miracle/",
+   "url": "/dapsimni-miracle-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1059,7 +1059,7 @@
    "ok": true
   },
   {
-   "url": "/doksan-gukbingwan/",
+   "url": "/doksan-gukbingwan-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1067,7 +1067,7 @@
    "ok": true
   },
   {
-   "url": "/gangseo-hobak/",
+   "url": "/gangseo-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1075,7 +1075,7 @@
    "ok": true
   },
   {
-   "url": "/gildong-chance/",
+   "url": "/gildong-chance-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1083,7 +1083,7 @@
    "ok": true
   },
   {
-   "url": "/gumi-hobak/",
+   "url": "/gumi-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1091,7 +1091,7 @@
    "ok": true
   },
   {
-   "url": "/guri-hobak/",
+   "url": "/guri-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1099,7 +1099,7 @@
    "ok": true
   },
   {
-   "url": "/gwangju-cheomdan/",
+   "url": "/gwangju-cheomdan-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1107,7 +1107,7 @@
    "ok": true
   },
   {
-   "url": "/gwangju-sangmu/",
+   "url": "/gwangju-sangmu-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1123,7 +1123,7 @@
    "ok": true
   },
   {
-   "url": "/incheon-arabian/",
+   "url": "/incheon-arabian-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1131,7 +1131,7 @@
    "ok": true
   },
   {
-   "url": "/indeogwon-gukbingwan/",
+   "url": "/indeogwon-gukbingwan-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1147,7 +1147,7 @@
    "ok": true
   },
   {
-   "url": "/jeju-do-hall/",
+   "url": "/jeju-night-do-hall/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1155,7 +1155,7 @@
    "ok": true
   },
   {
-   "url": "/nowon-hobak/",
+   "url": "/nowon-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1163,7 +1163,7 @@
    "ok": true
   },
   {
-   "url": "/osan-hobak/",
+   "url": "/osan-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1179,7 +1179,7 @@
    "ok": true
   },
   {
-   "url": "/pyeongtaek-hobak/",
+   "url": "/pyeongtaek-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1195,7 +1195,7 @@
    "ok": true
   },
   {
-   "url": "/seongnam-shampoo/",
+   "url": "/seongnam-shampoo-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1203,7 +1203,7 @@
    "ok": true
   },
   {
-   "url": "/seosan-hobak/",
+   "url": "/seosan-hobak-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1227,7 +1227,7 @@
    "ok": true
   },
   {
-   "url": "/suwon-korea/",
+   "url": "/suwon-korea-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1243,7 +1243,7 @@
    "ok": true
   },
   {
-   "url": "/uijeongbu-baekakgwan/",
+   "url": "/uijeongbu-baekakgwan-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1251,7 +1251,7 @@
    "ok": true
   },
   {
-   "url": "/uijeongbu-hangukgwan/",
+   "url": "/uijeongbu-hangukgwan-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1259,7 +1259,7 @@
    "ok": true
   },
   {
-   "url": "/ulsan-champion/",
+   "url": "/ulsan-champion-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1267,7 +1267,7 @@
    "ok": true
   },
   {
-   "url": "/ulsan-newworld/",
+   "url": "/ulsan-newworld-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1275,7 +1275,7 @@
    "ok": true
   },
   {
-   "url": "/yeongdeungpo-terminal/",
+   "url": "/yeongdeungpo-terminal-night/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
