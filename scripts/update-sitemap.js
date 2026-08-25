@@ -19,7 +19,7 @@ const URL_TO_FILE = {
   'https://b.nolcool.com/vs/': 'blog/vs/index.html',
   'https://b.nolcool.com/food/': 'blog/food/index.html',
   'https://b.nolcool.com/safety/': 'blog/safety/index.html',
-  'https://b.nolcool.com/bulgwang-hobak-guide/': 'bulgwang-hobak/index.html',
+  'https://b.nolcool.com/bulgwang-hobak-night-1/': 'bulgwang-hobak/index.html',
 };
 
 function isoDate(d) {

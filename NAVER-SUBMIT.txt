@@ -19,14 +19,14 @@
 울산챔피언나이트	https://b.nolcool.com/summer/
 울산챔피언나이트	https://b.nolcool.com/vs/
 울산챔피언나이트	https://b.nolcool.com/weekend/
-불광동호박나이트	https://b.nolcool.com/bulgwang-hobak-guide/
+불광동호박나이트	https://b.nolcool.com/bulgwang-hobak-night-1/
 불광동호박나이트	https://b.nolcool.com/bulgwang-hobak-night-guide/
 창원룰루랄라나이트	https://b.nolcool.com/changwon-lululala-night-guide/
 청담나이트	https://b.nolcool.com/cheongdam-night/
 울산챔피언나이트	https://b.nolcool.com/ulsan-champion-night-guide/
 불광동호박나이트	https://b.nolcool.com/qa/bulgwang-hobak-guide/
 창원룰루랄라나이트	https://b.nolcool.com/changwon-lululala-night/
-청담나이트	https://b.nolcool.com/cheongdam/
+청담나이트	https://b.nolcool.com/cheongdam-night-1/
 울산챔피언나이트	https://b.nolcool.com/ulsan-champion-night/
 
 ### 그 외 (58)
@@ -52,15 +52,15 @@
 수유샴푸나이트	https://b.nolcool.com/suyu-shampoo-night/
 울산나이트	https://b.nolcool.com/ulsan-night/
 유천동나이트	https://b.nolcool.com/yucheon-night/
-안산히트나이트	https://b.nolcool.com/ansan-hit/
+안산히트나이트	https://b.nolcool.com/ansan-hit-night-1/
 부천고래나이트	https://b.nolcool.com/bucheon-gorae-night/
-부산아시아드나이트	https://b.nolcool.com/busan-asiad/
+부산아시아드나이트	https://b.nolcool.com/busan-asiad-night-1/
 천안코리아나이트	https://b.nolcool.com/cheonan-korea-night/
 천안스타돔나이트	https://b.nolcool.com/cheonan-stardome-night/
 청주호박나이트	https://b.nolcool.com/cheongju-hobak-night/
 대구호박나이트	https://b.nolcool.com/daegu-hobak-night/
 대전원나이트	https://b.nolcool.com/daejeon-one-night/
-대전세븐나이트	https://b.nolcool.com/daejeon-seven/
+대전세븐나이트	https://b.nolcool.com/daejeon-seven-night-1/
 답십리미라클나이트	https://b.nolcool.com/dapsimni-miracle-night/
 독산동국빈관나이트	https://b.nolcool.com/doksan-gukbingwan-night/
 강서호박나이트	https://b.nolcool.com/gangseo-hobak-night/
@@ -69,7 +69,7 @@
 구리호박나이트	https://b.nolcool.com/guri-hobak-night/
 광주첨단나이트	https://b.nolcool.com/gwangju-cheomdan-night/
 광주상무나이트	https://b.nolcool.com/gwangju-sangmu-night/
-일산샴푸나이트	https://b.nolcool.com/ilsan-shampoo/
+일산샴푸나이트	https://b.nolcool.com/ilsan-shampoo-night-1/
 인천아라비안나이트	https://b.nolcool.com/incheon-arabian-night/
 인덕원국빈관나이트	https://b.nolcool.com/indeogwon-gukbingwan-night/
 제주도나이트	https://b.nolcool.com/jeju-night-do-hall/
@@ -77,13 +77,13 @@
 오산호박나이트	https://b.nolcool.com/osan-hobak-night/
 파주야당스카이돔나이트	https://b.nolcool.com/paju-yadang-skydome/
 평택호박나이트	https://b.nolcool.com/pyeongtaek-hobak-night/
-상봉동한국관나이트	https://b.nolcool.com/sangbong-hangukgwan/
+상봉동한국관나이트	https://b.nolcool.com/sangbong-hangukgwan-night-1/
 성남샴푸나이트	https://b.nolcool.com/seongnam-shampoo-night/
 서산호박나이트	https://b.nolcool.com/seosan-hobak-night/
-신림그랑프리나이트	https://b.nolcool.com/sillim-grandprix/
+신림그랑프리나이트	https://b.nolcool.com/sillim-grandprix-night-1/
 수원찬스돔나이트	https://b.nolcool.com/suwon-chance-dome/
 수원코리아나이트	https://b.nolcool.com/suwon-korea-night/
-수유샴푸나이트	https://b.nolcool.com/suyu-shampoo/
+수유샴푸나이트	https://b.nolcool.com/suyu-shampoo-night-1/
 의정부백악관나이트	https://b.nolcool.com/uijeongbu-baekakgwan-night/
 의정부한국관나이트	https://b.nolcool.com/uijeongbu-hangukgwan-night/
 울산뉴월드나이트	https://b.nolcool.com/ulsan-newworld-night/
