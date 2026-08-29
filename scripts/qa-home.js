@@ -60,13 +60,13 @@ const QA = [
     `<p>주차 조건을 명시한 자료는 확인되지 않는다. 그래서 <strong>확인 불가</strong>다.</p>
 <p>삼산동 일대는 상업 시설이 밀집한 구역이라 주변 주차 여건이 시간대에 따라 크게 달라진다.</p>`],
   ['울산에 다른 나이트도 있나요?',
-    `<p>같은 삼산동에 <a href="/ulsan-newworld-night/">울산뉴월드나이트</a>가 있다. 주소는 삼산로 375, 지번은 삼산동 220-6이다.</p>
+    `<p>같은 삼산동에 <a href="/guide/ulsan-newworld-night/">울산뉴월드나이트</a>가 있다. 주소는 삼산로 375, 지번은 삼산동 220-6이다.</p>
 <p>같은 동이지만 지번과 도로명이 달라 붙어 있는 위치는 아니다. 두 업소의 관계는 확인되지 않는다.</p>`],
   ['춘자는 누구인가요?',
     `<p>예약과 문의를 받는 담당자다. 전화할 때 <strong>${STAFF}</strong>를 찾으면 안내가 이어진다.</p>
 <p>이 사이트가 정리한 40곳 가운데 담당자 연락처가 확인되는 곳은 네 곳뿐이고, 울산챔피언나이트가 그중 하나다.</p>`],
   ['이 사이트는 무엇을 하는 곳인가요?',
-    `<p>전국 나이트를 <a href="/qa/">업소별 문답</a>으로 정리하는 사전이다. 업소 하나에 문답 예닐곱 개씩, 모두 40곳을 같은 형식으로 맞췄다.</p>
+    `<p>전국 나이트를 <a href="/area/qa/">업소별 문답</a>으로 정리하는 사전이다. 업소 하나에 문답 예닐곱 개씩, 모두 40곳을 같은 형식으로 맞췄다.</p>
 <p>주소·가까운 역·층·출입 연령을 확인된 것만 적고, 확인되지 않은 항목은 지어내지 않고 "확인 불가"로 남긴다.</p>`],
   ['"확인 불가"라는 표기는 무슨 뜻인가요?',
     `<p>그런 것이 없다는 뜻이 아니라, <strong>공개된 자료에서 확인되지 않았다</strong>는 뜻이다.</p>
@@ -185,7 +185,7 @@ ${JSON.stringify(crumbLd)}
 </header>
 
 <nav class="crumb" aria-label="현재 위치">
-  <span>홈</span> › <a href="/qa/">전국 나이트 문답집 40</a>
+  <span>홈</span> › <a href="/area/qa/">전국 나이트 문답집 40</a>
 </nav>
 
 <main id="main">
@@ -224,9 +224,9 @@ ${qaHtml}
 <aside class="related">
 <h2>사이트 안내</h2>
 <div class="navrow">
-  <a href="/qa/">전국 나이트 문답집 40<span>업소별 문답 7개씩, 40곳 전체</span></a>
+  <a href="/area/qa/">전국 나이트 문답집 40<span>업소별 문답 7개씩, 40곳 전체</span></a>
   <a href="/night/">지역 키워드 안내<span>지역별 나이트 정리 페이지</span></a>
-  <a href="/first-time/">방문 전 읽을거리<span>상황별 안내 글 모음</span></a>
+  <a href="/area/first-time/">방문 전 읽을거리<span>상황별 안내 글 모음</span></a>
 </div>
 <h2>업소별 문답 바로 가기</h2>
 ${pick.map(v => `<a href="/qa/${v.slug}/"><b>${esc(v.name)}</b> <span>— ${esc(v.hook)}</span></a>`).join('\n')}
@@ -236,7 +236,7 @@ ${pick.map(v => `<a href="/qa/${v.slug}/"><b>${esc(v.name)}</b> <span>— ${esc(
   <div class="ad-inquiry">광고·제휴 입점 문의 &nbsp;|&nbsp; 카카오톡 ID ${KAKAO}</div>
   <p class="footer-note">울산챔피언나이트 예약·문의 <strong>${STAFF} <a href="tel:${TELRAW}">${TEL}</a></strong></p>
   <p class="footer-note">본 사이트는 공개된 웹 정보를 정리한 업소 정보 페이지입니다. 확인되지 않은 항목은 "확인 불가"로 남겼으며, 출입 연령·영업 여부는 각 업소 방침과 현재 상황에 따라 달라질 수 있습니다.</p>
-  <p class="footer-note">최종 확인 <time datetime="${TODAY}">${TODAY_KO}</time> · <a href="/qa/">전국 40개 문답 목록</a> · <a href="/llms.txt">llms.txt</a></p>
+  <p class="footer-note">최종 확인 <time datetime="${TODAY}">${TODAY_KO}</time> · <a href="/area/qa/">전국 40개 문답 목록</a> · <a href="/llms.txt">llms.txt</a></p>
 </footer>
 </main>
 

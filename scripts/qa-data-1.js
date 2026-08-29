@@ -9,7 +9,7 @@ module.exports = [
 {
   name: '신림그랑프리나이트', slug: 'sillim-grandprix',
   area: '서울', region: '서울 관악구 신림동', ogBg: 'yellow',
-  nightUrl: '/sillim-grandprix-night/',
+  nightUrl: '/guide/sillim-grandprix-night/',
   hook: '신림역에서 얼마나 가까운가',
   title: '신림그랑프리나이트, 신림역에서 얼마나 가까울까',
   desc: '신림그랑프리나이트의 주소와 신림역 3번 출구 거리, 영업시간을 확인된 것만 문답 일곱 개로 끊어 적었다. 층과 출입 연령은 확인 불가로 남긴다.',
@@ -69,7 +69,7 @@ module.exports = [
 {
   name: '상봉동한국관나이트', slug: 'sangbong-hangukgwan',
   area: '서울', region: '서울 중랑구 상봉동', ogBg: 'black',
-  nightUrl: '/sangbong-hangukgwan-night/',
+  nightUrl: '/guide/sangbong-hangukgwan-night/',
   hook: '왜 지상 2층에 있는가',
   title: '상봉동한국관나이트는 왜 지상 2층에 있을까',
   desc: '상봉동한국관나이트는 지하가 아니라 지상 2층으로 등록돼 있다. 망우로 주소와 상봉역 거리, 영업시간까지 문답 일곱 개로 갈라 놓았다.',
@@ -129,7 +129,7 @@ module.exports = [
 {
   name: '수유샴푸나이트', slug: 'suyu-shampoo',
   area: '서울', region: '서울 강북구 번동', ogBg: 'yellow',
-  nightUrl: '/suyu-shampoo-night/',
+  nightUrl: '/guide/suyu-shampoo-night/',
   hook: '이름의 샴푸는 무슨 뜻인가',
   title: '수유샴푸나이트, 이름의 샴푸는 무슨 뜻일까',
   desc: '수유샴푸나이트는 수유역 4번 출구에서 도보 100m로 표기되지만 층은 끝내 확인되지 않는다. 상호에 붙은 샴푸의 뜻까지 문답으로 다뤘다.',
@@ -190,7 +190,7 @@ module.exports = [
   name: '부산아시아드나이트', slug: 'busan-asiad',
   area: '경상', region: '부산 동래구 온천동', ogBg: 'black',
   adv: { staff: '새우깡', tel: '010-3614-1056' },
-  nightUrl: '/busan-asiad-night/',
+  nightUrl: '/guide/busan-asiad-night/',
   hook: '지하 두 층을 다 쓰는가',
   title: '부산아시아드나이트는 지하 두 층을 다 쓸까',
   desc: '부산아시아드나이트는 지하 1~2층으로 등록돼 있다. 온천장역 3번 출구 거리와 연중무휴 표기까지 확인된 사실만 문답으로 묶었다.',
@@ -250,7 +250,7 @@ module.exports = [
 {
   name: '수원찬스돔나이트', slug: 'suwon-chance-dome',
   area: '경기·인천', region: '경기 수원시 권선구 권선동', ogBg: 'yellow',
-  nightUrl: '/suwon-chance-dome-night/',
+  nightUrl: '/area/suwon-chance-dome-night/',
   hook: '돔이라는 이름이 맞는가',
   title: '수원찬스돔나이트, 돔이라는 이름이 맞을까',
   desc: '수원찬스돔나이트는 권선동 주소와 18시 개점 표기가 확인되지만 역은 비어 있다. 상호의 돔이 구조를 뜻하는지까지 문답으로 확인했다.',
@@ -310,7 +310,7 @@ module.exports = [
 {
   name: '안산히트나이트', slug: 'ansan-hit',
   area: '경기·인천', region: '경기 안산시 상록구 본오동', ogBg: 'black',
-  nightUrl: '/ansan-hit-night/',
+  nightUrl: '/guide/ansan-hit-night/',
   hook: '상록수역 생활권이 맞는가',
   title: '안산히트나이트, 상록수역 생활권이 맞는 말일까',
   desc: '안산히트나이트 자료에는 상록수역 생활권이라는 표기가 붙는다. 생활권과 역세권이 같은 말인지까지 문답 일곱 개로 갈라 확인했다.',
@@ -371,7 +371,7 @@ module.exports = [
   name: '대전세븐나이트', slug: 'daejeon-seven',
   area: '충청', region: '대전 중구 유천동', ogBg: 'yellow',
   adv: { staff: '영탁', tel: '010-7770-0869' },
-  nightUrl: '/daejeon-seven-night/',
+  nightUrl: '/guide/daejeon-seven-night/',
   hook: '유천동 어디쯤에 있는가',
   title: '대전세븐나이트, 유천동 어디쯤에 있는 걸까',
   desc: '대전세븐나이트는 유천동 지번과 당디로 도로명이 함께 확인된다. 무대 교대 운영과 좌석 구분까지 문답 일곱 개로 정리해 놓았다.',
@@ -431,7 +431,7 @@ module.exports = [
 {
   name: '일산샴푸나이트', slug: 'ilsan-shampoo',
   area: '경기·인천', region: '경기 고양시 일산동구 마두동', ogBg: 'black',
-  nightUrl: '/ilsan-shampoo-night/',
+  nightUrl: '/guide/ilsan-shampoo-night/',
   hook: '세 곳이 같은 회사인가',
   title: '일산샴푸나이트, 세 곳이 같은 회사일까',
   desc: '일산샴푸나이트는 마두역 8번 출구 도보 3분으로 표기된다. 같은 상호를 쓰는 수유·성남 샴푸나이트와의 관계까지 문답으로 다뤘다.',

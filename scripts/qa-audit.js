@@ -38,7 +38,7 @@ const home = read('index.html');
   const bad = VENUES.filter(v => {
     const h = docs[v.slug];
     return !h.startsWith('<!DOCTYPE html>') || !h.includes('<html lang="ko">')
-      || !h.includes('name="viewport"') || !h.includes(`<link rel="canonical" href="https://b.nolcool.com/qa/${v.slug}/">`)
+      || !h.includes('name="viewport"') || !h.includes(`<link rel="canonical" href="https://b.nolcool.com/area/qa/${v.slug}/">`)
       || !/name="robots" content="index,follow/.test(h)
       || !h.includes('property="og:image"') || !h.includes('property="og:image:width" content="1200"');
   });

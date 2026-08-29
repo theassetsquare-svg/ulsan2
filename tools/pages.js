@@ -16,10 +16,10 @@ const ADS = {
 };
 // ★지역 키워드 페이지 → 연결된 광고주 (전화번호는 넣고, 타 가게이름은 넣지 않는다)
 const AD_PAGES = {
-  '/ulsan-night/':     '울산챔피언나이트',
-  '/changwon-night/':  '창원룰루랄라나이트',
-  '/eunpyeong-night/': '불광동호박나이트',
-  '/gangnam-night/':   '청담나이트',
+  '/area/ulsan-night/':     '울산챔피언나이트',
+  '/area/changwon-night/':  '창원룰루랄라나이트',
+  '/area/eunpyeong-night/': '불광동호박나이트',
+  '/area/gangnam-night/':   '청담나이트',
 };
 
 const CTA_NICK = '광고문의';
@@ -37,9 +37,9 @@ function walk(d, out = []) {
 // 페이지 고유 가게이름 (h1 기준, blog/bulgwang 는 고정)
 function ownName(url, h) {
   if (url === '/') return null;
-  if (url === '/qa/' || url === '/night/') return null;
+  if (url === '/area/qa/' || url === '/night/') return null;
   if (url.startsWith('/blog/')) return '울산챔피언나이트';
-  if (url === '/bulgwang-hobak-night/') return '불광동호박나이트';
+  if (url === '/guide/bulgwang-hobak-night/') return '불광동호박나이트';
   let h1 = ((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || '').replace(/<[^>]*>/g, '').trim();
   const m = h1.match(/[가-힣A-Za-z0-9]*나이트(?:클럽)?/);
   return m ? m[0] : null;
@@ -57,7 +57,7 @@ function build() {
     const ad = (store && ADS[store]) || (AD_PAGES[url] && ADS[AD_PAGES[url]]) || null;
     const title = ((h.match(/<title>([^<]*)/) || [])[1] || '').trim();
     return { file: f, rel, url, absUrl: BASE + url, slug, store, ad,
-             kind: url === '/' ? 'home' : (url === '/qa/' || url === '/night/') ? 'hub' : (ad ? 'A' : 'B'),
+             kind: url === '/' ? 'home' : (url === '/area/qa/' || url === '/night/') ? 'hub' : (ad ? 'A' : 'B'),
              title };
   });
   const names = [...new Set(pages.map(p => p.store).filter(Boolean))].sort((a, b) => b.length - a.length);

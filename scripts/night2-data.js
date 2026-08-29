@@ -8,7 +8,7 @@ const PAGES = [
   n: 1, kw: '은평나이트', kwB: '은평 나이트', kwC: '은평 나이트클럽',
   slug: 'eunpyeong-night', angle: 10, angleName: '짧은 요약형',
   region: '서울 은평구 불광동', regionShort: '은평구',
-  shop: '불광동호박나이트', shopUrl: '/bulgwang-hobak-night-guide/',
+  shop: '불광동호박나이트', shopUrl: '/guide/bulgwang-hobak-night-guide/',
   group: 'A', staff: '손흥민', tel: '010-2221-1937', telRaw: '01022211937',
   bg: '#14453c',
   title: '은평나이트 핵심만 정리 불광역 앞 지하 홀 안내',
@@ -55,7 +55,7 @@ const PAGES = [
 <p>인원이 유동적이면 최소 인원으로 먼저 잡아두고 늘리는 편이 낫다. 줄이는 것보다 늘리는 쪽이 언제나 쉽다.</p>`,
       bridge: '이제 어디로 갈지만 남았다.' },
     { h2: '은평나이트 추천 — 불광동호박나이트', body:
-      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/bulgwang-hobak-night-guide/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
+      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/guide/bulgwang-hobak-night-guide/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
 <p>등록 영업면적은 141.8평, 제곱미터로는 468㎡다. 개업은 1973년 5월로 기록돼 있다. 계단을 내려가면 입구가 한 번 더 나오는 구조다.</p>
 <p>불광동호박나이트는 은평구 생활권 손님이 많은 편이라 주중과 주말의 밀도 차가 뚜렷하다. 은평 나이트클럽을 처음 찾는다면 기준점으로 삼기 좋은 홀이다.</p>`,
       bridge: '남은 건 전화 한 통이다.' },
@@ -85,7 +85,7 @@ const PAGES = [
   n: 2, kw: '창원나이트', kwB: '창원 나이트', kwC: '창원 나이트클럽',
   slug: 'changwon-night', angle: 11, angleName: '인원별 공략형',
   region: '경남 창원시 성산구 상남동', regionShort: '창원시 성산구',
-  shop: '창원룰루랄라나이트', shopUrl: '/changwon-lululala-night-guide/',
+  shop: '창원룰루랄라나이트', shopUrl: '/guide/changwon-lululala-night-guide/',
   group: 'A', staff: '로또', tel: '010-7528-4936', telRaw: '01075284936',
   bg: '#6b1f3a', age: '만 27세 이상',
   title: '창원나이트 둘이서 가도 될까 전국 최대 상남동',
@@ -123,7 +123,7 @@ const PAGES = [
 <p>말하지 않으면 남는 자리로 배정된다. 원하는 위치가 있으면 전화할 때 한 줄로 말해두는 게 낫다. 창원 나이트 자리 배정은 이 세 가지 안에서 끝난다.</p>`,
       bridge: '이제 창원에서 어디로 가느냐가 남았다.' },
     { h2: '창원나이트 추천 — 창원룰루랄라나이트', body:
-      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/changwon-lululala-night-guide/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
+      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/guide/changwon-lululala-night-guide/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
 <p>이곳은 <strong>만 27세 이상</strong>만 출입 가능하다. 월요일부터 토요일까지 영업하고, 공휴일과 공휴일 전날도 정상 운영으로 안내된다.</p>
 <p>상남동은 술집·홀·노래방이 한 블록에 겹쳐 있어 앞뒤 일정을 붙이기 좋다. 창원룰루랄라나이트를 기준으로 동선을 짜면 이동이 거의 없다.</p>`,
       bridge: '자리를 잡아두는 일만 남았다.' },
@@ -153,7 +153,7 @@ const PAGES = [
   n: 3, kw: '울산나이트', kwB: '울산 나이트', kwC: '울산 나이트클럽',
   slug: 'ulsan-night', angle: 12, angleName: '실수 방지형',
   region: '울산 남구 삼산동', regionShort: '남구',
-  shop: '울산챔피언나이트', shopUrl: '/ulsan-champion-night-guide/',
+  shop: '울산챔피언나이트', shopUrl: '/guide/ulsan-champion-night-guide/',
   group: 'A', staff: '춘자', tel: '010-5653-0069', telRaw: '01056530069',
   bg: '#2b2f6b',
   title: '울산나이트 놓치기 쉬운 것 삼산동 밤 실수 정리',
@@ -191,7 +191,7 @@ const PAGES = [
 <p>차를 가져갈지도 이때 정한다. 술을 마실 계획이면 두고 오는 편이 낫다. 삼산동은 늦게까지 여는 식당이 많아 앞뒤로 붙이기도 쉽다. 울산 나이트 준비는 이 순서면 충분하다.</p>`,
       bridge: '그럼 울산 안에서 어디로 갈까.' },
     { h2: '울산나이트 추천 — 울산챔피언나이트', body:
-      `<p>삼산동 한복판에 있는 곳이 <strong><a href="/ulsan-champion-night-guide/">울산챔피언나이트</a></strong>다. 주소는 남구 삼산동 1559-17, 도로명으로는 정동로 75다.</p>
+      `<p>삼산동 한복판에 있는 곳이 <strong><a href="/guide/ulsan-champion-night-guide/">울산챔피언나이트</a></strong>다. 주소는 남구 삼산동 1559-17, 도로명으로는 정동로 75다.</p>
 <p>등록 영업면적은 784.5평, 2,588.97㎡다. 개업은 2003년 12월로 기록돼 있다. 홀이 넓으면 밀도가 천천히 오르고 천천히 내린다.</p>
 <p>울산챔피언나이트는 단체 문의가 많은 편이라 자리를 붙이는 조율에 익숙한 곳이다. 울산 나이트클럽을 고를 때 규모를 먼저 보는 사람에게 맞는다.</p>`,
       bridge: '마지막은 연락처다.' },
@@ -221,7 +221,7 @@ const PAGES = [
   n: 4, kw: '강남나이트', kwB: '강남 나이트', kwC: '강남 나이트클럽',
   slug: 'gangnam-night', angle: 13, angleName: '단골 관점형',
   region: '서울 강남구 청담동', regionShort: '강남구',
-  shop: '청담나이트', shopUrl: '/cheongdam-night/',
+  shop: '청담나이트', shopUrl: '/guide/cheongdam-night/',
   group: 'A', staff: '펩시맨', tel: '010-5655-4866', telRaw: '01056554866',
   bg: '#4d2560',
   title: '강남나이트 익숙해지면 보이는 것 청담 홀 기준',
@@ -259,7 +259,7 @@ const PAGES = [
 <p>같은 사람을 계속 찾는 이유도 여기 있다. 두 번째부터는 설명이 필요 없어진다.</p>`,
       bridge: '그럼 강남에서 어느 홀이 기준이 될까.' },
     { h2: '강남나이트 추천 — 청담나이트', body:
-      `<p>청담동 영동대로 737 지하에 자리한 곳이 <strong><a href="/cheongdam-night/">청담나이트</a></strong>다. 청담역에서 걸어서 접근하는 위치다.</p>
+      `<p>청담동 영동대로 737 지하에 자리한 곳이 <strong><a href="/guide/cheongdam-night/">청담나이트</a></strong>다. 청담역에서 걸어서 접근하는 위치다.</p>
 <p>영업시간은 매일 저녁 여덟 시부터 다음 날 새벽 다섯 시까지로 안내된다. 좌석은 테이블과 부스, 룸으로 나뉜다.</p>
 <p>청담나이트는 강남 나이트클럽 중에서도 손님 연령대가 한 단계 높은 쪽으로 알려져 있다. 조용한 자리를 원하는 팀이 룸을 먼저 찾는 이유다.</p>`,
       bridge: '연락처는 아래 한 줄이다.' },
@@ -289,7 +289,7 @@ const PAGES = [
   n: 5, kw: '대전나이트', kwB: '대전 나이트', kwC: '대전 나이트클럽',
   slug: 'daejeon-night', angle: 1, angleName: '정면 소개형',
   region: '대전 중구', regionShort: '중구',
-  shop: '대전원나이트', shopUrl: '/daejeon-one-night-guide/',
+  shop: '대전원나이트', shopUrl: '/guide/daejeon-one-night-guide/',
   group: 'B', bg: '#7a4a10', age: '만 38세 이상',
   title: '대전나이트 규모가 말해주는 것 중앙로와 유천동',
   desc: '대전나이트가 왜 신도심이 아니라 원도심에 남았는지, 좌석과 시간대·부킹 구조까지 정리했다. 중앙로 골목 홀을 기준으로 본다.',
@@ -326,7 +326,7 @@ const PAGES = [
 <p>원하는 방향이 있으면 처음에 말해두는 편이 낫다. 조용히 있고 싶다는 말도 요청에 들어간다. 대전 나이트 부킹은 이 한마디에서 시작된다.</p>`,
       bridge: '그럼 대전에서 어느 홀을 기준으로 볼까.' },
     { h2: '대전나이트 추천 — 대전원나이트', body:
-      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/daejeon-one-night-guide/">대전원나이트</a></strong>다.</p>
+      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/guide/daejeon-one-night-guide/">대전원나이트</a></strong>다.</p>
 <p>이곳은 <strong>만 38세 이상</strong>만 출입 가능하다. 영업시간은 일요일부터 목요일까지 저녁 여덟 시에서 새벽 두 시 반, 금요일과 토요일은 새벽 세 시 반까지로 안내된다.</p>
 <p>홀 규모가 크지 않아 사람 사이 거리가 가깝다. 대전 나이트클럽 중에서 또래끼리 모이는 성격이 뚜렷한 편이다.</p>`,
       bridge: '문의 창구는 아래에 정리했다.' },
@@ -356,7 +356,7 @@ const PAGES = [
   n: 6, kw: '신림나이트', kwB: '신림 나이트', kwC: '신림 나이트클럽',
   slug: 'sillim-night', angle: 2, angleName: '질문 던지기형',
   region: '서울 관악구 신림동', regionShort: '관악구',
-  shop: '신림그랑프리나이트', shopUrl: '/sillim-grandprix-night/',
+  shop: '신림그랑프리나이트', shopUrl: '/guide/sillim-grandprix-night/',
   group: 'B', bg: '#1c5257',
   title: '신림나이트 자리 잡기 쉬울까 신림역 앞 홀 기준',
   desc: '신림나이트에 자리가 남아 있는지, 왜 그런지를 층 구조와 좌석 종류로 풀었다. 신림로 340 홀을 기준으로 시간대까지 정리했다.',
@@ -393,7 +393,7 @@ const PAGES = [
 <p>마감 시각은 주말이 더 늦다. 늦게 도착해도 놀 시간 자체는 확보되지만, 자리는 이미 정해진 뒤다. 신림 나이트 자리는 결국 도착 시각이 정한다.</p>`,
       bridge: '기준으로 볼 만한 홀을 하나 짚는다.' },
     { h2: '신림나이트 추천 — 신림그랑프리나이트', body:
-      `<p>신림역 인근 신림로 340에 있는 곳이 <strong><a href="/sillim-grandprix-night/">신림그랑프리나이트</a></strong>다. 지번으로는 신림동 1422-5다.</p>
+      `<p>신림역 인근 신림로 340에 있는 곳이 <strong><a href="/guide/sillim-grandprix-night/">신림그랑프리나이트</a></strong>다. 지번으로는 신림동 1422-5다.</p>
 <p>영업은 저녁에 시작해 평일과 주말 마감이 다르게 안내된다. 주말은 새벽 여섯 시까지 여는 것으로 알려져 있다.</p>
 <p>신림그랑프리나이트는 부스와 룸에서 부킹이 자주 돌고 테이블은 비교적 여유가 있는 구조다. 신림 나이트클럽을 처음 가는 팀은 이 차이만 알아도 충분하다.</p>`,
       bridge: '문의 창구는 아래와 같다.' },
@@ -423,7 +423,7 @@ const PAGES = [
   n: 7, kw: '상봉동나이트', kwB: '상봉동 나이트', kwC: '상봉동 나이트클럽',
   slug: 'sangbong-night', angle: 3, angleName: '장면 묘사형',
   region: '서울 중랑구 상봉동', regionShort: '중랑구',
-  shop: '상봉동한국관나이트', shopUrl: '/sangbong-hangukgwan-night/',
+  shop: '상봉동한국관나이트', shopUrl: '/guide/sangbong-hangukgwan-night/',
   group: 'B', bg: '#5c2a12',
   title: '상봉동나이트 새벽으로 넘어갈 때 망우로 2층 홀',
   desc: '상봉동나이트의 새벽 두 시 풍경을 거리·홀·무대·사람 순으로 적었다. 망우로 2층 홀에서 음악과 조명이 바뀌는 지점까지 담았다.',
@@ -460,7 +460,7 @@ const PAGES = [
 <p>상봉역 인근은 여러 노선이 겹쳐 다른 동네에서 넘어오는 사람도 섞인다. 그래서 새벽에도 얼굴이 계속 바뀐다. 상봉동 나이트 새벽 손님이 계속 바뀌는 이유다.</p>`,
       bridge: '이 흐름을 그대로 보여주는 홀이 있다.' },
     { h2: '상봉동나이트 추천 — 상봉동한국관나이트', body:
-      `<p>망우로 326 건물 2층에 있는 곳이 <strong><a href="/sangbong-hangukgwan-night/">상봉동한국관나이트</a></strong>다. 지번으로는 상봉동 91-1이다.</p>
+      `<p>망우로 326 건물 2층에 있는 곳이 <strong><a href="/guide/sangbong-hangukgwan-night/">상봉동한국관나이트</a></strong>다. 지번으로는 상봉동 91-1이다.</p>
 <p>영업시간은 저녁 일곱 시부터 새벽 여섯 시까지로 안내된다. 금요일과 토요일은 2부제로 나뉘어, 1부는 열 시부터 두 시, 2부는 두 시부터 여섯 시다.</p>
 <p>상봉동한국관나이트는 테이블·부스·룸이 모두 있고 건물 뒤편 주차 공간이 함께 안내된다. 상봉동 나이트클럽에서 2부까지 남는 팀이 많은 이유가 이 구조다.</p>`,
       bridge: '문의 창구를 정리한다.' },
@@ -490,7 +490,7 @@ const PAGES = [
   n: 8, kw: '수유나이트', kwB: '수유 나이트', kwC: '수유 나이트클럽',
   slug: 'suyu-night', angle: 4, angleName: '처음 가는 사람 시점',
   region: '서울 강북구 수유', regionShort: '강북구',
-  shop: '수유샴푸나이트', shopUrl: '/suyu-shampoo-night/',
+  shop: '수유샴푸나이트', shopUrl: '/guide/suyu-shampoo-night/',
   group: 'B', bg: '#3f4a12',
   title: '수유나이트 입문자 체크 수유역 4번 출구 기준',
   desc: '수유나이트가 처음이면 뭘 먼저 해야 하는지 입장 순서대로 적었다. 자리 고르는 법과 부킹 흐름까지 수유역 4번 출구 기준으로 정리했다.',
@@ -527,7 +527,7 @@ const PAGES = [
 <p>조용히 있고 싶다는 요청도 똑같이 유효하다. 부담스러우면 그 말을 먼저 하는 편이 낫다. 수유 나이트 부킹도 이 방식으로 돈다.</p>`,
       bridge: '이 구조를 그대로 볼 수 있는 곳이 있다.' },
     { h2: '수유나이트 추천 — 수유샴푸나이트', body:
-      `<p>수유역 4번 출구에서 백 미터 안쪽에 있는 곳이 <strong><a href="/suyu-shampoo-night/">수유샴푸나이트</a></strong>다. 주소는 강북구 번1동 449-1이다.</p>
+      `<p>수유역 4번 출구에서 백 미터 안쪽에 있는 곳이 <strong><a href="/guide/suyu-shampoo-night/">수유샴푸나이트</a></strong>다. 주소는 강북구 번1동 449-1이다.</p>
 <p>건물 안에서 층을 이동하는 구조라 입구를 지나면 바로 홀이 나오지 않는다. 처음 가면 이 부분에서 한 번 헷갈린다.</p>
 <p>좌석은 테이블과 부스, 룸으로 나뉜다. 수유샴푸나이트는 금요일과 토요일에 부스가 자정 전후로 차는 편이라, 수유 나이트클럽이 처음이면 그 전에 도착하는 게 편하다.</p>`,
       bridge: '문의는 아래로 하면 된다.' },
@@ -557,7 +557,7 @@ const PAGES = [
   n: 9, kw: '부산나이트', kwB: '부산 나이트', kwC: '부산 나이트클럽',
   slug: 'busan-night', angle: 5, angleName: '이유 나열형',
   region: '부산 동래구 온천장', regionShort: '동래구',
-  shop: '부산아시아드나이트', shopUrl: '/busan-asiad-night/',
+  shop: '부산아시아드나이트', shopUrl: '/guide/busan-asiad-night/',
   group: 'B', bg: '#7a1f52',
   title: '부산나이트 추천받는 이유 동래 온천장 24시간 홀',
   desc: '부산나이트가 자주 추천되는 이유를 권역·시간·좌석·손님층 네 가지로 나눠 적었다. 동래구 온천장 지하 두 개 층 홀까지 함께 본다.',
@@ -594,7 +594,7 @@ const PAGES = [
 <p>일반적으로 복장 제약도 느슨한 편이다. 처음 가는 팀이 부담을 덜 느끼는 구조다. 부산 나이트 손님층이 넓다는 말이 여기서 나온다.</p>`,
       bridge: '네 가지를 한 곳에서 확인할 수 있다.' },
     { h2: '부산나이트 추천 — 부산아시아드나이트', body:
-      `<p>동래구 온천장로107번길 32에 있는 곳이 <strong><a href="/busan-asiad-night/">부산아시아드나이트</a></strong>다. 지하 1층부터 2층까지 두 개 층을 쓴다.</p>
+      `<p>동래구 온천장로107번길 32에 있는 곳이 <strong><a href="/guide/busan-asiad-night/">부산아시아드나이트</a></strong>다. 지하 1층부터 2층까지 두 개 층을 쓴다.</p>
 <p>24시간 연중무휴로 운영되는 것으로 안내된다. 금요일과 토요일 밤에는 라이브 밴드가 무대에 선다.</p>
 <p>온천장역에서 걸어서 오 분 거리이고, 건물 자체 주차 공간은 좁아 인근 공영주차장이 함께 안내된다. 부산 나이트클럽 중에서 시간에 쫓기지 않는 쪽을 찾는다면 여기가 기준이 된다.</p>`,
       bridge: '문의는 아래로 정리했다.' },
@@ -624,7 +624,7 @@ const PAGES = [
   n: 10, kw: '수원나이트', kwB: '수원 나이트', kwC: '수원 나이트클럽',
   slug: 'suwon-night', angle: 6, angleName: '오해 깨기형',
   region: '경기 수원시 권선구', regionShort: '수원시',
-  shop: '수원찬스돔나이트', shopUrl: '/suwon-chance-dome-night/',
+  shop: '수원찬스돔나이트', shopUrl: '/area/suwon-chance-dome-night/',
   group: 'B', bg: '#2a3f6b',
   title: '수원나이트 흔한 오해 정리 권선동 대형 홀 기준',
   desc: '수원나이트를 두고 도는 오해 네 가지를 하나씩 뒤집었다. 복장과 준비물, 좌석과 시간대까지 권선동 대형 홀 기준으로 정리했다.',
@@ -661,7 +661,7 @@ const PAGES = [
 <p>일반적으로 열 시 이전 연락, 열한 시 전 도착이 가장 무난하다. 좋은 자리와 좋은 시간대를 같이 가지는 방법이다. 수원 나이트 도착 시각을 앞당기라는 말이 여기서 나온다.</p>`,
       bridge: '기준이 될 만한 홀을 하나 본다.' },
     { h2: '수원나이트 추천 — 수원찬스돔나이트', body:
-      `<p>권선구 권선로 673에 있는 곳이 <strong><a href="/suwon-chance-dome-night/">수원찬스돔나이트</a></strong>다. 지번으로는 권선동 1019-9다.</p>
+      `<p>권선구 권선로 673에 있는 곳이 <strong><a href="/area/suwon-chance-dome-night/">수원찬스돔나이트</a></strong>다. 지번으로는 권선동 1019-9다.</p>
 <p>저녁 여섯 시에 열어 새벽 네 시에 닫는 것으로 안내된다. 룸이 150여 개 규모로 안내될 만큼 방 수가 많은 편이다.</p>
 <p>수원찬스돔나이트는 이십 대부터 사십 대까지 손님층이 넓다고 알려져 있다. 수원 나이트클럽 중에서 룸을 기준으로 고르는 팀이 자주 찾는 곳이다.</p>`,
       bridge: '문의 창구를 정리한다.' },
@@ -691,7 +691,7 @@ const PAGES = [
   n: 11, kw: '안산나이트', kwB: '안산 나이트', kwC: '안산 나이트클럽',
   slug: 'ansan-night', angle: 7, angleName: '문답형',
   region: '경기 안산시 상록구', regionShort: '안산시',
-  shop: '안산히트나이트', shopUrl: '/ansan-hit-night/',
+  shop: '안산히트나이트', shopUrl: '/guide/ansan-hit-night/',
   group: 'B', bg: '#124a2f',
   title: '안산나이트 답변 모음 상록수역 본오동 홀 안내',
   desc: '안산나이트로 자주 들어오는 질문 열네 개를 시각·좌석·인원·부킹 순으로 묶어 답했다. 상록구 본오동 홀 기준으로 확인된 것만 적었다.',
@@ -757,7 +757,7 @@ const PAGES = [
 <p>상록수역 생활권이라 이동 자체는 어렵지 않은 편이다.</p>`,
       bridge: '마지막으로 어디로 갈지 정리한다.' },
     { h2: '안산나이트 추천 업소는 어디인가요?', body:
-      `<p>상록구 상록수로 34에 있는 <strong><a href="/ansan-hit-night/">안산히트나이트</a></strong>다. 지번으로는 본오동 874, 상록수아카데미타워 지층이다.</p>
+      `<p>상록구 상록수로 34에 있는 <strong><a href="/guide/ansan-hit-night/">안산히트나이트</a></strong>다. 지번으로는 본오동 874, 상록수아카데미타워 지층이다.</p>
 <p>등록 영업면적은 444.6평, 1,467.10㎡다. 개업은 2001년 10월로 기록돼 있다. 안산히트나이트는 홀이 넓어 인원이 많은 날에도 밀도가 고르게 오른다.</p>`,
       bridge: '문의 창구는 아래와 같다.' },
     { h2: '문의와 광고는 어디로 하나요?', body:
@@ -785,7 +785,7 @@ const PAGES = [
   n: 12, kw: '유천동나이트', kwB: '유천동 나이트', kwC: '유천동 나이트클럽',
   slug: 'yucheon-night', angle: 8, angleName: '시간 흐름형',
   region: '대전 중구 유천동', regionShort: '중구 유천동',
-  shop: '대전세븐나이트', shopUrl: '/daejeon-seven-night/',
+  shop: '대전세븐나이트', shopUrl: '/guide/daejeon-seven-night/',
   group: 'A', staff: '영탁', tel: '010-7770-0869', telRaw: '01077700869', bg: '#5c1f6b',
   title: '유천동나이트 단계별 안내 당디로 골목 안쪽 홀',
   desc: '유천동나이트를 저녁 아홉 시부터 새벽까지 시각 순서로 끊어 적었다. 밀도가 오르는 구간과 밴드·디제이 교대 지점까지 담았다.',
@@ -822,7 +822,7 @@ const PAGES = [
 <p>남아 있는 팀은 이 무렵 자리를 좁힌다. 인원이 줄면 큰 테이블을 유지할 이유가 없어서다. 유천동 나이트 새벽 풍경이 이렇게 정리된다.</p>`,
       bridge: '이 흐름을 그대로 가진 홀이 있다.' },
     { h2: '유천동나이트 추천 — 대전세븐나이트', body:
-      `<p>당디로 112, 지번으로는 유천동 332-28에 있는 곳이 <strong><a href="/daejeon-seven-night/">대전세븐나이트</a></strong>다.</p>
+      `<p>당디로 112, 지번으로는 유천동 332-28에 있는 곳이 <strong><a href="/guide/daejeon-seven-night/">대전세븐나이트</a></strong>다.</p>
 <p>골목 안쪽에 있어 큰길에서 차로 접근하기 편하다. 메인 홀 외에 별실이 함께 있는 구조로 안내된다.</p>
 <p>대전세븐나이트는 라이브 밴드와 디제이가 번갈아 무대를 쓴다. 금요일과 토요일은 입장 대기가 생길 수 있어, 유천동 나이트클럽을 이 요일에 찾는다면 일찍 도착하는 편이 낫다.</p>`,
       bridge: '문의 창구는 아래와 같다.' },
@@ -852,7 +852,7 @@ const PAGES = [
   n: 13, kw: '일산나이트', kwB: '일산 나이트', kwC: '일산 나이트클럽',
   slug: 'ilsan-night', angle: 9, angleName: '비교 설명형',
   region: '경기 고양시 일산동구', regionShort: '고양시',
-  shop: '일산샴푸나이트', shopUrl: '/ilsan-shampoo-night/',
+  shop: '일산샴푸나이트', shopUrl: '/guide/ilsan-shampoo-night/',
   group: 'B', bg: '#6b4a12',
   title: '일산나이트 구분되는 지점 마두역 앞 홀 구조 차이',
   desc: '일산나이트가 서울 도심 홀과 어디서 갈리는지 구조·규모·좌석·손님층으로 나눠 적었다. 마두역 앞 상층부 홀을 기준으로 본다.',
@@ -889,7 +889,7 @@ const PAGES = [
 <p>일반적으로 이런 홀은 복장 제약이 느슨하다. 처음 오는 팀이 부담을 덜 느끼는 구조다. 일산 나이트 부담이 적다는 평도 여기서 나온다.</p>`,
       bridge: '네 가지를 한 곳에서 확인할 수 있다.' },
     { h2: '일산나이트 추천 — 일산샴푸나이트', body:
-      `<p>고양시 일산동구 마두동 805-1, 중앙로 1160에 있는 곳이 <strong><a href="/ilsan-shampoo-night/">일산샴푸나이트</a></strong>다.</p>
+      `<p>고양시 일산동구 마두동 805-1, 중앙로 1160에 있는 곳이 <strong><a href="/guide/ilsan-shampoo-night/">일산샴푸나이트</a></strong>다.</p>
 <p>마두역 8번 출구에서 걸어서 삼 분 거리다. 건물 상층부를 쓰는 구조라 올라가서 홀에 들어간다.</p>
 <p>좌석은 룸 50~70여 개, 부스 20~30여 개, 테이블 80여 개 규모로 안내된다. 일산샴푸나이트는 손님 연령대가 넓어 일산 나이트클럽 중에서도 팀 구성 제약이 적은 편이다.</p>`,
       bridge: '문의 창구를 정리한다.' },

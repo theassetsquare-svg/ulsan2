@@ -2,7 +2,7 @@
  "fail": [],
  "rows": [
   {
-   "page": "/alone/",
+   "page": "/area/alone/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -16,7 +16,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/couple/",
+   "page": "/area/couple/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -44,7 +44,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/first-time/",
+   "page": "/area/first-time/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -58,7 +58,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/food/",
+   "page": "/area/food/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -72,7 +72,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/over40/",
+   "page": "/area/over40/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -86,7 +86,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/safety/",
+   "page": "/area/safety/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -100,7 +100,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/summer/",
+   "page": "/area/summer/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -114,7 +114,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/vs/",
+   "page": "/area/vs/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -128,7 +128,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/weekend/",
+   "page": "/area/weekend/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -142,7 +142,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/bulgwang-hobak-night/",
+   "page": "/guide/bulgwang-hobak-night/",
    "store": "불광동호박나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -170,7 +170,7 @@
    "hero": "-"
   },
   {
-   "page": "/ansan-hit-night/",
+   "page": "/guide/ansan-hit-night/",
    "store": "안산히트나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -184,7 +184,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ansan-night/",
+   "page": "/area/ansan-night/",
    "store": "안산나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -198,7 +198,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/bulgwang-hobak-night-guide/",
+   "page": "/guide/bulgwang-hobak-night-guide/",
    "store": "불광동호박나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -212,7 +212,7 @@
    "hero": "010-2221-1937 1004.4x212"
   },
   {
-   "page": "/busan-asiad-night/",
+   "page": "/guide/busan-asiad-night/",
    "store": "부산아시아드나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -226,7 +226,7 @@
    "hero": "010-3614-1056 1004.4x212"
   },
   {
-   "page": "/busan-night/",
+   "page": "/area/busan-night/",
    "store": "부산나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -240,7 +240,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/changwon-lululala-night-guide/",
+   "page": "/guide/changwon-lululala-night-guide/",
    "store": "창원룰루랄라나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -254,7 +254,7 @@
    "hero": "010-7528-4936 1004.4x212"
   },
   {
-   "page": "/changwon-night/",
+   "page": "/area/changwon-night/",
    "store": "창원나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -268,7 +268,7 @@
    "hero": "010-7528-4936 1004.4x212"
   },
   {
-   "page": "/cheongdam-night/",
+   "page": "/guide/cheongdam-night/",
    "store": "청담나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -282,7 +282,7 @@
    "hero": "010-5655-4866 1004.4x212"
   },
   {
-   "page": "/daejeon-night/",
+   "page": "/area/daejeon-night/",
    "store": "대전나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -296,7 +296,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/daejeon-one-night-guide/",
+   "page": "/guide/daejeon-one-night-guide/",
    "store": "대전원나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -310,7 +310,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/daejeon-seven-night/",
+   "page": "/guide/daejeon-seven-night/",
    "store": "대전세븐나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -324,7 +324,7 @@
    "hero": "010-7770-0869 1004.4x212"
   },
   {
-   "page": "/eunpyeong-night/",
+   "page": "/area/eunpyeong-night/",
    "store": "은평나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -338,7 +338,7 @@
    "hero": "010-2221-1937 1004.4x212"
   },
   {
-   "page": "/gangnam-night/",
+   "page": "/area/gangnam-night/",
    "store": "강남나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -352,7 +352,7 @@
    "hero": "010-5655-4866 1004.4x212"
   },
   {
-   "page": "/ilsan-night/",
+   "page": "/area/ilsan-night/",
    "store": "일산나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -366,7 +366,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ilsan-shampoo-night/",
+   "page": "/guide/ilsan-shampoo-night/",
    "store": "일산샴푸나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -394,7 +394,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sangbong-hangukgwan-night/",
+   "page": "/guide/sangbong-hangukgwan-night/",
    "store": "상봉동한국관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -408,7 +408,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sangbong-night/",
+   "page": "/area/sangbong-night/",
    "store": "상봉동나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -422,7 +422,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sillim-grandprix-night/",
+   "page": "/guide/sillim-grandprix-night/",
    "store": "신림그랑프리나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -436,7 +436,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sillim-night/",
+   "page": "/area/sillim-night/",
    "store": "신림나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -450,7 +450,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suwon-chance-dome-night/",
+   "page": "/area/suwon-chance-dome-night/",
    "store": "수원찬스돔나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -464,7 +464,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suwon-night/",
+   "page": "/area/suwon-night/",
    "store": "수원나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -478,7 +478,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suyu-night/",
+   "page": "/area/suyu-night/",
    "store": "수유나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -492,7 +492,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suyu-shampoo-night/",
+   "page": "/guide/suyu-shampoo-night/",
    "store": "수유샴푸나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -506,7 +506,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ulsan-champion-night-guide/",
+   "page": "/guide/ulsan-champion-night-guide/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -520,7 +520,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/ulsan-night/",
+   "page": "/area/ulsan-night/",
    "store": "울산나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -534,7 +534,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/yucheon-night/",
+   "page": "/area/yucheon-night/",
    "store": "유천동나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -548,7 +548,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ansan-hit-night-1/",
+   "page": "/guide/ansan-hit-night-1/",
    "store": "안산히트나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -562,7 +562,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/bucheon-gorae-night/",
+   "page": "/guide/bucheon-gorae-night/",
    "store": "부천고래나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -576,7 +576,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/bulgwang-hobak-night-1/",
+   "page": "/guide/bulgwang-hobak-night-1/",
    "store": "불광동호박나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -590,7 +590,7 @@
    "hero": "010-2221-1937 1004.4x212"
   },
   {
-   "page": "/busan-asiad-night-1/",
+   "page": "/guide/busan-asiad-night-1/",
    "store": "부산아시아드나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -604,7 +604,7 @@
    "hero": "010-3614-1056 1004.4x212"
   },
   {
-   "page": "/changwon-lululala-night/",
+   "page": "/guide/changwon-lululala-night/",
    "store": "창원룰루랄라나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -618,7 +618,7 @@
    "hero": "010-7528-4936 1004.4x212"
   },
   {
-   "page": "/cheonan-korea-night/",
+   "page": "/guide/cheonan-korea-night/",
    "store": "천안코리아나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -632,7 +632,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/cheonan-stardome-night/",
+   "page": "/guide/cheonan-stardome-night/",
    "store": "천안스타돔나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -646,7 +646,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/cheongdam-night-1/",
+   "page": "/guide/cheongdam-night-1/",
    "store": "청담나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -660,7 +660,7 @@
    "hero": "010-5655-4866 1004.4x212"
   },
   {
-   "page": "/cheongju-hobak-night/",
+   "page": "/guide/cheongju-hobak-night/",
    "store": "청주호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -674,7 +674,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/daegu-hobak-night/",
+   "page": "/guide/daegu-hobak-night/",
    "store": "대구호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -688,7 +688,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/daejeon-one-night/",
+   "page": "/guide/daejeon-one-night/",
    "store": "대전원나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -702,7 +702,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/daejeon-seven-night-1/",
+   "page": "/guide/daejeon-seven-night-1/",
    "store": "대전세븐나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -716,7 +716,7 @@
    "hero": "010-7770-0869 1004.4x212"
   },
   {
-   "page": "/dapsimni-miracle-night/",
+   "page": "/guide/dapsimni-miracle-night/",
    "store": "답십리미라클나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -730,7 +730,7 @@
    "hero": "010-8156-6558 1004.4x212"
   },
   {
-   "page": "/doksan-gukbingwan-night/",
+   "page": "/guide/doksan-gukbingwan-night/",
    "store": "독산동국빈관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -744,7 +744,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/gangseo-hobak-night/",
+   "page": "/guide/gangseo-hobak-night/",
    "store": "강서호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -758,7 +758,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/gildong-chance-night/",
+   "page": "/guide/gildong-chance-night/",
    "store": "길동찬스나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -772,7 +772,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/gumi-hobak-night/",
+   "page": "/guide/gumi-hobak-night/",
    "store": "구미호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -786,7 +786,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/guri-hobak-night/",
+   "page": "/guide/guri-hobak-night/",
    "store": "구리호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -800,7 +800,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/gwangju-cheomdan-night/",
+   "page": "/guide/gwangju-cheomdan-night/",
    "store": "광주첨단나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -814,7 +814,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/gwangju-sangmu-night/",
+   "page": "/guide/gwangju-sangmu-night/",
    "store": "광주상무나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -828,7 +828,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ilsan-shampoo-night-1/",
+   "page": "/guide/ilsan-shampoo-night-1/",
    "store": "일산샴푸나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -842,7 +842,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/incheon-arabian-night/",
+   "page": "/guide/incheon-arabian-night/",
    "store": "인천아라비안나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -856,7 +856,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/indeogwon-gukbingwan-night/",
+   "page": "/guide/indeogwon-gukbingwan-night/",
    "store": "인덕원국빈관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -870,7 +870,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/qa/",
+   "page": "/area/qa/",
    "store": "(중립)",
    "kind": "hub",
    "meta9": "PASS",
@@ -884,7 +884,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/jeju-night-do-hall/",
+   "page": "/guide/jeju-night-do-hall/",
    "store": "제주도나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -898,7 +898,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/nowon-hobak-night/",
+   "page": "/guide/nowon-hobak-night/",
    "store": "노원호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -912,7 +912,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/osan-hobak-night/",
+   "page": "/guide/osan-hobak-night/",
    "store": "오산호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -926,7 +926,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/paju-yadang-skydome/",
+   "page": "/area/paju-yadang-skydome/",
    "store": "파주야당스카이돔나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -940,7 +940,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/pyeongtaek-hobak-night/",
+   "page": "/guide/pyeongtaek-hobak-night/",
    "store": "평택호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -954,7 +954,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sangbong-hangukgwan-night-1/",
+   "page": "/guide/sangbong-hangukgwan-night-1/",
    "store": "상봉동한국관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -968,7 +968,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/seongnam-shampoo-night/",
+   "page": "/guide/seongnam-shampoo-night/",
    "store": "성남샴푸나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -982,7 +982,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/seosan-hobak-night/",
+   "page": "/guide/seosan-hobak-night/",
    "store": "서산호박나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -996,7 +996,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/sillim-grandprix-night-1/",
+   "page": "/guide/sillim-grandprix-night-1/",
    "store": "신림그랑프리나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1010,7 +1010,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suwon-chance-dome/",
+   "page": "/area/suwon-chance-dome/",
    "store": "수원찬스돔나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1024,7 +1024,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suwon-korea-night/",
+   "page": "/guide/suwon-korea-night/",
    "store": "수원코리아나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1038,7 +1038,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/suyu-shampoo-night-1/",
+   "page": "/guide/suyu-shampoo-night-1/",
    "store": "수유샴푸나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1052,7 +1052,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/uijeongbu-baekakgwan-night/",
+   "page": "/guide/uijeongbu-baekakgwan-night/",
    "store": "의정부백악관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1066,7 +1066,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/uijeongbu-hangukgwan-night/",
+   "page": "/guide/uijeongbu-hangukgwan-night/",
    "store": "의정부한국관나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1080,7 +1080,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/ulsan-champion-night/",
+   "page": "/guide/ulsan-champion-night/",
    "store": "울산챔피언나이트",
    "kind": "A",
    "meta9": "PASS",
@@ -1094,7 +1094,7 @@
    "hero": "010-5653-0069 1004.4x212"
   },
   {
-   "page": "/ulsan-newworld-night/",
+   "page": "/guide/ulsan-newworld-night/",
    "store": "울산뉴월드나이트",
    "kind": "B",
    "meta9": "PASS",
@@ -1108,7 +1108,7 @@
    "hero": "광고문의 864x252"
   },
   {
-   "page": "/yeongdeungpo-terminal-night/",
+   "page": "/guide/yeongdeungpo-terminal-night/",
    "store": "영등포터미널나이트",
    "kind": "B",
    "meta9": "PASS",

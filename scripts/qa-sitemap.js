@@ -36,7 +36,7 @@ ${urls.map(u => `  <url>
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
 
 /* ─── llms.txt: /qa/ 섹션 교체 ─── */
-const MARK = '## 나이트 문답 사전 (/qa/) — 전국 40곳';
+const MARK = '## 나이트 문답 사전 (/area/qa/) — 전국 40곳';
 let llms = fs.readFileSync(path.join(ROOT, 'llms.txt'), 'utf8');
 const cut = llms.indexOf(MARK);
 if (cut !== -1) llms = llms.slice(0, cut).trimEnd() + '\n\n';

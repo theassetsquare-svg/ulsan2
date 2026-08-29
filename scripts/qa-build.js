@@ -131,7 +131,7 @@ function build(v, all) {
   ).join('\n');
 
   const related = [
-    `<a href="/qa/"><b>전국 나이트 문답집 40</b> <span>— 40개 업소 문답 전체 목록</span></a>`,
+    `<a href="/area/qa/"><b>전국 나이트 문답집 40</b> <span>— 40개 업소 문답 전체 목록</span></a>`,
     ...(v.nightUrl ? [`<a href="${v.nightUrl}"><b>${esc(v.name)} 안내 페이지</b> <span>— 지역 키워드 정리본</span></a>`] : []),
     ...sibs.map(s => `<a href="/qa/${s.slug}/"><b>${esc(s.name)}</b> <span>— ${esc(s.hook)}</span></a>`),
   ].join('\n');
@@ -183,11 +183,11 @@ ${JSON.stringify(crumbLd)}
 <a class="skip" href="#main">본문 바로가기</a>
 
 <header class="site">
-  <span class="brand"><a href="/qa/">나이트 문답 사전</a><span class="tag">Q&amp;A</span></span>
+  <span class="brand"><a href="/area/qa/">나이트 문답 사전</a><span class="tag">Q&amp;A</span></span>
 </header>
 
 <nav class="crumb" aria-label="현재 위치">
-  <a href="/">홈</a> › <a href="/qa/">나이트 문답 사전</a> › <span>${esc(v.name)}</span>
+  <a href="/">홈</a> › <a href="/area/qa/">나이트 문답 사전</a> › <span>${esc(v.name)}</span>
 </nav>
 
 <main id="main">
@@ -227,7 +227,7 @@ ${related}
 <footer class="site-footer">
   <div class="ad-inquiry">광고·제휴 입점 문의 &nbsp;|&nbsp; 카카오톡 ID ${KAKAO}</div>
   ${advTail}<p class="footer-note">본 문서는 공개된 웹 정보를 정리한 업소 정보 페이지입니다. 확인되지 않은 항목은 "확인 불가"로 남겼으며, 출입 연령·영업 여부는 각 업소 방침과 현재 상황에 따라 달라질 수 있습니다.</p>
-  <p class="footer-note">최종 확인 <time datetime="${TODAY}">${TODAY_KO}</time> · 문답 사전 · <a href="/qa/">전국 40개 목록</a></p>
+  <p class="footer-note">최종 확인 <time datetime="${TODAY}">${TODAY_KO}</time> · 문답 사전 · <a href="/area/qa/">전국 40개 목록</a></p>
 </footer>
 </main>
 
@@ -322,7 +322,7 @@ ol.vlist em{display:block;font-style:normal;color:#888;font-size:.8em;margin-top
 <a class="skip" href="#main">본문 바로가기</a>
 
 <header class="site">
-  <span class="brand"><a href="/qa/">나이트 문답 사전</a><span class="tag">Q&amp;A</span></span>
+  <span class="brand"><a href="/area/qa/">나이트 문답 사전</a><span class="tag">Q&amp;A</span></span>
 </header>
 
 <nav class="crumb" aria-label="현재 위치">

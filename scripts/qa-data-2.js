@@ -9,7 +9,7 @@ module.exports = [
 {
   name: '청담나이트', slug: 'cheongdam',
   area: '서울', region: '서울 강남구 청담동', ogBg: 'yellow',
-  nightUrl: '/cheongdam-night/',
+  nightUrl: '/guide/cheongdam-night/',
   adv: { staff: '펩시맨', tel: '010-5655-4866' },
   hook: '호텔 지하라는 말이 사실인가',
   title: '청담나이트, 호텔 지하라는 말이 사실일까',
@@ -70,7 +70,7 @@ module.exports = [
 {
   name: '대전원나이트', slug: 'daejeon-one',
   area: '충청', region: '대전 중구', ogBg: 'black',
-  nightUrl: '/daejeon-one-night-guide/',
+  nightUrl: '/guide/daejeon-one-night-guide/',
   hook: '만 38세 기준은 진짜인가',
   title: '대전원나이트, 만 38세 기준은 진짜일까',
   desc: '대전원나이트는 이 문답집에서 연령 하한이 확인되는 두 곳 중 하나다. 만 38세 이상이라는 표기가 어디까지 확인되는지 문답으로 정리했다.',
@@ -130,7 +130,7 @@ module.exports = [
 {
   name: '창원룰루랄라나이트', slug: 'changwon-lululala',
   area: '경상', region: '경남 창원시 성산구 상남동', ogBg: 'yellow',
-  nightUrl: '/changwon-lululala-night-guide/',
+  nightUrl: '/guide/changwon-lululala-night-guide/',
   adv: { staff: '로또', tel: '010-7528-4936' },
   hook: '지하 3층까지 내려가는가',
   title: '창원룰루랄라나이트, 지하 3층까지 내려갈까',
@@ -191,7 +191,7 @@ module.exports = [
 {
   name: '불광동호박나이트', slug: 'bulgwang-hobak',
   area: '서울', region: '서울 은평구 불광동', ogBg: 'black',
-  nightUrl: '/bulgwang-hobak-night-guide/',
+  nightUrl: '/guide/bulgwang-hobak-night-guide/',
   adv: { staff: '손흥민', tel: '010-2221-1937' },
   hook: '호박 이름이 몇 곳이나 되는가',
   title: '불광동호박나이트, 호박 이름은 몇 곳이나 될까',
@@ -252,7 +252,7 @@ module.exports = [
 {
   name: '울산챔피언나이트', slug: 'ulsan-champion',
   area: '경상', region: '울산 남구 삼산동', ogBg: 'yellow',
-  nightUrl: '/ulsan-champion-night-guide/',
+  nightUrl: '/guide/ulsan-champion-night-guide/',
   adv: { staff: '춘자', tel: '010-5653-0069' },
   hook: '784평이 정말 맞는 숫자인가',
   title: '울산챔피언나이트, 784평이 정말 맞는 숫자일까',
