@@ -1,11 +1,14 @@
 User-agent: *
 Allow: /
-Allow: /og/
+
+# 아래는 각 회사 공식 문서에서 이름을 확인한 크롤러입니다 (2026-09-01 확인).
+User-agent: Yeti
+Allow: /
 
 User-agent: Googlebot
 Allow: /
 
-User-agent: Yeti
+User-agent: Google-Extended
 Allow: /
 
 User-agent: bingbot
@@ -14,57 +17,25 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: CCBot
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Applebot-Extended
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: cohere-ai
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-# 공식 문서로 확인된 크롤러
-User-agent: NaverBot
-Allow: /
-# 공식 문서로 확인된 크롤러
-User-agent: OAI-SearchBot
-Allow: /
-# 공식 문서로 확인된 크롤러
 User-agent: Claude-SearchBot
 Allow: /
-# 공식 문서로 확인된 크롤러
+
 User-agent: Claude-User
 Allow: /
-# 공식 문서로 확인된 크롤러
-User-agent: Perplexity-User
+
+User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
 
 Sitemap: https://b.nolcool.com/sitemap.xml
