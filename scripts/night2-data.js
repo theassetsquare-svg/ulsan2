@@ -1,4 +1,4 @@
-// 2차 지역 키워드 13페이지 콘텐츠 데이터 (SITE_INDEX=3 / PAGE_ROUND=2)
+// 다음 자리 지역 키워드 13페이지 콘텐츠 데이터 (SITE_INDEX=3 / PAGE_ROUND=2)
 // 각도 공식: ((3-1)+(n-1)+7) mod 13 + 1
 'use strict';
 

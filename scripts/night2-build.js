@@ -1,4 +1,4 @@
-// 2차 지역 키워드 13페이지 HTML 생성기
+// 다음 자리 지역 키워드 13페이지 HTML 생성기
 'use strict';
 const fs = require('fs');
 const path = require('path');

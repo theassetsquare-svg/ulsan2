@@ -1,4 +1,4 @@
-// 2차 13페이지 OG 1200x1200 생성 (sharp + NanumGothic)
+// 다음 자리 13페이지 OG 1200x1200 생성 (sharp + NanumGothic)
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -110,7 +110,7 @@ async function fit(text, start, maxW, color, minH) {
 
     let bandContrast = null, telH = null, telSize = null, nickH = null;
     if (p.group === 'A') {
-      // 하단 60~100% 검은 띠
+      // 하단 60~전부 검은 띠
       layers.push({
         input: await sharp({ create: { width: S, height: 480, channels: 4, background: '#000000' } }).png().toBuffer(),
         left: 0, top: 720,

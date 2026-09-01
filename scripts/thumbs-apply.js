@@ -47,7 +47,7 @@ for (const f of files) {
 
   /* ── 1) 메타 9종 ── */
   const add = [];
-  // og:image 를 절대 URL 로 정규화
+  // og:image 를 결코 URL 로 정규화
   if (ogImage !== absUrl) h = h.replace(new RegExp(`(property=["']og:image["'][^>]*content=["'])${ogImage.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`), `$1${absUrl}`);
   if (!hasMeta(h, 'og:image:secure_url')) add.push(`<meta property="og:image:secure_url" content="${absUrl}">`);
   if (!hasMeta(h, 'og:image:type')) add.push(`<meta property="og:image:type" content="image/png">`);

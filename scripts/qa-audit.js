@@ -201,7 +201,7 @@ let sim;
   const { execSync } = require('child_process');
   const diff = execSync(`git diff --stat -- night/ blog/ bulgwang-hobak/ og/`, { cwd: ROOT }).toString().trim();
   if (diff) bad.push(`기존자산 diff: ${diff.split('\n').pop()}`);
-  push('G11', bad.length === 0, bad.length ? bad.slice(0, 5).join(' ') : `img alt 100% · 연령 완전문 · 인천 두 표기 · 기존 ${OLD_NIGHT.length}페이지 diff 0`);
+  push('G11', bad.length === 0, bad.length ? bad.slice(0, 5).join(' ') : `img alt 전부 · 연령 완전문 · 인천 두 표기 · 기존 ${OLD_NIGHT.length}페이지 diff 0`);
 }
 
 /* ── 출력 ── */

@@ -1,4 +1,4 @@
-// 2차 13페이지 게이트 검사 (로컬)
+// 다음 자리 13페이지 게이트 검사 (로컬)
 'use strict';
 const fs = require('fs');
 const path = require('path');

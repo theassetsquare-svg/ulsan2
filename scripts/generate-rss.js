@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 표준 RSS 2.0 생성. seo-config.js의 PAGES/SITE 사용, 각 item link는 절대 URL.
+// 표준 RSS 2.0 생성. seo-config.js의 PAGES/SITE 사용, 각 item link는 결코 URL.
 const fs = require('fs');
 const path = require('path');
 const { SITE, PAGES } = require('./seo-config.js');
