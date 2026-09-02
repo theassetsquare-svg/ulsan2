@@ -449,4 +449,28 @@
 <url><loc>https://b.nolcool.com/guide/daejeon-seven-night-2/</loc><lastmod>2026-08-28</lastmod></url>
 <url><loc>https://b.nolcool.com/guide/dapsimni-miracle-night-2/</loc><lastmod>2026-08-28</lastmod></url>
 <url><loc>https://b.nolcool.com/guide/busan-asiad-night-2/</loc><lastmod>2026-08-28</lastmod></url>
+  <url>
+    <loc>https://b.nolcool.com/area/suwon-chance-dome-night/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://b.nolcool.com/guide/changwon-lululala-night-guide/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://b.nolcool.com/guide/daejeon-one-night-guide/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://b.nolcool.com/guide/ulsan-champion-night-guide/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
