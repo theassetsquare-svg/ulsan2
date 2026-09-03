@@ -167,7 +167,7 @@ function build(v, all) {
 <meta name="naver-site-verification" content="${NAVER1}">
 <meta name="naver-site-verification" content="${NAVER2}">
 <meta name="google-site-verification" content="${GOOGLE}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://b.nolcool.com/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">
 ${JSON.stringify(articleLd)}
 </script>
@@ -300,7 +300,7 @@ function buildHub(all) {
 <meta name="naver-site-verification" content="${NAVER1}">
 <meta name="naver-site-verification" content="${NAVER2}">
 <meta name="google-site-verification" content="${GOOGLE}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://b.nolcool.com/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">
 ${JSON.stringify(listLd)}
 </script>

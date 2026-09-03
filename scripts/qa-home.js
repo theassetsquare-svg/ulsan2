@@ -155,7 +155,7 @@ const html = `<!DOCTYPE html>
 <meta name="naver-site-verification" content="${NAVER2}">
 <meta name="google-site-verification" content="${GOOGLE}">
 <meta name="google-site-verification" content="${GOOGLE2}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://b.nolcool.com/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="나이트 문답 사전 RSS" href="${SITE}/rss.xml">
 <script type="application/ld+json">
 ${JSON.stringify(clubLd)}
