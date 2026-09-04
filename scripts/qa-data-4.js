@@ -134,6 +134,7 @@ module.exports = [
 /* ───────── 성남샴푸나이트 ───────── */
 {
   name: '성남샴푸나이트', slug: 'seongnam-shampoo',
+  adv: { staff: '이쁜이', tel: '010-3432-4758' },
   area: '경기·인천', region: '경기 성남시 중원구 성남동', ogBg: 'yellow',
   hook: '모란역 샴푸는 몇 층인가',
   title: '성남샴푸나이트, 모란역 샴푸는 몇 층일까',
