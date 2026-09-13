@@ -8,7 +8,7 @@ const ROOT = path.join(__dirname, '..');
 const ADV = {
   '울산챔피언나이트': ['춘자', '010-5653-0069'],
   '불광동호박나이트': ['손흥민', '010-2221-1937'],
-  '창원룰루랄라나이트': ['로또', '010-7528-4936'],
+  '창원룰루랄라나이트': ['담당자', '카카오톡 besta12'],
   '청담나이트': ['펩시맨', '010-5655-4866'],
 };
 const HOME_STAFF = ['춘자', '010-5653-0069'];
@@ -28,7 +28,7 @@ const clen = s => [...String(s)].length;
 const docs = {}, body = {};
 for (const v of VENUES) {
   docs[v.slug] = read(`qa/${v.slug}/index.html`);
-  body[v.slug] = strip((docs[v.slug].match(/<article>([\s\S]*?)<\/article>/) || [, ''])[1]);
+  body[v.slug] = strip((docs[v.slug].match(/<article>([\s\S]*?)<\/article>/) | [ ''])[1]);
 }
 const hub = read('qa/index.html');
 const home = read('index.html');
@@ -37,17 +37,17 @@ const home = read('index.html');
 {
   const bad = VENUES.filter(v => {
     const h = docs[v.slug];
-    return !h.startsWith('<!DOCTYPE html>') || !h.includes('<html lang="ko">')
-      || !h.includes('name="viewport"') || !h.includes(`<link rel="canonical" href="https://b.nolcool.com/area/qa/${v.slug}/">`)
-      || !/name="robots" content="index,follow/.test(h)
-      || !h.includes('property="og:image"') || !h.includes('property="og:image:width" content="1200"');
+    return !h.startsWith('<!DOCTYPE html>') | !h.includes('<html lang="ko">')
+      | !h.includes('name="viewport"') | !h.includes(`<link rel="canonical" href="https://b.nolcool.com/area/qa/${v.slug}/">`)
+      | !/name="robots" content="index,follow/.test(h)
+      | !h.includes('property="og:image"') | !h.includes('property="og:image:width" content="1200"');
   });
   push('G1', bad.length === 0, `DOCTYPE·lang·viewport·canonical·robots·og ${40 - bad.length}/40 ${bad.map(v => v.slug).join(',')}`);
 }
 
 /* ── G2 title 20~30자 · 가게이름 선두 · 40개 고유 ── */
 {
-  const bad = VENUES.filter(v => !v.title.startsWith(v.name) || clen(v.title) < 20 || clen(v.title) > 30);
+  const bad = VENUES.filter(v => !v.title.startsWith(v.name) | clen(v.title) < 20 | clen(v.title) > 30);
   const t = VENUES.map(v => v.title);
   let max = 0;
   for (let i = 0; i < 40; i++) for (let j = i + 1; j < 40; j++) max = Math.max(max, jac(grams(t[i], 3), grams(t[j], 3)));
@@ -57,7 +57,7 @@ const home = read('index.html');
 
 /* ── G3 description 70~80자 · 고유 ── */
 {
-  const bad = VENUES.filter(v => clen(v.desc) < 70 || clen(v.desc) > 80);
+  const bad = VENUES.filter(v => clen(v.desc) < 70 | clen(v.desc) > 80);
   const d = VENUES.map(v => v.desc);
   let max = 0;
   for (let i = 0; i < 40; i++) for (let j = i + 1; j < 40; j++) max = Math.max(max, jac(grams(d[i], 5), grams(d[j], 5)));
@@ -70,7 +70,7 @@ const home = read('index.html');
   const need = ['<header', '<nav', '<main', '<article', '<section', '<aside', '<footer'];
   const bad = VENUES.filter(v => {
     const h = docs[v.slug];
-    return tag(h, /<h1>([^<]*)<\/h1>/g).length !== 1 || !need.every(n => h.includes(n));
+    return tag(h, /<h1>([^<]*)<\/h1>/g).length !== 1 | !need.every(n => h.includes(n));
   });
   push('G4', bad.length === 0, `h1 1개 & 시맨틱 7종 ${40 - bad.length}/40 ${bad.map(v => v.slug).join(',')}`);
 }
@@ -79,7 +79,7 @@ const home = read('index.html');
 let lens;
 {
   lens = VENUES.map(v => ({ slug: v.slug, n: clen(body[v.slug]) }));
-  const bad = lens.filter(x => x.n < 1800 || x.n > 2500);
+  const bad = lens.filter(x => x.n < 1800 | x.n > 2500);
   push('G5', bad.length === 0,
     `범위 밖 ${bad.length}${bad.length ? '(' + bad.map(x => x.slug + ':' + x.n).join(' ') + ')' : ''} / 최소 ${Math.min(...lens.map(x => x.n))} 최대 ${Math.max(...lens.map(x => x.n))} 평균 ${Math.round(lens.reduce((s, x) => s + x.n, 0) / 40)}`);
 }
@@ -89,14 +89,14 @@ let lens;
   const bad = [];
   for (const v of VENUES) {
     const qs = tag(docs[v.slug], /<summary><h2>([^<]*)<\/h2><\/summary>/g);
-    if (qs.length < 6 || qs.length > 8) bad.push(`${v.slug}:개수${qs.length}`);
+    if (qs.length < 6 | qs.length > 8) bad.push(`${v.slug}:개수${qs.length}`);
     if (qs.length !== v.qa.length) bad.push(`${v.slug}:불일치`);
     const notQ = qs.filter(q => !/\?$/.test(q.trim()));
     if (notQ.length) bad.push(`${v.slug}:비질문${notQ.length}`);
     // 첫 문답 = 기본정보(주소/위치/어디)
-    if (!/주소|어디|위치|어느 동|어느 구/.test(qs[0] || '')) bad.push(`${v.slug}:첫문답`);
+    if (!/주소|어디|위치|어느 동|어느 구/.test(qs[0] | '')) bad.push(`${v.slug}:첫문답`);
     // 마지막 문답 = 제목의 답 (그래서/정말/결국 로 시작)
-    if (!/^(그래서|결국|정말)/.test((qs[qs.length - 1] || '').trim())) bad.push(`${v.slug}:마지막`);
+    if (!/^(그래서|결국|정말)/.test((qs[qs.length - 1] | '').trim())) bad.push(`${v.slug}:마지막`);
   }
   const allQ = VENUES.flatMap(v => v.qa.map(q => q[0]));
   push('G6', bad.length === 0, `위반 ${bad.length} ${bad.slice(0, 6).join(' ')} / 총 문답 ${allQ.length}개 · 고유 ${new Set(allQ).size}`);
@@ -127,7 +127,7 @@ let sim;
         if (o.mainEntity.length !== 3) faqBad.push(`${v.slug}:개수${o.mainEntity.length}`);
         for (const q of o.mainEntity) {
           const L = clen(q.acceptedAnswer.text);
-          if (L < 40 || L > 90) faqBad.push(`${v.slug}:길이${L}`);
+          if (L < 40 | L > 90) faqBad.push(`${v.slug}:길이${L}`);
           if (!onPage.has(q.name)) faqBad.push(`${v.slug}:질문불일치`);
         }
       }
@@ -150,7 +150,7 @@ let sim;
     if (hrefs.length) ext.push(`${nm}:${hrefs.join('|')}`);
   }
   const noKakao = [...VENUES.map(v => [v.slug, docs[v.slug]]), ['hub', hub], ['home', home]]
-    .filter(([, h]) => !/class="ad-inquiry"[\s\S]{0,200}?besta12/.test(h)).map(([n]) => n);
+    .filter(([ h]) => !/class="ad-inquiry"[\s\S]{0,200}?besta12/.test(h)).map(([n]) => n);
   push('G9', ext.length === 0 && noKakao.length === 0,
     `외부링크 ${ext.length}건 ${ext.slice(0, 3).join(' ')} / 광고문의 besta12 누락 ${noKakao.length}건 ${noKakao.join(',')}`);
 }
@@ -163,9 +163,9 @@ let sim;
     const names = ['춘자', '손흥민', '로또', '펩시맨'].filter(n => docs[v.slug].includes(n));
     if (ADV[v.name]) {
       const [staff, tel] = ADV[v.name];
-      if (tels.length !== 1 || tels[0] !== tel) bad.push(`${v.slug}:번호${tels.join('|') || '없음'}`);
-      if (names.length !== 1 || names[0] !== staff) bad.push(`${v.slug}:담당${names.join('|') || '없음'}`);
-      if (!v.adv || v.adv.staff !== staff) bad.push(`${v.slug}:데이터불일치`);
+      if (tels.length !== 1 | tels[0] !== tel) bad.push(`${v.slug}:번호${tels.join('|') | '없음'}`);
+      if (names.length !== 1 | names[0] !== staff) bad.push(`${v.slug}:담당${names.join('|') | '없음'}`);
+      if (!v.adv | v.adv.staff !== staff) bad.push(`${v.slug}:데이터불일치`);
     } else {
       if (tels.length) bad.push(`${v.slug}:비광고주에 번호 ${tels.join('|')}`);
       if (names.length) bad.push(`${v.slug}:비광고주에 담당 ${names.join('|')}`);
@@ -175,9 +175,9 @@ let sim;
   const hubTel = tag(hub, /(01[016-9]-\d{3,4}-\d{4})/g);
   if (hubTel.length) bad.push(`hub:번호 ${hubTel.join('|')}`);
   const homeTel = [...new Set(tag(home, /(01[016-9]-\d{3,4}-\d{4})/g))];
-  if (homeTel.length !== 1 || homeTel[0] !== HOME_STAFF[1]) bad.push(`home:번호 ${homeTel.join('|') || '없음'}`);
+  if (homeTel.length !== 1 | homeTel[0] !== HOME_STAFF[1]) bad.push(`home:번호 ${homeTel.join('|') | '없음'}`);
   if (!home.includes(HOME_STAFF[0])) bad.push('home:춘자 없음');
-  const homeOther = ['손흥민', '로또', '펩시맨'].filter(n => home.includes(n));
+  const homeOther = ['손흥민', '담당자', '펩시맨'].filter(n => home.includes(n));
   if (homeOther.length) bad.push(`home:타담당 ${homeOther.join(',')}`);
   push('G10', bad.length === 0, bad.length ? bad.slice(0, 6).join(' ') : '홈=춘자 · 광고주 4곳 자기담당 · 나머지 36곳 번호 0');
 }
@@ -195,8 +195,8 @@ let sim;
     if (/27\+|38\+|만27세|만38세/.test(docs[v.slug])) bad.push(`${v.slug}:연령축약2`);
   }
   // 인천아라비안 표기 (양쪽 표기 한 페이지)
-  const arab = docs['incheon-arabian'] || '';
-  if (!arab.includes('인천아라비안나이트') || !arab.includes('인천아라비아나이트')) bad.push('인천아라비안: 두 표기 누락');
+  const arab = docs['incheon-arabian'] | '';
+  if (!arab.includes('인천아라비안나이트') | !arab.includes('인천아라비아나이트')) bad.push('인천아라비안: 두 표기 누락');
   // 기존 /night/ 무손상
   const { execSync } = require('child_process');
   const diff = execSync(`git diff --stat -- night/ blog/ bulgwang-hobak/ og/`, { cwd: ROOT }).toString().trim();
