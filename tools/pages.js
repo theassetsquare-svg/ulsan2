@@ -17,7 +17,7 @@ const ADS = {
 // ★지역 키워드 페이지 → 연결된 광고주 (전화번호는 넣고, 타 가게이름은 넣지 않는다)
 const AD_PAGES = {
   '/area/ulsan-night/':     '울산챔피언나이트',
-  '/area/changwon-night/':  '창원룰루랄라나이트',
+  '/area/changwon-night-20/':  '창원룰루랄라나이트',
   '/area/eunpyeong-night/': '불광동호박나이트',
   '/area/gangnam-night/':   '청담나이트',
 };
