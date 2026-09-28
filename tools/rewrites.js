@@ -86,7 +86,7 @@ module.exports = {
   '/area/paju-yadang-skydome/': [
     ['여기와 수원찬스돔나이트, 천안스타돔나이트다.', '여기와 경기·충남의 두 업소다.'],
   ],
-  '/guide/pyeongtaek-hobak-night/': [
+  '/guide/pyeongtaek-hobak-night-21/': [
     ['불광동호박나이트의 1~2분이나 일산샴푸나이트의 3분과는 성격이 다르다.', '서울·경기 다른 업소의 1~2분이나 3분 표기와는 성격이 다르다.'],
   ],
   '/guide/sangbong-hangukgwan-night-1/': [
