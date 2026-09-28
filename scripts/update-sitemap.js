@@ -13,7 +13,7 @@ const URL_TO_FILE = {
   'https://b.nolcool.com/area/weekend/': 'blog/weekend/index.html',
   'https://b.nolcool.com/area/over40/': 'blog/over40/index.html',
   'https://b.nolcool.com/area/couple/': 'blog/couple/index.html',
-  'https://b.nolcool.com/area/alone/': 'blog/alone/index.html',
+  'https://b.nolcool.com/area/alone-19/': 'blog/alone/index.html',
   'https://b.nolcool.com/area/summer/': 'blog/summer/index.html',
   'https://b.nolcool.com/event/': 'blog/event/index.html',
   'https://b.nolcool.com/area/vs/': 'blog/vs/index.html',

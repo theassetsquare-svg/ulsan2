@@ -54,7 +54,7 @@ const PAGES = {
     ],
     related: [
       ['/area/weekend/', '금요일과 토요일, 분위기가 왜 다른지'],
-      ['/area/alone/', '혼자 갔다가 오히려 더 편했던 이야기'],
+      ['/area/alone-19/', '혼자 갔다가 오히려 더 편했던 이야기'],
       ['/area/safety/', '실수 안 하려면 미리 알아둘 것들'],
     ],
   },
@@ -129,7 +129,7 @@ const PAGES = {
     section: '커플 방문 후기',
     publishedAt: '2026-03-27',
     seriesNum: 4,
-    nextUrl: '/area/alone/',
+    nextUrl: '/area/alone-19/',
     nextTitle: '혼자 후기',
     nextBarLabel: '혼자 갔던 솔직 후기',
     achieveEmoji: '💑',
@@ -316,7 +316,7 @@ const PAGES = {
     related: [
       ['/area/first-time/', '처음 가기 전 체크리스트'],
       ['/area/food/', '안 취하려면 미리 먹어둘 것'],
-      ['/area/alone/', '혼자 갈 때 더 챙겨야 할 것'],
+      ['/area/alone-19/', '혼자 갈 때 더 챙겨야 할 것'],
     ],
   },
   // 별도 지점 랜딩 페이지. /blog/ 규칙 밖이라 url/ogImage/ld 를 직접 지정한다.
@@ -350,7 +350,7 @@ const PAGES = {
     related: [
       ['/area/first-time/', '나이트 처음 가는 사람을 위한 가이드'],
       ['/area/safety/', '실수 안 하려면 미리 알아둘 것들'],
-      ['/area/alone/', '혼자 갔다가 오히려 더 편했던 이야기'],
+      ['/area/alone-19/', '혼자 갔다가 오히려 더 편했던 이야기'],
     ],
     // 지점 랜딩은 Article 대신 NightClub 중심 스키마 (AEO/GEO 인용 최적화)
     ld: ({ SITE, cfg, url, ogImage, faqLd }) => ([
