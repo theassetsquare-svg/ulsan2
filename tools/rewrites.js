@@ -69,7 +69,7 @@ module.exports = {
   '/guide/ilsan-shampoo-night-1/': [
     ['같은 문답집의 수유샴푸나이트는 100m라는 미터 표기가 남아 있어 대비된다.', '같은 문답집의 서울 강북 업소는 100m라는 미터 표기가 남아 있어 대비된다.'],
   ],
-  '/guide/incheon-arabian-night/': [
+  '/guide/incheon-arabian-night-22/': [
     ['여기와 오산호박나이트의 건물명 정도다.', '여기와 경기권 한 업소의 건물명 정도다.'],
   ],
   '/guide/jeju-night-do-hall/': [
