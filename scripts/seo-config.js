@@ -112,7 +112,7 @@ const PAGES = {
     ],
     related: [
       ['/area/first-time/', '처음 가는 사람을 위한 가이드'],
-      ['/area/food/', '술 잘 마시려면 미리 먹어야 할 코스'],
+      ['/area/food-19/', '술 잘 마시려면 미리 먹어야 할 코스'],
       ['/area/safety/', '실수 안 하려면 미리 알아둘 것들'],
     ],
   },
@@ -141,7 +141,7 @@ const PAGES = {
     ],
     related: [
       ['/area/weekend/', '금요일과 토요일 분위기 비교'],
-      ['/area/food/', '데이트 전 추천 맛집 코스'],
+      ['/area/food-19/', '데이트 전 추천 맛집 코스'],
       ['/event/', '이벤트 데이가 더 특별한 이유'],
     ],
   },
@@ -171,7 +171,7 @@ const PAGES = {
     related: [
       ['/area/first-time/', '처음 가는 사람을 위한 가이드'],
       ['/area/safety/', '혼자 갈 때 알아둘 안전 수칙'],
-      ['/area/food/', '혼술 전 미리 먹을 코스'],
+      ['/area/food-19/', '혼술 전 미리 먹을 코스'],
     ],
   },
   summer: {
@@ -198,7 +198,7 @@ const PAGES = {
       ['낮부터 가는 코스 추천?', '오전 해수욕장 → 점심 회 → 저녁 카페 → 밤 라운지 → 새벽 국밥 순이 베스트입니다.'],
     ],
     related: [
-      ['/area/food/', '여름 추천 맛집 코스'],
+      ['/area/food-19/', '여름 추천 맛집 코스'],
       ['/area/weekend/', '주말 분위기 비교'],
       ['/event/', '여름 시즌 이벤트 정보'],
     ],
@@ -245,7 +245,7 @@ const PAGES = {
     section: '비교 후기',
     publishedAt: '2026-03-31',
     seriesNum: 8,
-    nextUrl: '/area/food/',
+    nextUrl: '/area/food-19/',
     nextTitle: '맛집 코스',
     nextBarLabel: '술 마시기 전 맛집 코스',
     achieveEmoji: '🏆',
@@ -315,7 +315,7 @@ const PAGES = {
     ],
     related: [
       ['/area/first-time/', '처음 가기 전 체크리스트'],
-      ['/area/food/', '안 취하려면 미리 먹어둘 것'],
+      ['/area/food-19/', '안 취하려면 미리 먹어둘 것'],
       ['/area/alone-19/', '혼자 갈 때 더 챙겨야 할 것'],
     ],
   },
