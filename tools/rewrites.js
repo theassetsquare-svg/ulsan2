@@ -83,7 +83,7 @@ module.exports = {
   '/guide/osan-hobak-night/': [
     ['구리호박나이트와 평택호박나이트가 이 문답집에 함께 실려 있다.', '경기권 다른 두 업소가 이 문답집에 함께 실려 있다.'],
   ],
-  '/area/paju-yadang-skydome/': [
+  '/area/paju-yadang-skydome-21/': [
     ['여기와 수원찬스돔나이트, 천안스타돔나이트다.', '여기와 경기·충남의 두 업소다.'],
   ],
   '/guide/pyeongtaek-hobak-night-21/': [
