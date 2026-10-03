@@ -16,7 +16,7 @@ const URL_TO_FILE = {
   'https://b.nolcool.com/area/alone-19/': 'blog/alone/index.html',
   'https://b.nolcool.com/area/summer/': 'blog/summer/index.html',
   'https://b.nolcool.com/event/': 'blog/event/index.html',
-  'https://b.nolcool.com/area/vs/': 'blog/vs/index.html',
+  'https://b.nolcool.com/area/vs-19/': 'blog/vs/index.html',
   'https://b.nolcool.com/area/food-19/': 'blog/food/index.html',
   'https://b.nolcool.com/area/safety/': 'blog/safety/index.html',
   'https://b.nolcool.com/guide/bulgwang-hobak-night/': 'bulgwang-hobak/index.html',

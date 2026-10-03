@@ -216,7 +216,7 @@ const PAGES = {
     section: '이벤트 방문 후기',
     publishedAt: '2026-03-30',
     seriesNum: 7,
-    nextUrl: '/area/vs/',
+    nextUrl: '/area/vs-19/',
     nextTitle: '나이트 비교',
     nextBarLabel: '3년 다닌 놈의 비교',
     achieveEmoji: '🎆',
