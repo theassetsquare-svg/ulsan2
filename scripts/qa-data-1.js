@@ -250,7 +250,7 @@ module.exports = [
 {
   name: '수원찬스돔나이트', slug: 'suwon-chance-dome',
   area: '경기·인천', region: '경기 수원시 권선구 권선동', ogBg: 'yellow',
-  nightUrl: '/area/suwon-chance-dome-night/',
+  nightUrl: '/area/suwon-chance-dome-night-19/',
   hook: '돔이라는 이름이 맞는가',
   title: '수원찬스돔나이트, 돔이라는 이름이 맞을까',
   desc: '수원찬스돔나이트는 권선동 주소와 18시 개점 표기가 확인되지만 역은 비어 있다. 상호의 돔이 구조를 뜻하는지까지 문답으로 확인했다.',

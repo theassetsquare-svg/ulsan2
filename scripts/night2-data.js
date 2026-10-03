@@ -624,7 +624,7 @@ const PAGES = [
   n: 10, kw: '수원나이트', kwB: '수원 나이트', kwC: '수원 나이트클럽',
   slug: 'suwon-night', angle: 6, angleName: '오해 깨기형',
   region: '경기 수원시 권선구', regionShort: '수원시',
-  shop: '수원찬스돔나이트', shopUrl: '/area/suwon-chance-dome-night/',
+  shop: '수원찬스돔나이트', shopUrl: '/area/suwon-chance-dome-night-19/',
   group: 'B', bg: '#2a3f6b',
   title: '수원나이트 흔한 오해 정리 권선동 대형 홀 기준',
   desc: '수원나이트를 두고 도는 오해 네 가지를 하나씩 뒤집었다. 복장과 준비물, 좌석과 시간대까지 권선동 대형 홀 기준으로 정리했다.',
@@ -661,7 +661,7 @@ const PAGES = [
 <p>일반적으로 열 시 이전 연락, 열한 시 전 도착이 가장 무난하다. 좋은 자리와 좋은 시간대를 같이 가지는 방법이다. 수원 나이트 도착 시각을 앞당기라는 말이 여기서 나온다.</p>`,
       bridge: '기준이 될 만한 홀을 하나 본다.' },
     { h2: '수원나이트 추천 — 수원찬스돔나이트', body:
-      `<p>권선구 권선로 673에 있는 곳이 <strong><a href="/area/suwon-chance-dome-night/">수원찬스돔나이트</a></strong>다. 지번으로는 권선동 1019-9다.</p>
+      `<p>권선구 권선로 673에 있는 곳이 <strong><a href="/area/suwon-chance-dome-night-19/">수원찬스돔나이트</a></strong>다. 지번으로는 권선동 1019-9다.</p>
 <p>저녁 여섯 시에 열어 새벽 네 시에 닫는 것으로 안내된다. 룸이 150여 개 규모로 안내될 만큼 방 수가 많은 편이다.</p>
 <p>수원찬스돔나이트는 이십 대부터 사십 대까지 손님층이 넓다고 알려져 있다. 수원 나이트클럽 중에서 룸을 기준으로 고르는 팀이 자주 찾는 곳이다.</p>`,
       bridge: '문의 창구를 정리한다.' },
