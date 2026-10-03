@@ -83,7 +83,7 @@ const PAGES = {
     ],
     related: [
       ['/area/first-time/', '처음 가는 사람을 위한 가이드'],
-      ['/event/', '이벤트 날의 미친 분위기'],
+      ['/event-19/', '이벤트 날의 미친 분위기'],
       ['/area/couple/', '여자친구랑 갔던 데이트 후기'],
     ],
   },
@@ -142,7 +142,7 @@ const PAGES = {
     related: [
       ['/area/weekend/', '금요일과 토요일 분위기 비교'],
       ['/area/food-19/', '데이트 전 추천 맛집 코스'],
-      ['/event/', '이벤트 데이가 더 특별한 이유'],
+      ['/event-19/', '이벤트 데이가 더 특별한 이유'],
     ],
   },
   alone: {
@@ -187,7 +187,7 @@ const PAGES = {
     section: '여름 방문 후기',
     publishedAt: '2026-03-29',
     seriesNum: 6,
-    nextUrl: '/event/',
+    nextUrl: '/event-19/',
     nextTitle: '이벤트 후기',
     nextBarLabel: '이벤트 날 미친 분위기',
     achieveEmoji: '🌊',
@@ -200,7 +200,7 @@ const PAGES = {
     related: [
       ['/area/food-19/', '여름 추천 맛집 코스'],
       ['/area/weekend/', '주말 분위기 비교'],
-      ['/event/', '여름 시즌 이벤트 정보'],
+      ['/event-19/', '여름 시즌 이벤트 정보'],
     ],
   },
   event: {
@@ -258,7 +258,7 @@ const PAGES = {
     related: [
       ['/area/first-time/', '처음 가는 사람을 위한 가이드'],
       ['/area/over40-19/', '40대 후기로 본 분위기'],
-      ['/event/', '이벤트 데이가 더 특별한 이유'],
+      ['/event-19/', '이벤트 데이가 더 특별한 이유'],
     ],
   },
   food: {
