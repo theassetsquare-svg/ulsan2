@@ -71,7 +71,7 @@ const PAGES = {
     section: '주말 비교 후기',
     publishedAt: '2026-03-25',
     seriesNum: 2,
-    nextUrl: '/area/over40/',
+    nextUrl: '/area/over40-19/',
     nextTitle: '40대 후기',
     nextBarLabel: '40대도 즐긴다',
     achieveEmoji: '📅',
@@ -257,7 +257,7 @@ const PAGES = {
     ],
     related: [
       ['/area/first-time/', '처음 가는 사람을 위한 가이드'],
-      ['/area/over40/', '40대 후기로 본 분위기'],
+      ['/area/over40-19/', '40대 후기로 본 분위기'],
       ['/event/', '이벤트 데이가 더 특별한 이유'],
     ],
   },

@@ -11,7 +11,7 @@ const URL_TO_FILE = {
   'https://b.nolcool.com/': 'index.html',
   'https://b.nolcool.com/area/first-time/': 'blog/first-time/index.html',
   'https://b.nolcool.com/area/weekend/': 'blog/weekend/index.html',
-  'https://b.nolcool.com/area/over40/': 'blog/over40/index.html',
+  'https://b.nolcool.com/area/over40-19/': 'blog/over40/index.html',
   'https://b.nolcool.com/area/couple/': 'blog/couple/index.html',
   'https://b.nolcool.com/area/alone-19/': 'blog/alone/index.html',
   'https://b.nolcool.com/area/summer/': 'blog/summer/index.html',
