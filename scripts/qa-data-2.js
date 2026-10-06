@@ -70,7 +70,7 @@ module.exports = [
 {
   name: '대전원나이트', slug: 'daejeon-one',
   area: '충청', region: '대전 중구', ogBg: 'black',
-  nightUrl: '/guide/daejeon-one-night-guide/',
+  nightUrl: '/guide/daejeon-one-night-guide-21/',
   hook: '만 38세 기준은 진짜인가',
   title: '대전원나이트, 만 38세 기준은 진짜일까',
   desc: '대전원나이트는 이 문답집에서 연령 하한이 확인되는 두 곳 중 하나다. 만 38세 이상이라는 표기가 어디까지 확인되는지 문답으로 정리했다.',

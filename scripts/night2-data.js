@@ -289,7 +289,7 @@ const PAGES = [
   n: 5, kw: '대전나이트', kwB: '대전 나이트', kwC: '대전 나이트클럽',
   slug: 'daejeon-night', angle: 1, angleName: '정면 소개형',
   region: '대전 중구', regionShort: '중구',
-  shop: '대전원나이트', shopUrl: '/guide/daejeon-one-night-guide/',
+  shop: '대전원나이트', shopUrl: '/guide/daejeon-one-night-guide-21/',
   group: 'B', bg: '#7a4a10', age: '만 38세 이상',
   title: '대전나이트 규모가 말해주는 것 중앙로와 유천동',
   desc: '대전나이트가 왜 신도심이 아니라 원도심에 남았는지, 좌석과 시간대·부킹 구조까지 정리했다. 중앙로 골목 홀을 기준으로 본다.',
@@ -326,7 +326,7 @@ const PAGES = [
 <p>원하는 방향이 있으면 처음에 말해두는 편이 낫다. 조용히 있고 싶다는 말도 요청에 들어간다. 대전 나이트 부킹은 이 한마디에서 시작된다.</p>`,
       bridge: '그럼 대전에서 어느 홀을 기준으로 볼까.' },
     { h2: '대전나이트 추천 — 대전원나이트', body:
-      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/guide/daejeon-one-night-guide/">대전원나이트</a></strong>다.</p>
+      `<p>중구 중앙로역에서 걸어서 오 분 거리 골목 안쪽에 있는 곳이 <strong><a href="/guide/daejeon-one-night-guide-21/">대전원나이트</a></strong>다.</p>
 <p>이곳은 <strong>만 38세 이상</strong>만 출입 가능하다. 영업시간은 일요일부터 목요일까지 저녁 여덟 시에서 새벽 두 시 반, 금요일과 토요일은 새벽 세 시 반까지로 안내된다.</p>
 <p>홀 규모가 크지 않아 사람 사이 거리가 가깝다. 대전 나이트클럽 중에서 또래끼리 모이는 성격이 뚜렷한 편이다.</p>`,
       bridge: '문의 창구는 아래에 정리했다.' },
