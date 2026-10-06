@@ -49,7 +49,7 @@ module.exports = {
     ['청담나이트와 <strong>강서호박나이트</strong>다.', '<strong>강서호박나이트</strong>와 서울 강남의 다른 한 업소다.'],
     ['호텔 건물 지하라는 구조는 청담나이트와 같다.', '호텔 건물 지하라는 구조는 서울 강남의 그 업소와 같다.'],
   ],
-  '/guide/gildong-chance-night/': [
+  '/guide/gildong-chance-night-21/': [
     ['경기 수원의 수원찬스돔나이트가 이 문답집에 함께 실려 있다.', '경기 수원의 다른 업소가 이 문답집에 함께 실려 있다.'],
   ],
   '/guide/gumi-hobak-night/': [
