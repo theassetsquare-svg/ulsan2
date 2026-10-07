@@ -8,7 +8,7 @@ const PAGES = [
   n: 1, kw: '은평나이트', kwB: '은평 나이트', kwC: '은평 나이트클럽',
   slug: 'eunpyeong-night', angle: 10, angleName: '짧은 요약형',
   region: '서울 은평구 불광동', regionShort: '은평구',
-  shop: '불광동호박나이트', shopUrl: '/guide/bulgwang-hobak-night-guide/',
+  shop: '불광동호박나이트', shopUrl: '/guide/bulgwang-hobak-night-guide-22/',
   group: 'A', staff: '손흥민', tel: '010-2221-1937', telRaw: '01022211937',
   bg: '#14453c',
   title: '은평나이트 핵심만 정리 불광역 앞 지하 홀 안내',
@@ -55,7 +55,7 @@ const PAGES = [
 <p>인원이 유동적이면 최소 인원으로 먼저 잡아두고 늘리는 편이 낫다. 줄이는 것보다 늘리는 쪽이 언제나 쉽다.</p>`,
       bridge: '이제 어디로 갈지만 남았다.' },
     { h2: '은평나이트 추천 — 불광동호박나이트', body:
-      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/guide/bulgwang-hobak-night-guide/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
+      `<p>은평구 안에서 오래 자리를 지킨 곳이 <strong><a href="/guide/bulgwang-hobak-night-guide-22/">불광동호박나이트</a></strong>다. 주소는 통일로 730 지하 1층, 불광역 바로 앞이다.</p>
 <p>등록 영업면적은 141.8평, 제곱미터로는 468㎡다. 개업은 1973년 5월로 기록돼 있다. 계단을 내려가면 입구가 한 번 더 나오는 구조다.</p>
 <p>불광동호박나이트는 은평구 생활권 손님이 많은 편이라 주중과 주말의 밀도 차가 뚜렷하다. 은평 나이트클럽을 처음 찾는다면 기준점으로 삼기 좋은 홀이다.</p>`,
       bridge: '남은 건 전화 한 통이다.' },

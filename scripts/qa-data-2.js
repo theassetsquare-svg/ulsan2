@@ -191,7 +191,7 @@ module.exports = [
 {
   name: '불광동호박나이트', slug: 'bulgwang-hobak',
   area: '서울', region: '서울 은평구 불광동', ogBg: 'black',
-  nightUrl: '/guide/bulgwang-hobak-night-guide/',
+  nightUrl: '/guide/bulgwang-hobak-night-guide-22/',
   adv: { staff: '손흥민', tel: '010-2221-1937' },
   hook: '호박 이름이 몇 곳이나 되는가',
   title: '불광동호박나이트, 호박 이름은 몇 곳이나 될까',
