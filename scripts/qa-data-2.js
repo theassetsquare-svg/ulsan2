@@ -130,7 +130,7 @@ module.exports = [
 {
   name: '창원룰루랄라나이트', slug: 'changwon-lululala',
   area: '경상', region: '경남 창원시 성산구 상남동', ogBg: 'yellow',
-  nightUrl: '/guide/changwon-lululala-night-guide/',
+  nightUrl: '/guide/changwon-lululala-night-guide-21/',
   adv: { staff: '미제휴', tel: '연락처 삭제(미제휴)' },
   hook: '지하 3층까지 내려가는가',
   title: '창원룰루랄라나이트, 지하 3층까지 내려갈까',

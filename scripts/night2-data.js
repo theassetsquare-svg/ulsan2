@@ -85,7 +85,7 @@ const PAGES = [
   n: 2, kw: '창원나이트', kwB: '창원 나이트', kwC: '창원 나이트클럽',
   slug: 'changwon-night', angle: 11, angleName: '인원별 공략형',
   region: '경남 창원시 성산구 상남동', regionShort: '창원시 성산구',
-  shop: '창원룰루랄라나이트', shopUrl: '/guide/changwon-lululala-night-guide/',
+  shop: '창원룰루랄라나이트', shopUrl: '/guide/changwon-lululala-night-guide-21/',
   group: 'A', staff: '미제휴', tel: '연락처 삭제(미제휴)', telRaw: '연락처 삭제(미제휴)',
   bg: '#6b1f3a', age: '만 27세 이상',
   title: '창원나이트 둘이서 가도 될까 상남동 상권 안내',
@@ -123,7 +123,7 @@ const PAGES = [
 <p>말하지 않으면 남는 자리로 배정된다. 원하는 위치가 있으면 전화할 때 한 줄로 말해두는 게 낫다. 창원 나이트 자리 배정은 이 세 가지 안에서 끝난다.</p>`,
       bridge: '이제 창원에서 어디로 가느냐가 남았다.' },
     { h2: '창원나이트 추천 — 창원룰루랄라나이트', body:
-      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/guide/changwon-lululala-night-guide/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
+      `<p>상남동 안에서 이름이 자주 오르내리는 곳이 <strong><a href="/guide/changwon-lululala-night-guide-21/">창원룰루랄라나이트</a></strong>다. 주소는 성산구 상남동 22-4, 지하 3층이다.</p>
 <p>이곳은 <strong>만 27세 이상</strong>만 출입 가능하다. 월요일부터 토요일까지 영업하고, 공휴일과 공휴일 전날도 정상 운영으로 안내된다.</p>
 <p>상남동은 술집·홀·노래방이 한 블록에 겹쳐 있어 앞뒤 일정을 붙이기 좋다. 창원룰루랄라나이트를 기준으로 동선을 짜면 이동이 거의 없다.</p>`,
       bridge: '자리를 잡아두는 일만 남았다.' },
