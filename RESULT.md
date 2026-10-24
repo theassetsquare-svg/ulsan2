@@ -2,16 +2,16 @@
 
 | 페이지 | 썸네일 | 주인공 글자 | 실측 폭·높이 | 본문img | 메타9종 | 라이브HTTP | 용량 | 오염 | 홈링크 |
 |---|---|---|---|---|---|---|---|---|---|
-| /alone/ | blog-alone.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
-| /couple/ | blog-couple.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.4KB | 0건 | 0건 |
-| /event/ | blog-event.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.9KB | 0건 | 0건 |
-| /first-time/ | blog-first-time.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34KB | 0건 | 0건 |
-| /food/ | blog-food.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34KB | 0건 | 0건 |
-| /over40/ | blog-over40.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.6KB | 0건 | 0건 |
-| /safety/ | blog-safety.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
-| /summer/ | blog-summer.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.8KB | 0건 | 0건 |
-| /vs/ | blog-vs.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34.1KB | 0건 | 0건 |
-| /weekend/ | blog-weekend.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.5KB | 0건 | 0건 |
+| /alone/ | blog-alone.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
+| /couple/ | blog-couple.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.4KB | 0건 | 0건 |
+| /event/ | blog-event.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.9KB | 0건 | 0건 |
+| /first-time/ | blog-first-time.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34KB | 0건 | 0건 |
+| /food/ | blog-food.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34KB | 0건 | 0건 |
+| /over40/ | blog-over40.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.6KB | 0건 | 0건 |
+| /safety/ | blog-safety.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 33.8KB | 0건 | 0건 |
+| /summer/ | blog-summer.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.8KB | 0건 | 0건 |
+| /vs/ | blog-vs.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 34.1KB | 0건 | 0건 |
+| /weekend/ | blog-weekend.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 32.5KB | 0건 | 0건 |
 | /bulgwang-hobak-guide/ | bulgwang-hobak-guide.png | 010-2221-1937 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 30.3KB | 0건 | 0건 |
 | / | home.png | — | — | 없음(정상) | PASS | 200 png/200 | 59.4KB | 0건 | 0건 |
 | /ansan-hit-night/ | night-ansan-hit-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
@@ -38,8 +38,8 @@
 | /suwon-night/ | night-suwon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.6KB | 0건 | 0건 |
 | /suyu-night/ | night-suyu-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
 | /suyu-shampoo-night/ | night-suyu-shampoo-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.9KB | 0건 | 0건 |
-| /ulsan-champion-night-guide/ | night-ulsan-champion-night-guide.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
-| /ulsan-night/ | night-ulsan-night.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
+| /ulsan-champion-night-guide/ | night-ulsan-champion-night-guide.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
+| /ulsan-night/ | night-ulsan-night.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 24.2KB | 0건 | 0건 |
 | /yucheon-night/ | night-yucheon-night.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.6KB | 0건 | 0건 |
 | /ansan-hit/ | qa-ansan-hit.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.1KB | 0건 | 0건 |
 | /bucheon-gorae/ | qa-bucheon-gorae.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 22.7KB | 0건 | 0건 |
@@ -79,6 +79,6 @@
 | /suyu-shampoo/ | qa-suyu-shampoo.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.5KB | 0건 | 0건 |
 | /uijeongbu-baekakgwan/ | qa-uijeongbu-baekakgwan.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24KB | 0건 | 0건 |
 | /uijeongbu-hangukgwan/ | qa-uijeongbu-hangukgwan.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 24.6KB | 0건 | 0건 |
-| /ulsan-champion/ | qa-ulsan-champion.png | 010-5653-0069 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
+| /ulsan-champion/ | qa-ulsan-champion.png | 카카오톡 besta12 | 1004.4px × 212px | 있음 | PASS | 200 png/200 | 35.1KB | 0건 | 0건 |
 | /ulsan-newworld/ | qa-ulsan-newworld.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.8KB | 0건 | 0건 |
 | /yeongdeungpo-terminal/ | qa-yeongdeungpo-terminal.png | 광고문의 | 864px × 252px | 있음 | PASS | 200 png/200 | 23.5KB | 0건 | 0건 |

@@ -14,17 +14,17 @@ const NAVY_T = '#1e3a5f', NAVY_B = '#0a1428';
 
 // 기존 1200x630 썸네일에서 실측한 문구 그대로 (변경 금지)
 const PAGES = [
-  { slug: 'main',       brand: '울산챔피언나이트', staff: '춘 자', topic: '리얼 후기 블로그', hook: '직접 가보고 썼다',   tel: '010-5653-0069' },
-  { slug: 'first-time', brand: '울산챔피언나이트', staff: '춘 자', topic: '첫 방문 후기',     hook: '문 열고 3초',        tel: '010-5653-0069' },
-  { slug: 'weekend',    brand: '울산챔피언나이트', staff: '춘 자', topic: '주말 후기',        hook: '금토 완전 다름',      tel: '010-5653-0069' },
-  { slug: 'over40',     brand: '울산챔피언나이트', staff: '춘 자', topic: '40대 후기',        hook: '나이는 숫자일 뿐',    tel: '010-5653-0069' },
-  { slug: 'couple',     brand: '울산챔피언나이트', staff: '춘 자', topic: '커플 후기',        hook: '둘이 가면 다르다',    tel: '010-5653-0069' },
-  { slug: 'alone',      brand: '울산챔피언나이트', staff: '춘 자', topic: '혼자 후기',        hook: '오히려 더 편했다',    tel: '010-5653-0069' },
-  { slug: 'summer',     brand: '울산챔피언나이트', staff: '춘 자', topic: '여름 후기',        hook: '시원하게 놀자',      tel: '010-5653-0069' },
-  { slug: 'event',      brand: '울산챔피언나이트', staff: '춘 자', topic: '이벤트 후기',      hook: '기대 이상이었다',    tel: '010-5653-0069' },
-  { slug: 'vs',         brand: '울산챔피언나이트', staff: '춘 자', topic: '비교 후기',        hook: '어디가 나을까',      tel: '010-5653-0069' },
-  { slug: 'food',       brand: '울산챔피언나이트', staff: '춘 자', topic: '먹거리 후기',      hook: '안주가 달랐다',      tel: '010-5653-0069' },
-  { slug: 'safety',     brand: '울산챔피언나이트', staff: '춘 자', topic: '안전 후기',        hook: '걱정 뚝',            tel: '010-5653-0069' },
+  { slug: 'main',       brand: '울산챔피언나이트', staff: '춘 자', topic: '리얼 후기 블로그', hook: '직접 가보고 썼다',   tel: null },
+  { slug: 'first-time', brand: '울산챔피언나이트', staff: '춘 자', topic: '첫 방문 후기',     hook: '문 열고 3초',        tel: null },
+  { slug: 'weekend',    brand: '울산챔피언나이트', staff: '춘 자', topic: '주말 후기',        hook: '금토 완전 다름',      tel: null },
+  { slug: 'over40',     brand: '울산챔피언나이트', staff: '춘 자', topic: '40대 후기',        hook: '나이는 숫자일 뿐',    tel: null },
+  { slug: 'couple',     brand: '울산챔피언나이트', staff: '춘 자', topic: '커플 후기',        hook: '둘이 가면 다르다',    tel: null },
+  { slug: 'alone',      brand: '울산챔피언나이트', staff: '춘 자', topic: '혼자 후기',        hook: '오히려 더 편했다',    tel: null },
+  { slug: 'summer',     brand: '울산챔피언나이트', staff: '춘 자', topic: '여름 후기',        hook: '시원하게 놀자',      tel: null },
+  { slug: 'event',      brand: '울산챔피언나이트', staff: '춘 자', topic: '이벤트 후기',      hook: '기대 이상이었다',    tel: null },
+  { slug: 'vs',         brand: '울산챔피언나이트', staff: '춘 자', topic: '비교 후기',        hook: '어디가 나을까',      tel: null },
+  { slug: 'food',       brand: '울산챔피언나이트', staff: '춘 자', topic: '먹거리 후기',      hook: '안주가 달랐다',      tel: null },
+  { slug: 'safety',     brand: '울산챔피언나이트', staff: '춘 자', topic: '안전 후기',        hook: '걱정 뚝',            tel: null },
   // 불광동호박나이트는 담당자 허용표에 따라 손흥민 010-2221-1937
   { slug: 'bulgwang',   brand: '불광동호박나이트', staff: '손흥민', topic: '예약 안내',        hook: '은평구 불광동',      tel: '010-2221-1937' },
 ];

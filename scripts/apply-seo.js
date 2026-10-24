@@ -7,7 +7,7 @@ const { SITE, PAGES } = require('./seo-config.js');
 const ROOT = path.join(__dirname, '..');
 
 const NAVER_CODE_NEW = '008f62b10b97d3f60b8493009bb7d50e10aea521';
-const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="울산챔피언나이트 춘자 RSS" href="${'https://b.nolcool.com'}/rss.xml" />`;
+const RSS_LINK_TAG = `<link rel="alternate" type="application/rss+xml" title="놀쿨 RSS" href="${'https://b.nolcool.com'}/rss.xml" />`;
 
 function ensureNaverAndRss(html) {
   if (!html.includes(NAVER_CODE_NEW)) {
@@ -238,10 +238,9 @@ function applyHome(html, cfg) {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "울산챔피언나이트는 어디에 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "울산광역시에 위치한 대표 나이트클럽입니다. 정확한 위치 안내는 010-5653-0069로 문의하세요." } },
+        { "@type": "Question", "name": "울산챔피언나이트는 어디에 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "울산광역시에 위치한 대표 나이트클럽입니다. 정확한 위치 안내는 카카오톡 besta12 로 문의하세요." } },
         { "@type": "Question", "name": "영업시간은 어떻게 되나요?", "acceptedAnswer": { "@type": "Answer", "text": "주말 기준 밤 10시부터 새벽까지 운영됩니다. 시즌별로 변동 가능하니 전화 확인 권장." } },
-        { "@type": "Question", "name": "예약은 어떻게 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "전화(010-5653-0069) 또는 카카오톡(besta12)으로 예약 가능합니다." } },
-        { "@type": "Question", "name": "춘자가 누구인가요?", "acceptedAnswer": { "@type": "Answer", "text": "춘자는 대표 안내 담당자입니다. 전화 문의 시 춘자를 찾으시면 빠른 안내를 받을 수 있습니다." } }
+        { "@type": "Question", "name": "예약은 어떻게 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "광고문의 카카오톡 besta12 로 물어보시면 됩니다." } }
       ]
     }
   ];

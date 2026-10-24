@@ -6,12 +6,12 @@ const { VENUES } = require('./qa-data.js');
 const ROOT = path.join(__dirname, '..');
 
 const ADV = {
-  '울산챔피언나이트': ['춘자', '010-5653-0069'],
+  '울산챔피언나이트': ['담당자', '카카오톡 besta12'],
   '불광동호박나이트': ['손흥민', '010-2221-1937'],
   '창원룰루랄라나이트': ['미제휴', '연락처 삭제(미제휴)'],
   '청담나이트': ['펩시맨', '010-5655-4866'],
 };
-const HOME_STAFF = ['춘자', '010-5653-0069'];
+const HOME_STAFF = ['담당자', '카카오톡 besta12'];
 const OLD_NIGHT = fs.readdirSync(path.join(ROOT, 'night')).filter(f =>
   fs.statSync(path.join(ROOT, 'night', f)).isDirectory());
 
@@ -155,12 +155,12 @@ let sim;
     `외부링크 ${ext.length}건 ${ext.slice(0, 3).join(' ')} / 광고문의 besta12 누락 ${noKakao.length}건 ${noKakao.join(',')}`);
 }
 
-/* ── G10 전화 허용표 (홈=춘자 / 광고주 4곳만 자기 담당) ── */
+/* ── G10 전화 허용표 (홈=담당자/ 광고주 4곳만 자기 담당) ── */
 {
   const bad = [];
   for (const v of VENUES) {
     const tels = [...new Set(tag(docs[v.slug], /(01[016-9]-\d{3,4}-\d{4})/g))];
-    const names = ['춘자', '손흥민', '미제휴', '펩시맨'].filter(n => docs[v.slug].includes(n));
+    const names = ['담당자', '손흥민', '미제휴', '펩시맨'].filter(n => docs[v.slug].includes(n));
     if (ADV[v.name]) {
       const [staff, tel] = ADV[v.name];
       if (tels.length !== 1 || tels[0] !== tel) bad.push(`${v.slug}:번호${tels.join('|') || '없음'}`);
@@ -176,10 +176,10 @@ let sim;
   if (hubTel.length) bad.push(`hub:번호 ${hubTel.join('|')}`);
   const homeTel = [...new Set(tag(home, /(01[016-9]-\d{3,4}-\d{4})/g))];
   if (homeTel.length !== 1 || homeTel[0] !== HOME_STAFF[1]) bad.push(`home:번호 ${homeTel.join('|') || '없음'}`);
-  if (!home.includes(HOME_STAFF[0])) bad.push('home:춘자 없음');
+  if (!home.includes(HOME_STAFF[0])) bad.push('home:담당자 없음');
   const homeOther = ['손흥민', '미제휴', '펩시맨'].filter(n => home.includes(n));
   if (homeOther.length) bad.push(`home:타담당 ${homeOther.join(',')}`);
-  push('G10', bad.length === 0, bad.length ? bad.slice(0, 6).join(' ') : '홈=춘자 · 광고주 4곳 자기담당 · 나머지 36곳 번호 0');
+  push('G10', bad.length === 0, bad.length ? bad.slice(0, 6).join(' ') : '홈=담당자· 광고주 4곳 자기담당 · 나머지 36곳 번호 0');
 }
 
 /* ── G11 접근성·표기·기존자산 무손상 ── */

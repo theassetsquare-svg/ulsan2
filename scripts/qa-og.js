@@ -153,7 +153,7 @@ async function card({ file, bg, name, region, hook, footL, footR, badge }) {
     file: path.join(OUT, 'home-og.png'), bg: YELLOW,
     name: '울산챔피언나이트', region: '울산 남구 삼산동 · 20문 20답',
     hook: '주소와 규모가 어떻게 되나',
-    footL: '예약·문의 춘자', footR: '010-5653-0069',
+    footL: '예약·문의 담당자', footR: '카카오톡 besta12',
   }));
 
   console.table(report);

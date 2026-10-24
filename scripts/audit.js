@@ -19,7 +19,7 @@ const PAGES = [
   { slug: 'bulgwang', path: 'bulgwang-hobak/index.html' },
 ];
 
-const KEYWORDS = ['울산챔피언나이트', '울산나이트', '울산 나이트', '챔피언나이트', '춘자', '불광동호박나이트', '호박나이트'];
+const KEYWORDS = ['울산챔피언나이트', '울산나이트', '울산 나이트', '챔피언나이트', '담당자', '불광동호박나이트', '호박나이트'];
 
 // 임계치
 const T = {

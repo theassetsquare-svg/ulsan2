@@ -7,9 +7,9 @@ const { VENUES } = require('./qa-data.js');
 
 const ROOT = path.join(__dirname, '..');
 const GOOGLE2 = 'PmfRK32sSB__iyGIVTwupgP_R45SPUo7QPPtmYJHXIc';
-const STAFF = '춘자';
-const TEL = '010-5653-0069';
-const TELRAW = '01056530069';
+const STAFF = '담당자';
+const TEL = '카카오톡 besta12';
+const TELRAW = '카카오톡 besta12';
 const OG = `${SITE}/og-qa/home-og.png`;
 
 const TITLE = '울산챔피언나이트 20문 20답 — 주소·규모·예약까지 한 번에';
@@ -62,7 +62,7 @@ const QA = [
   ['울산에 다른 나이트도 있나요?',
     `<p>같은 삼산동에 <a href="/guide/ulsan-newworld-night-22/">울산뉴월드나이트</a>가 있다. 주소는 삼산로 375, 지번은 삼산동 220-6이다.</p>
 <p>같은 동이지만 지번과 도로명이 달라 붙어 있는 위치는 아니다. 두 업소의 관계는 확인되지 않는다.</p>`],
-  ['춘자는 누구인가요?',
+  ['담당자는 누구인가요?',
     `<p>예약과 문의를 받는 담당자다. 전화할 때 <strong>${STAFF}</strong>를 찾으면 안내가 이어진다.</p>
 <p>이 사이트가 정리한 40곳 가운데 담당자 연락처가 확인되는 곳은 네 곳뿐이고, 울산챔피언나이트가 그중 하나다.</p>`],
   ['이 사이트는 무엇을 하는 곳인가요?',
