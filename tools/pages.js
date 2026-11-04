@@ -18,7 +18,7 @@ const ADS = {
 const AD_PAGES = {
   '/area/ulsan-night-19/':     '울산챔피언나이트',
   '/area/changwon-night-20/':  '창원룰루랄라나이트',
-  '/area/eunpyeong-night-20/': '불광동호박나이트',
+  '/area/eunpyeong-night-21/': '불광동호박나이트',
   '/area/gangnam-night/':   '청담나이트',
 };
 
