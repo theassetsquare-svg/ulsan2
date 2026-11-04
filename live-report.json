@@ -643,7 +643,7 @@
  ],
  "htmls": [
   {
-   "url": "/area/alone-19/",
+   "url": "/area/alone-20/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -675,7 +675,7 @@
    "ok": true
   },
   {
-   "url": "/area/food-19/",
+   "url": "/area/food-20/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -875,7 +875,7 @@
    "ok": true
   },
   {
-   "url": "/area/sangbong-night-19/",
+   "url": "/area/sangbong-night-20/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -899,7 +899,7 @@
    "ok": true
   },
   {
-   "url": "/area/suwon-chance-dome-night-19/",
+   "url": "/area/suwon-chance-dome-night-20/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -907,7 +907,7 @@
    "ok": true
   },
   {
-   "url": "/area/suwon-night-19/",
+   "url": "/area/suwon-night-20/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1243,7 +1243,7 @@
    "ok": true
   },
   {
-   "url": "/guide/uijeongbu-baekakgwan-night-22/",
+   "url": "/guide/uijeongbu-baekakgwan-night-23/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,

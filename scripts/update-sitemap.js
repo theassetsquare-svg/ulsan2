@@ -13,11 +13,11 @@ const URL_TO_FILE = {
   'https://b.nolcool.com/area/weekend/': 'blog/weekend/index.html',
   'https://b.nolcool.com/area/over40-19/': 'blog/over40/index.html',
   'https://b.nolcool.com/area/couple/': 'blog/couple/index.html',
-  'https://b.nolcool.com/area/alone-19/': 'blog/alone/index.html',
+  'https://b.nolcool.com/area/alone-20/': 'blog/alone/index.html',
   'https://b.nolcool.com/area/summer/': 'blog/summer/index.html',
   'https://b.nolcool.com/event-19/': 'blog/event/index.html',
   'https://b.nolcool.com/area/vs-19/': 'blog/vs/index.html',
-  'https://b.nolcool.com/area/food-19/': 'blog/food/index.html',
+  'https://b.nolcool.com/area/food-20/': 'blog/food/index.html',
   'https://b.nolcool.com/area/safety/': 'blog/safety/index.html',
   'https://b.nolcool.com/guide/bulgwang-hobak-night/': 'bulgwang-hobak/index.html',
 };
