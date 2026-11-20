@@ -643,7 +643,7 @@
  ],
  "htmls": [
   {
-   "url": "/area/alone-20/",
+   "url": "/area/alone-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -675,7 +675,7 @@
    "ok": true
   },
   {
-   "url": "/area/food-20/",
+   "url": "/area/food-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -707,7 +707,7 @@
    "ok": true
   },
   {
-   "url": "/area/vs-20/",
+   "url": "/area/vs-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -827,7 +827,7 @@
    "ok": true
   },
   {
-   "url": "/area/eunpyeong-night-21/",
+   "url": "/area/eunpyeong-night-22/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -875,7 +875,7 @@
    "ok": true
   },
   {
-   "url": "/area/sangbong-night-20/",
+   "url": "/area/sangbong-night-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -899,7 +899,7 @@
    "ok": true
   },
   {
-   "url": "/area/suwon-chance-dome-night-20/",
+   "url": "/area/suwon-chance-dome-night-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -907,7 +907,7 @@
    "ok": true
   },
   {
-   "url": "/area/suwon-night-20/",
+   "url": "/area/suwon-night-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -915,7 +915,7 @@
    "ok": true
   },
   {
-   "url": "/area/suyu-night-20/",
+   "url": "/area/suyu-night-21/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1171,7 +1171,7 @@
    "ok": true
   },
   {
-   "url": "/area/paju-yadang-skydome-22/",
+   "url": "/area/paju-yadang-skydome-23/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
@@ -1219,7 +1219,7 @@
    "ok": true
   },
   {
-   "url": "/area/suwon-chance-dome-22/",
+   "url": "/area/suwon-chance-dome-23/",
    "status": 200,
    "ogImage": true,
    "bodyImg": true,
